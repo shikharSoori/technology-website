@@ -29,10 +29,7 @@ const WhySoori = async () => {
                 />
                 {/* <span>Why</span> <br /> Soori Technology */}
               </h2>
-              <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                labore dolore magnam aliquam quaerat voluptatem ad minima
-                veniam, quis nostrum exercitationem
-              </p>
+          
             </div>
           </div>
         </div>

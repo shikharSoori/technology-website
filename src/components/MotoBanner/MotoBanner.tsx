@@ -52,13 +52,7 @@ const MotoBanner = () => {
              `}
               />
             </h2>
-            <p className="my-4">
-              With a steadfast commitment to excellence, We help organizations
-              optimize their processes and achieve unparalleled success. By
-              leveraging the latest technologies and industry best practices, we
-              deliver reliable and user-friendly solutions that cater to the
-              diverse needs of its clients.
-            </p>
+          
             <Link href="/contact" className="btn btn-all">
               Contact Us
             </Link>

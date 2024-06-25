@@ -42,11 +42,7 @@ const Testimonials = async () => {
                 />
                 {/* What <span>Client’s</span> say <br /> happy reviews{" "} */}
               </h2>
-              <p>
-                Soori Technology has been a solution provider to some of the
-                world’s biggest companies and brands. Here are some practical
-                examples of how our clients use these solutions day to day.
-              </p>
+           
             </div>
           </div>
           <div

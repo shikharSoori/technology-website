@@ -9,7 +9,10 @@ import { formatName } from "@/utils/FormatName";
 const Solutions = async () => {
   const data = await getData("solution-app/solution?limit=0&offset=0");
   const solutions = data?.results;
-  console.log(solutions, "solutions");
+  const data1 = await getData("product-app/product?limit=0&offset=0");
+  const products = data1?.results;
+  const brandData = await getData("product-app/brand");
+  const brands = brandData?.results;
   return (
     <>
       <AboutHero title="solutions" />{" "}
@@ -58,6 +61,7 @@ const Solutions = async () => {
           </div>
         </div>
       </section>
+  
     </>
   );
 };

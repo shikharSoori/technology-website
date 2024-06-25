@@ -33,10 +33,7 @@ const HomeServices = async () => {
           <h2 className="h1 title">
             <TitleText title="Our <span>Software</span> Products" />
           </h2>
-          <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-            Our software products empower businesses with creative solutions
-            that boost productivity and ensure smooth operations.
-          </p>
+         
         </div>
         <div className=" feature_row" style={{ paddingTop: "60px" }}>
           <div className="feature_slider_inner ">

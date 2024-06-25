@@ -24,10 +24,7 @@ const Blog = async () => {
                 />
                 {/* Latest Post from Blog */}
               </h2>
-              <p>
-                labore dolore magnam aliquam quaerat voluptatem ad minima
-                veniam, quis nostrum exercitationem
-              </p>
+              
             </div>
           </div>
         </div>
