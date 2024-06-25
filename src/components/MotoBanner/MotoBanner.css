@@ -1,0 +1,30 @@
+/* .moto-banner {
+  .image-right {
+    display: none;
+  }
+  .image-left {
+    display: none;
+  }
+} */
+
+@media only screen and (max-width: 1000px) {
+  .moto-banner {
+    .image-right {
+      display: none;
+    }
+    .image-left {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1001) and (max-width: 1600px) {
+  .moto-banner {
+    .image-left {
+      display: none;
+    }
+    .image-right {
+      height: 250px;
+    }
+  }
+}
