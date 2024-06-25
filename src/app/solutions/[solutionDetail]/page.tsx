@@ -200,7 +200,9 @@ const Page = async ({ params }: any) => {
                                   height={50}
                                 />
                               </div>
-                              <h3 className="service-policy-title text-center">Low Cost</h3>
+                              <h3 className="service-policy-title text-center">
+                                Low Cost
+                              </h3>
                             </div>
                           </div>
                           <div className="col-lg-4 col-md-6">
