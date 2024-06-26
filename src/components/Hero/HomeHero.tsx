@@ -9,6 +9,7 @@ import hero3 from "../../assets/ACCESSCONTROL.png";
 import hero4 from "../../assets/CARDPRINTER.png";
 import hero5 from "../../assets/HR.png";
 import hero6 from "../../assets/SIGNATURE.png";
+import hero7 from "../../assets/asset.png";
 import logo1 from "../../assets/tracklinelogo.png";
 import logo2 from "../../assets/onservicelogo.png";
 const HomeHero = async () => {
@@ -73,6 +74,13 @@ const HomeHero = async () => {
       id: 2,
       logo: logo2,
       image: hero6,
+      mainText: "Build More Business with Our Solutions.",
+    },
+    {
+      bg: false,
+      id: 2,
+      logo: logo2,
+      image: hero7,
       mainText: "Build More Business with Our Solutions.",
     },
   ];

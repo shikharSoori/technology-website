@@ -15,12 +15,12 @@ import Link from "next/link";
 export async function generateStaticParams() {
   const data = await getData("solution-app/solution?limit=0");
   const solutionData = data?.results;
-  const params = solutionData.map((solution: any) => {
+  const params = solutionData?.map((solution: any) => {
     return {
       solutionDetail: formatName(solution?.name).toLowerCase(),
     };
   });
-  console.log(params, "data");
+  
 
   return params;
 }
