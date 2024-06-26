@@ -12,7 +12,7 @@ const HeroItem = () => {
               <div className="col-xl-5 col-sm-6">
                 <div className="hero-slider-content">
                   <h1 className="slide-title">
-                    Great Plan to increase your Business
+                    Great Plan to fincrease your Business
                   </h1>
                   <Link href="about.html" className="btn btn-hero">
                     Read More
