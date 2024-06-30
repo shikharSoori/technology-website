@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "@/components/Carousel/Carousel";
 import { getData } from "@/app/lib/getData";
 import hero1 from "../../assets/onservice.png";
+import hero2 from "../../assets/HR.jpg";
 import hero3 from "../../assets/ACCESSCONTROL.png";
 import hero4 from "../../assets/CARDPRINTER.png";
 import logo1 from "../../assets/tracklinelogo.png";
@@ -33,33 +34,60 @@ const HomeHero = async () => {
   const data1 = [
     {
       id: 1,
+      name: "Track line",
       image: hero1,
       logo: logo1,
-      mainText: "Manage your Business and Grow It.",
+      mainText: "Manage your Assets with ease",
       keyWords: "RFID | Hello | QR CODE",
     },
     {
       id: 2,
+      name: "On Service",
+
       bg: false,
       logo: logo2,
-      image: hero1,
-      mainText: "Build More Business with Our Solutions.",
+      image: hero2,
+      mainText: "Monitor, Maintain, Maximize your services",
       keyWords: "RFID | BARCODE | QR CODE",
     },
     {
       id: 3,
+      name: "Activ",
+
       bg: false,
       logo: logo2,
       image: hero3,
-      mainText: "Build More Business with Our Solutions.",
+      mainText: "Effortless payrolll everytime",
       keyWords: "RFID | BARCODE | QR CODE",
     },
     {
       id: 4,
+      name: "Cubix",
+
       bg: false,
       logo: logo2,
       image: hero4,
-      mainText: "Build More Business with Our Solutions.",
+      mainText: "Simply your ERP, Amplify your Growth",
+      keyWords: "RFID | BARCODE | QR CODE",
+    },
+    {
+      id: 5,
+      name: "ID Card",
+
+      bg: false,
+      logo: logo2,
+      image: hero4,
+      mainText: "Print High Quality & Durable Colors",
+      keyWords: "RFID | BARCODE | QR CODE",
+    },
+    {
+      id: 6,
+      name: "Access Control",
+
+      bg: false,
+      logo: logo2,
+      image: hero4,
+      mainText: "Control your Assets, Control your Security",
       keyWords: "RFID | BARCODE | QR CODE",
     },
   ];
@@ -109,7 +137,7 @@ const HomeHero = async () => {
                             Read More
                           </Link> */}
                           <div
-                          className="keywords"
+                            className="keywords"
                             style={{
                               wordSpacing: "10px",
                               fontSize: "24px",
