@@ -239,7 +239,10 @@ const Page = async ({ params }: any) => {
                             );
 
                             return (
-                              <div key={product?.id} className="col-md-3">
+                              <div
+                                key={product?.id}
+                                className="col-6 col-md-4 col-lg-3"
+                              >
                                 <div className="blog-item mt-40">
                                   <div
                                     className="blog-thumb"
