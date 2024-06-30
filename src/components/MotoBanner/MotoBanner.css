@@ -7,8 +7,26 @@
   }
 } */
 
+.moto-banner {
+  position: relative;
+  padding: 120px 0;
+  .container {
+    .motobanner-title {
+      font-size: 48px;
+      line-height: 1;
+    }
+  }
+}
+@media only screen and (max-width: 1550px) {
+  .moto-banner {
+    .image-left {
+      display: none;
+    }
+  }
+}
 @media only screen and (max-width: 1000px) {
   .moto-banner {
+    padding: 40px;
     .image-right {
       display: none;
     }

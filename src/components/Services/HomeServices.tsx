@@ -4,7 +4,7 @@ import React from "react";
 import { getData } from "@/app/lib/getData";
 import TitleText from "../Testimonials/TitleText";
 import Slider from "@/components/Carousel/Carousel";
-
+import "./services.css";
 import Link from "next/link";
 const HomeServices = async () => {
   const data = await getData(`solution-app/solution`);
@@ -17,13 +17,32 @@ const HomeServices = async () => {
     // speed: 500,
     // arrows: false,
     // autoplay: true,
-    // autoplaySpeed: 2000,
-
-    dots: true,
+    autoplaySpeed: 1000,
+    // dots: true,
     infinite: true,
     speed: 1000,
     autoplay: true,
     slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -33,9 +52,8 @@ const HomeServices = async () => {
           <h2 className="h1 title">
             <TitleText title="Our <span>Software</span> Products" />
           </h2>
-         
         </div>
-        <div className=" feature_row" style={{ paddingTop: "60px" }}>
+        <div className=" feature_row" >
           <div className="feature_slider_inner ">
             <Slider {...testimonialSlider}>
               {services?.map((service: any, i: number) => {
@@ -49,9 +67,10 @@ const HomeServices = async () => {
                     data-aos="fade-right"
                     data-aos-delay={delay}
                     data-aos-easing="ease-in-sine"
+                    style={{ position: "relative" }}
                   >
                     <div
-                      className="feature_s_item"
+                      className=" home-services-card "
                       style={{
                         background: `linear-gradient(0deg, #742d34 0%, rgba(0, 0, 0, 0) 45.5%), url(${service?.image}) center / cover no-repeat`,
                       }}

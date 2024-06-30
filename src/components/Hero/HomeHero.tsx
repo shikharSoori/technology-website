@@ -1,17 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import Slider from "@/components/Carousel/Carousel";
-import solution from "../../assets/Solution.png";
 import { getData } from "@/app/lib/getData";
-import Link from "next/link";
 import hero1 from "../../assets/onservice.png";
 import hero3 from "../../assets/ACCESSCONTROL.png";
 import hero4 from "../../assets/CARDPRINTER.png";
-import hero5 from "../../assets/HR.png";
-import hero6 from "../../assets/SIGNATURE.png";
-import hero7 from "../../assets/asset.png";
 import logo1 from "../../assets/tracklinelogo.png";
 import logo2 from "../../assets/onservicelogo.png";
+import "./HomeHero.css";
 const HomeHero = async () => {
   const data = await getData(`core-app/banner-images`);
   const heroContent = data?.results;
@@ -19,8 +15,9 @@ const HomeHero = async () => {
   var settings = {
     dots: false,
     arrows: false,
-
-    speed: 500,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    speed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
@@ -37,51 +34,33 @@ const HomeHero = async () => {
     {
       id: 1,
       image: hero1,
-      mainText: "Manage your Business and Grow It.",
       logo: logo1,
-      bg: false,
+      mainText: "Manage your Business and Grow It.",
+      keyWords: "RFID | Hello | QR CODE",
     },
     {
-      bg: false,
       id: 2,
+      bg: false,
       logo: logo2,
       image: hero1,
       mainText: "Build More Business with Our Solutions.",
+      keyWords: "RFID | BARCODE | QR CODE",
     },
     {
+      id: 3,
       bg: false,
-      id: 2,
       logo: logo2,
       image: hero3,
       mainText: "Build More Business with Our Solutions.",
+      keyWords: "RFID | BARCODE | QR CODE",
     },
     {
+      id: 4,
       bg: false,
-      id: 2,
       logo: logo2,
       image: hero4,
       mainText: "Build More Business with Our Solutions.",
-    },
-    {
-      bg: false,
-      id: 2,
-      logo: logo2,
-      image: hero5,
-      mainText: "Build More Business with Our Solutions.",
-    },
-    {
-      bg: false,
-      id: 2,
-      logo: logo2,
-      image: hero6,
-      mainText: "Build More Business with Our Solutions.",
-    },
-    {
-      bg: false,
-      id: 2,
-      logo: logo2,
-      image: hero7,
-      mainText: "Build More Business with Our Solutions.",
+      keyWords: "RFID | BARCODE | QR CODE",
     },
   ];
   return (
@@ -130,13 +109,14 @@ const HomeHero = async () => {
                             Read More
                           </Link> */}
                           <div
+                          className="keywords"
                             style={{
                               wordSpacing: "10px",
                               fontSize: "24px",
                               marginTop: "60px",
                             }}
                           >
-                            RFID | BARCODE | QR CODE
+                            {hero.keyWords}
                           </div>
                         </div>
                       </div>

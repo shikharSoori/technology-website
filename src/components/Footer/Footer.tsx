@@ -30,22 +30,21 @@ const Footer = async () => {
                   </Link>
                 </div>
                 <div className="widget-body">
-                  <p className="desc">
+                  {/* <p className="desc">
                     Ideas es to obtain pain of because the because
                     occasionallyght ocean he and chunks as necessary
-                  </p>
+                  </p> */}
                   <ul className="contact-info">
                     <li>
-                      <span>Address: </span> 56 Sheltek Tower, Cental Mall New
-                      Yourk City, USA
+                      <span>Address: </span> Dillibazar, Kathmandu-29, Kathmandu
                     </li>
                     <li>
-                      <span>Phone:</span> 02156 987 456 <br />
-                      35621 895 456
+                      <span>Phone:</span>+977 980-8445666 <br />
+                      {/* 35621 895 456 */}
                     </li>
                     <li>
-                      <span>Web:</span> info@example.com <br />
-                      www.example.com
+                      <span>Web:</span> info@sooritechnology.com <br />
+                      {/* www.example.com */}
                     </li>
                   </ul>
                   <div className="mt-4 footer-social-link  d-flex">

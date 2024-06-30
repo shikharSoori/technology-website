@@ -16,6 +16,26 @@ const Partners = async () => {
     speed: 1000,
     autoplay: true,
     autoplaySpeed: 1000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   };
   const data = await getData(`product-app/our-partner`);
   const partners = data?.results;

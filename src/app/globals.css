@@ -251,9 +251,14 @@ textarea:focus {
   max-width: 1200px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+}
 @media only screen and (max-width: 767.98px) {
   .container {
-    max-width: 550px;
+    max-width: 530px !important;
   }
 }
 
@@ -265,7 +270,7 @@ textarea:focus {
 
 @media only screen and (max-width: 479.98px) {
   .container {
-    max-width: 300px;
+    max-width: 390px;
   }
 }
 
@@ -1669,7 +1674,26 @@ header {
 
 @media only screen and (max-width: 575.98px) {
   .hero-slider-item {
-    height: 550px;
+    height: 350px;
+    background-size: 100% 350px;
+    .hero-slider-content {
+      padding: 0;
+      .moving-vertical {
+        img {
+          height: 70px;
+          width: auto;
+        }
+      }
+      .slide-title {
+        /* margin: 0 !important; */
+        text-align: start;
+      }
+      .keywords {
+        text-align: start;
+
+        margin-top: 20px !important;
+      }
+    }
   }
 }
 
@@ -1910,20 +1934,19 @@ header {
   background: #fff;
   margin-bottom: 15px;
 
-  border-radius: 10px;
   min-height: 350px;
   display: flex;
   align-items: end;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
 .feature_slider_inner {
   .slick-list {
     padding-top: 20px;
   }
-  .feature_s_item:hover {
+  /* .feature_s_item:hover {
     display: flex;
-    transform: translateY(-10px); /* Example transform for hover */
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Example shadow change on hover */
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
     cursor: pointer;
     flex-direction: column;
     align-items: start;
@@ -1942,7 +1965,7 @@ header {
     .know-more {
       display: block;
     }
-  }
+  } */
 }
 
 .feature_slider_inner .feature_s_item .social-link {
@@ -3558,7 +3581,7 @@ header {
 
 .widget-logo {
   max-width: 110px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .widget-title {

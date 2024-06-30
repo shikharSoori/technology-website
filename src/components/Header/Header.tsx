@@ -82,7 +82,7 @@ const Header = () => {
           >
             <div className="container">
               <div className="row align-items-center">
-                <div className="col-lg-3">
+                <div className="" style={{ flexGrow: 0 }}>
                   <div className="brand-logo">
                     <Link href="/">
                       <Image
@@ -95,7 +95,7 @@ const Header = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="col-lg-9">
+                <div className="flex-grow-1">
                   <div className="main-menu-inner">
                     <nav className="main-menu">
                       <ul>
@@ -117,8 +117,38 @@ const Header = () => {
                           <ul className="dropdown">
                             <li>
                               <Link href="/solutions/cubixaa">
-                                Warehouse Management
+                                Banking Solutions
                               </Link>
+                              <ul className="dropdown">
+                                <li>
+                                  <Link href="/solutions/cubixaa">BLMS</Link>
+                                  <ul className="dropdown">
+                                    <li>
+                                      <Link href="/solutions/cubixaa">
+                                        BLMS
+                                      </Link>
+                                    </li>
+                                    <li>
+                                      <Link href="/solutions/cubixaa">
+                                        Aristi
+                                      </Link>
+                                    </li>
+                                    <li>
+                                      <Link href="/solutions/cubixaa">
+                                        Locker Management
+                                      </Link>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <Link href="/solutions/cubixaa">Aristi</Link>
+                                </li>
+                                <li>
+                                  <Link href="/solutions/cubixaa">
+                                    Locker Management
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
                             <li>
                               <Link href="/solutions/assets">

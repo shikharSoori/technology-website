@@ -15,21 +15,20 @@ const Blog = async () => {
       data-wow-delay=".5s"
     >
       <div className="container">
-        <div className="row">
+        <div className="row m-0">
           <div className="col-12">
-            <div className="section-title text-center">
+            <div className="section-title text-center mb-4">
               <h2 className="h1 title">
                 <TitleText
                   title={`<span>Latest</span> Post  from <span>Blog</span> `}
                 />
                 {/* Latest Post from Blog */}
               </h2>
-              
             </div>
           </div>
         </div>
-        <div className="row mtn-30">
-          <div className="col-md-7">
+        <div className="row mtn-30 m-0">
+          <div className="col-md-7 col-12">
             <div className="d-flex flex-column blog-item h-100 mt-30">
               <div className="blog-thumb h-100">
                 <Link href="blog-details.html">
@@ -51,14 +50,14 @@ const Blog = async () => {
               </div>
             </div>
           </div>
-          <div className="col-5 row">
+          <div className="col-md-5 col-12 row m-0">
             {blogs?.length > 0 ? (
               blogs.map((blogitem: any) => {
                 const maxLength = 50;
                 return (
-                  <div key={blogitem.id} className="col-12">
+                  <div key={blogitem.id} className="col-12 pt-3 pt-md-0">
                     <div className="home blog-item d-flex mt-30 row">
-                      <div className="blog-thumb col-5 p-0">
+                      <div className="blog-thumb col-md-5 col-12 p-0">
                         <Link href="blog-details.html">
                           <Image
                             className="blog-thumb-img"
@@ -69,14 +68,14 @@ const Blog = async () => {
                           />
                         </Link>
                       </div>
-                      <div className="blog-content col-7">
+                      <div className="blog-content col-12 col-md-7 pt-2 pt-md-0">
                         <h3 className="blog-title">
                           <Link href="blog-details.html">
                             Beneficial strategies
                           </Link>
                         </h3>
                         <p>
-                        {blogitem.description.length >= maxLength
+                          {blogitem.description.length >= maxLength
                             ? `${blogitem.description
                                 .substr(0, maxLength)
                                 .trim()}...`
@@ -99,7 +98,7 @@ const Blog = async () => {
                 return (
                   <div key={blogitem.id} className="col-12">
                     <div className="home blog-item d-flex mt-30 row">
-                      <div className="blog-thumb col-5 p-0">
+                      <div className="blog-thumb col-12 col-md-5 p-0">
                         <Link href="blog-details.html">
                           <Image
                             className="blog-thumb-img"
@@ -110,7 +109,7 @@ const Blog = async () => {
                           />
                         </Link>
                       </div>
-                      <div className="blog-content col-7">
+                      <div className="blog-content col-md-7 col-12">
                         <h3 className="blog-title">
                           <Link href="blog-details.html">
                             Beneficial strategies

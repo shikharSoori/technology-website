@@ -3,6 +3,7 @@ import React, { use, useEffect } from "react";
 import TitleText from "../Testimonials/TitleText";
 import Slider from "react-slick";
 import AOS from "aos";
+import "./trackTrace.css";
 const TrackTraceVideo = () => {
   useEffect(() => {
     AOS.init();
@@ -13,7 +14,7 @@ const TrackTraceVideo = () => {
         <div className="container">
           <div className="row align-items-center">
             <div
-              className="col-xl-7 col-lg-7  order-1 wow fadeInRight"
+              className="col-xl-7 col-lg-7 col-md-12 order-md-2 order-1 wow fadeInRight"
               data-wow-duration="1s"
               data-wow-delay=".5s"
             >
@@ -23,16 +24,8 @@ const TrackTraceVideo = () => {
                 // data-aos-duration="2000"
                 // data-aos-delay="5000"
               >
-                {/* <Image
-                  src={solution}
-                  alt="policy banner"
-                  className="moving-vertical"
-                  width={583} // Adjust as needed
-                  height={634} // Adjust as needed
-                /> */}
                 <iframe
-                  width="660"
-                  height="370"
+                  // height="auto"
                   src="https://www.youtube.com/embed/Sxa7MWMZR9A?autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1&playlist=Sxa7MWMZR9A"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -44,7 +37,7 @@ const TrackTraceVideo = () => {
               </div>
             </div>
             <div
-              className="col-xl-5 col-lg-5 order-2 wow fadeInLeft"
+              className="col-xl-5 col-lg-5 order-md-1 order-2 wow fadeInLeft"
               data-wow-duration="1s"
               data-wow-delay=".5s"
             >

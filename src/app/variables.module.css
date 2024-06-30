@@ -1,0 +1,9 @@
+:export {
+  white: #fff;
+  blackSoft: #151515;
+  xsDevice: "only screen and (max-width: 575.98px)";
+  smDevice: "only screen and (max-width: 767.98px)";
+  headingFont: "Sarabun", sans-serif;
+  themeColor: #0172d0;
+  paragraph: #151515;
+}/*# sourceMappingURL=variables.module.css.map */
