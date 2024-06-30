@@ -1688,6 +1688,7 @@ header {
   .hero-slider-item {
     height: 240px;
     background-size: 100% 350px;
+    background-position: center;
     .hero-slider-content {
       padding: 0;
       .moving-vertical {
