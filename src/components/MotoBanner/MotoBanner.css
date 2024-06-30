@@ -26,7 +26,7 @@
 }
 @media only screen and (max-width: 1000px) {
   .moto-banner {
-    padding: 40px;
+    padding: 40px 0;
     .image-right {
       display: none;
     }
@@ -43,6 +43,15 @@
     }
     .image-right {
       height: 250px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .moto-banner {
+    .motobanner-title {
+      font-size: 30px !important;
+      line-height: 1;
     }
   }
 }

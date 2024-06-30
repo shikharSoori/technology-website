@@ -15,7 +15,7 @@ const HomeHero = async () => {
   var settings = {
     dots: false,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     speed: 3000,
     slidesToShow: 1,
