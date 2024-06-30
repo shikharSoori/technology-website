@@ -7,7 +7,7 @@ import hero3 from "../../assets/ACCESSCONTROL.png";
 import hero4 from "../../assets/CARDPRINTER.png";
 import logo1 from "../../assets/tracklinelogo.png";
 import logo2 from "../../assets/onservicelogo.png";
-import "./HomeHero.css";
+import "./homeHero.css";
 const HomeHero = async () => {
   const data = await getData(`core-app/banner-images`);
   const heroContent = data?.results;
