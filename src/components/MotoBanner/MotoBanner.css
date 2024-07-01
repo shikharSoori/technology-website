@@ -9,7 +9,7 @@
 
 .moto-banner {
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
   .container {
     .motobanner-title {
       font-size: 48px;
@@ -19,9 +19,6 @@
 }
 @media only screen and (max-width: 1550px) {
   .moto-banner {
-    .image-left {
-      display: none;
-    }
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -38,9 +35,6 @@
 
 @media only screen and (min-width: 1001) and (max-width: 1600px) {
   .moto-banner {
-    .image-left {
-      display: none;
-    }
     .image-right {
       height: 250px;
     }

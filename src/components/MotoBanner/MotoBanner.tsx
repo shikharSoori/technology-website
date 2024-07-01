@@ -14,7 +14,7 @@ const MotoBanner = () => {
   return (
     <div className="testimonial-wrapper moto-banner testimonial-wrapper--style_2  ">
       <div className="container wow fade-in-up ">
-        <div className="row align-items-center">
+        <div className="d-flex align-items-center justify-content-center">
           <Image
             className="image-right dd"
             data-aos="fade-left"
@@ -26,7 +26,7 @@ const MotoBanner = () => {
               zIndex: "-1",
             }}
             alt="bg"
-            height={300}
+            height={250}
           />
           <Image
             className="image-left"
@@ -42,7 +42,7 @@ const MotoBanner = () => {
             height={250}
           />
           <div
-            className="col-lg-9 col-md-12 wow fade-in-up"
+            className=" wow fade-in-up  text-end"
             data-aos="fade-right"
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
