@@ -1,3 +1,4 @@
+
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import type { Metadata } from "next";
@@ -8,7 +9,7 @@ import "swiper/css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 import { Sarabun } from "next/font/google";
-
+import Script from "next/script";
 export const metadata: Metadata = {
   title: "Soori Technology",
   description:
@@ -33,6 +34,14 @@ export default function RootLayout({ children }: Props) {
           <main>{children}</main>
 
           <Footer />
+          <Script
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/ps-0.9.js"
+            strategy="lazyOnload"
+            onLoad={() => {
+              // Mark the package as ready
+             
+            }}
+          />
         </body>
       </html>
     </>

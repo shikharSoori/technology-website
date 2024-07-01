@@ -1,4 +1,4 @@
-import About from "@/app/about/page";
+import About from "@/app/about/page1";
 import { getData } from "@/app/lib/getData";
 import AboutHero from "@/components/Hero/AboutHero";
 import { formatName, reFormatName } from "@/utils/FormatName";

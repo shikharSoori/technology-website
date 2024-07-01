@@ -10,6 +10,9 @@ const nextConfig = {
     domains: ["api-website.sooritechnology.com.np", "192.168.1.73"],
     unoptimized: true,
   },
+  experimental: {
+    nextScriptWorkers: true,
+  },
 };
 
 export default nextConfig;

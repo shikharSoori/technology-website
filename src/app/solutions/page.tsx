@@ -1,6 +1,6 @@
 import React from "react";
 import { getData } from "../lib/getData";
-import About from "../about/page";
+import About from "../about/page1";
 import AboutHero from "@/components/Hero/AboutHero";
 import Link from "next/link";
 import Image from "next/image";
@@ -61,7 +61,6 @@ const Solutions = async () => {
           </div>
         </div>
       </section>
-  
     </>
   );
 };
