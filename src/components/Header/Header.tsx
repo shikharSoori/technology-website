@@ -49,7 +49,7 @@ const Header = () => {
               <div className="row align-items-center justify-content-between">
                 <div className="col-sm-4">
                   <div className="header-top-left text-left text-sm-left">
-                    Call us:<Link href="tel:+968573979894"> 01254 789 321</Link>
+                    Call us:<Link href="tel:+968573979894"> +977 980-8445666 </Link>
                   </div>
                 </div>
                 <div className="col-sm-8">
@@ -116,52 +116,23 @@ const Header = () => {
                           <Link href="/solutions">Solutions</Link>
                           <ul className="dropdown">
                             <li>
-                              <Link href="/solutions/cubixaa">
-                                Banking Solutions
+                              <Link href="/solutions/cubix">
+                           Cubix
                               </Link>
-                              <ul className="dropdown">
-                                <li>
-                                  <Link href="/solutions/cubixaa">BLMS</Link>
-                                  <ul className="dropdown">
-                                    <li>
-                                      <Link href="/solutions/cubixaa">
-                                        BLMS
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link href="/solutions/cubixaa">
-                                        Aristi
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link href="/solutions/cubixaa">
-                                        Locker Management
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li>
-                                  <Link href="/solutions/cubixaa">Aristi</Link>
-                                </li>
-                                <li>
-                                  <Link href="/solutions/cubixaa">
-                                    Locker Management
-                                  </Link>
-                                </li>
-                              </ul>
+                            
                             </li>
                             <li>
-                              <Link href="/solutions/assets">
-                                Assets & Maintainence
+                              <Link href="/solutions/activ">
+                                Activ
                               </Link>
                             </li>
                             <li>
-                              <Link href="/solutions/service">
-                                Service & Maintainence
+                              <Link href="/solutions/trackline">
+                              Trackline
                               </Link>
                             </li>
                             <li>
-                              <Link href="/solutions/zebra">HR & Payroll</Link>
+                              <Link href="/solutions/zebra">On Service</Link>
                             </li>
                           </ul>
                         </li>

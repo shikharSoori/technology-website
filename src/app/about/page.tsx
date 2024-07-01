@@ -10,6 +10,8 @@ import icon2 from "../../assets/icon-2.png";
 import icon3 from "../../assets/icon-3.png";
 import icon4 from "../../assets/icon-4.png";
 import Link from "next/link";
+import TitleText from "@/components/Testimonials/TitleText";
+import mission from "../../assets/mission.png";
 const About = () => {
   return (
     <>
@@ -23,20 +25,18 @@ const About = () => {
                   <span>Provide</span> the Best <br /> Solutions{" "}
                   <span>to Improve</span> <br />
                   your Business
+                {/* <TitleText title={`Who we Are`}/> */}
                 </h2>
                 <h3 className="subtitle">
                   Create some exclusive way to solve our customer problems
                 </h3>
+
                 <p>
-                  labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
-                  minima veniam, quis nostrum exercitationem ullam corporis
-                  suscipit laboriosam, nisi ex ea commodi consequatur? Quis
-                  autem vel eum iure reprehenderit qui in ea voluptate velit
-                  esse quam
+                At Soori Technology, we are dedicated to delivering innovative and comprehensive tech solutions tailored to meet the unique needs of businesses and organizations. Our commitment to excellence and customer satisfaction drives us to provide a single-source complete solution through our core business units in Hardware, Software, Consumables, and Support.
                 </p>
-                <Link href="#" className="btn btn-all">
+                {/* <Link href="#" className="btn btn-all">
                   Start
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-6 offset-lg-1 order-2 order-lg-2">
@@ -53,9 +53,38 @@ const About = () => {
           </div>
         </div>
       </section>
-      <div className="gray-bg">
-        <Counter />
-      </div>
+      <section className="mission-vision-wrapper section-padding gray-bg">
+        <div className=" container">
+          <div className="row">
+          <div className="col-md-6 col-12 mission-wrapper">
+            <h3 className="mb-4 font-weight-bold">Our Mission</h3>
+            <Image src={mission} alt="mission" width={80 } height={80} />
+            <h2 className="h1 title" style={{lineHeight:"1.3"}}>
+                  {/* <span>Empowering</span> Business  <br /> with instant tech &  
+                  <span> Outstanding</span> Support  */}
+                  <TitleText title={` <span>Empowering</span> Business  <br /> with instant tech &  
+                  <span> Outstanding</span> Support `}/>
+                {/* <TitleText title={`Who we Are`}/> */}
+                </h2>
+               
+
+          </div>
+          <div className="col-md-6 col-12 mission-wrapper d-flex justify-content-end">
+           <div className="d-flex justify-content-end" style={{gap:"20px"}}>
+           <Image src={mission} alt="mission" width={80 } height={80} />
+           <h3 className="h1 title">
+            <TitleText title={`Our<span> Vision</span>`}/>
+            </h3>
+           </div> 
+            
+               
+
+          </div>
+          </div>  
+        </div>
+      </section>
+   
+     
       <section className="team-wrapper section-padding fix">
         <div className="container">
           <div className="row align-items-center">
@@ -103,6 +132,9 @@ const About = () => {
           </div>
         </div>
       </section>
+      <div className="gray-bg">
+        <Counter />
+      </div>
       <section className="policy-area pb-125">
         <div className="container">
           <div className="row mtn-30">

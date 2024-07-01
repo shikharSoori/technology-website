@@ -3,7 +3,7 @@ import { getData } from "@/app/lib/getData";
 import React from "react";
 import CountUp from "@/components/CountUp/Carousel";
 import TitleText from "../Testimonials/TitleText";
-
+import "./counter.css";
 const Count = ({ number, title, duration }: any) => {
   return (
     <div className="number odometer h1">
@@ -21,12 +21,12 @@ const Counter = async () => {
   // const clients = data?.results;
   return (
     <section
-      className="funfacts-section section-padding--ptb_90 fix wow fadeInUp"
+      className="funfacts-section  fix wow fadeInUp"
       data-wow-duration="1s"
       data-wow-delay=".5s"
     >
       <div className="container">
-        <div className="section-title section-title--style_2 text-center">
+        <div className="section-title section-title--style_2 mb-5 text-center">
           <h1 className=" title" style={{ fontSize: "24px" }}>
             <TitleText
               title={`Sucessfully <span>completed</span> 100+ <span>projects</span> with <br/> numbers of satisfied client`}
@@ -35,7 +35,7 @@ const Counter = async () => {
         </div>
      
         <div className="row mtn-40">
-          <div className="col-md-3 col-sm-6">
+          <div className="col-md-3 col-6">
             <div className="counterup-item ">
               <Count
                 className="odometer h1"
@@ -46,7 +46,7 @@ const Counter = async () => {
               <h5>Active Clients</h5>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6">
+          <div className="col-md-3 col-6">
             <div className="counterup-item ">
               <Count
                 className="odometer h1"
@@ -57,7 +57,7 @@ const Counter = async () => {
               <h5>Active Members</h5>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6">
+          <div className="col-md-3 col-6">
             <div className="counterup-item ">
               <Count
                 className="odometer h1"
@@ -68,7 +68,7 @@ const Counter = async () => {
               <h5>Active Companies</h5>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6">
+          <div className="col-md-3 col-6">
             <div className="counterup-item ">
               <Count
                 className="odometer h1"
