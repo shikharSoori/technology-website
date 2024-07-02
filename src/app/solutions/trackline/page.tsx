@@ -103,7 +103,7 @@ const Trackline = () => {
       {
         id: 2,
         image:
-          "https://m.media-amazon.com/images/I/71C6ooUXhwL._AC_SL1500_.jpg",
+          "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/product-cards/model/rfd40premium-3x2-3600.jpg.imgw.1200.1200.jpg",
         productName: "RFD40",
         brand: "Brand 1",
         category: "RFID Reader",
@@ -111,7 +111,7 @@ const Trackline = () => {
       {
         id: 3,
         image:
-          "https://m.media-amazon.com/images/I/71C6ooUXhwL._AC_SL1500_.jpg",
+          "https://www.expresscorp.com/wp-content/uploads/2023/03/standard-rfid.jpeg",
         productName: "",
         brand: "Brand 1",
         category: "RFID Tag",
@@ -119,8 +119,8 @@ const Trackline = () => {
       {
         id: 4,
         image:
-          "https://m.media-amazon.com/images/I/71C6ooUXhwL._AC_SL1500_.jpg",
-        productName: "",
+          "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/an4x-front-facing-3x2-3600.jpg",
+        productName: " AN480",
         brand: "Brand 1",
         category: "RFID Antenna",
       },
