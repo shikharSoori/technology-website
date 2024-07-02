@@ -9,7 +9,7 @@ import download2 from "@/assets/laptopwarehouse.jpg";
 import TitleText from "../Testimonials/TitleText";
 const Features = (solution: any) => {
   const features = solution.solution;
-  const features1 = solution.solution.slice(0, 3);
+  const features1 = features?.slice(0, 3);
   return (
     <>
       <div className="section-padding">
