@@ -83,7 +83,7 @@ const Page = async ({ params }: any) => {
                     </div>
                   </div>
 
-                  <Features solution={matchedSolution} />
+                  {/* <Features solution={matchedSolution} /> */}
 
                   <div className="section-padding">
                     <h3 className="blog-title pb-4 ">Process</h3>
