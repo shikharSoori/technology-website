@@ -32,6 +32,7 @@ const Page = async ({ params }: props) => {
   const matchedHardware = products?.find(
     (product: any) => product.productName === harwareName
   );
+  const fallbackImage = "/path/to/default-image.png";
 
   return (
     <>
@@ -46,7 +47,7 @@ const Page = async ({ params }: props) => {
               <div className="blog-item mt-40">
                 <div className="blog-thumb">
                   <Image
-                    src={matchedHardware?.image}
+                    src={matchedHardware?.image || fallbackImage}
                     width={370}
                     height={250}
                     alt="blog-img"
