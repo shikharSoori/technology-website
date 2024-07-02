@@ -1,0 +1,176 @@
+{
+  "products": [
+    {
+      "id": 6,
+      "productName": "DS457 Fixed Mount",
+      "image": "https://api-website.sooritechnology.com.np/media/product/DS_Fixed_Mount_Barcode_Scanner.png",
+      "specs": [
+        "High- Volume",
+        "Hands- Free Scanning",
+        "Fast scanning from the retail POS"
+      ],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 5,
+      "productName": "DS457 Fixed Mount",
+      "image": "https://api-website.sooritechnology.com.np/media/product/DS_Fixed_Mount_Barcode_Scanner.png",
+      "specs": [
+        "High- Volume",
+        "Hands- Free Scanning",
+        "Fast scanning from the retail POS"
+      ],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 5,
+      "productName": "DS457 Fixed Mount",
+      "image": "https://api-website.sooritechnology.com.np/media/product/DS_Fixed_Mount_Barcode_Scanner.png",
+      "specs": [
+        "High- Volume",
+        "Hands- Free Scanning",
+        "Fast scanning from the retail POS"
+      ],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 5,
+      "productName": "DS457 Fixed Mount",
+      "image": "https://api-website.sooritechnology.com.np/media/product/DS_Fixed_Mount_Barcode_Scanner.png",
+      "specs": [
+        "High- Volume",
+        "Hands- Free Scanning",
+        "Fast scanning from the retail POS"
+      ],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 5,
+      "productName": "DS457 Fixed Mount",
+      "image": "https://api-website.sooritechnology.com.np/media/product/DS_Fixed_Mount_Barcode_Scanner.png",
+      "specs": [
+        "High- Volume",
+        "Hands- Free Scanning",
+        "Fast scanning from the retail POS"
+      ],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 7,
+      "productName": "DS36000 Series Ultra",
+      "image": "https://api-website.sooritechnology.com.np/media/product/DS3600_Barcode_scanner.png",
+      "specs": [
+        "Rugged Barcode Scanners",
+        "Be unstoppable with Relentless Performance"
+      ],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 3,
+      "productName": "CC6000 Barcode",
+      "image": "https://api-website.sooritechnology.com.np/media/product/CC66_Barcode_Scanner_8B85LAQ.png",
+      "specs": [
+        "A Powerful 10-Inch Kiosk for the Ultimate Customer Engagement Experiences"
+      ],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 2,
+      "productName": "ZC-100 Card printer",
+      "image": "https://api-website.sooritechnology.com.np/media/product/Zebra_1000.jpg",
+      "specs": [
+        "Rugged Barcode Scanners",
+        "Be unstoppable With Relentless Performance"
+      ],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 4,
+      "productName": "DS9900 Series 1D/2D",
+      "image": "https://api-website.sooritechnology.com.np/media/product/DS_1D_Barcode_Scanner.png",
+      "specs": ["Data Capture for Every Worker in Retail and Healthcare"],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 9,
+      "productName": "LS2208 1D Scanner",
+      "image": "https://api-website.sooritechnology.com.np/media/product/LS_Barcode_Scanner.png",
+      "specs": [
+        "Best Selling Scanner",
+        "Moderately priced high performance handheld 1D barcode"
+      ],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 10,
+      "productName": "MS954 Fixed Mount",
+      "image": "https://api-website.sooritechnology.com.np/media/product/MS_Fixed_Mount_Scanner.png",
+      "specs": [
+        "Powerhouse of OEM",
+        "A high performance compact fixed mount scanner for 1D applications with space constraints"
+      ],
+      "category": "Barcode",
+      "brand": 1
+    },
+    {
+      "id": 11,
+      "productName": "MC33xx Series Mobile",
+      "image": "https://api-website.sooritechnology.com.np/media/product/MC_Handheld_Scanner.png",
+      "specs": ["The Evolution of Innovation in Android Mobile Computing"],
+      "category": "Mobile",
+      "brand": 1
+    },
+    {
+      "id": 12,
+      "productName": "TC7X Series Mobile",
+      "image": "https://api-website.sooritechnology.com.np/media/product/MC33xx_handheld_scanner.png",
+      "specs": ["The Ultimate in Ultra Rugged Design and Performance"],
+      "category": "Mobile",
+      "brand": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Industrial Printer"
+    },
+    {
+      "id": 2,
+      "name": "Label"
+    },
+    {
+      "id": 3,
+      "name": "Mobile"
+    },
+    {
+      "id": 4,
+      "name": "Fixed Mount"
+    },
+    {
+      "id": 5,
+      "name": "1D/2D"
+    },
+    {
+      "id": 6,
+      "name": "Barcode"
+    },
+    {
+      "id": 7,
+      "name": "Fixed Mount"
+    },
+    {
+      "id": 8,
+      "name": "Mobile"
+    }
+  ]
+}

@@ -9,6 +9,8 @@ import "./header.scss";
 import { MdCompress } from "react-icons/md";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
+import productData from "@/utils/products.json";
+import { formatName } from "@/utils/FormatName";
 
 const Header = () => {
   const pathName = usePathname();
@@ -37,6 +39,7 @@ const Header = () => {
   const closeOffCanvas = () => {
     setIsOffCanvasOpen(false);
   };
+  const hardware = productData?.categories;
 
   return (
     <>
@@ -133,20 +136,21 @@ const Header = () => {
                           </ul>
                         </li>
                         <li>
-                          <Link href="/products">Products</Link>
+                          <Link href="/hardware">Hardware</Link>
                           <ul className="dropdown">
-                            <li>
-                              <Link href="/products/wacom">Wacom</Link>
-                            </li>
-                            <li>
-                              <Link href="/products/hid">HID</Link>
-                            </li>
-                            <li>
-                              <Link href="/products/logitech">Logitech</Link>
-                            </li>
-                            <li>
-                              <Link href="/products/zebra">Zebra</Link>
-                            </li>
+                            {hardware?.map((product: any) => {
+                              return (
+                                <li key={product?.id}>
+                                  <Link
+                                    href={`/hardware/${formatName(
+                                      product.name.toLowerCase()
+                                    )}`}
+                                  >
+                                    {product.name}
+                                  </Link>
+                                </li>
+                              );
+                            })}
                           </ul>
                         </li>
 
@@ -249,7 +253,7 @@ const Header = () => {
                       <Link href="/about">About us</Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link href="/products">Products</Link>
+                      <Link href="/hardware">Hardware</Link>
                       {/* Add more menu items as needed */}
                       <ul className="dropdown">
                         <li>

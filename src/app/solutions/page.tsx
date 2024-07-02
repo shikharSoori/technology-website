@@ -5,6 +5,7 @@ import AboutHero from "@/components/Hero/AboutHero";
 import Link from "next/link";
 import Image from "next/image";
 import { formatName } from "@/utils/FormatName";
+import { link } from "fs";
 
 const Solutions = async () => {
   const data = await getData("solution-app/solution?limit=0&offset=0");
@@ -13,6 +14,12 @@ const Solutions = async () => {
   const products = data1?.results;
   const brandData = await getData("product-app/brand");
   const brands = brandData?.results;
+  const newSolutions = [
+    { id: 1, name: "Trackline", link: "/solutions/trackline", image: "" },
+    { id: 2, name: "Cubix", link: "/solutions/cubix", image: "" },
+    { id: 3, name: "On Service", link: "/solutions/onservice", image: "" },
+    { id: 4, name: "Activ", link: "/solutions/activ", image: "" },
+  ];
   return (
     <>
       <AboutHero title="solutions" />{" "}
@@ -21,14 +28,12 @@ const Solutions = async () => {
           <div className="row mtn-40">
             <div className="col-lg-12 order-1 order-lg-2 pl-lg-45 ">
               <div className="row">
-                {solutions?.map((solution: any) => {
+                {newSolutions?.map((solution: any) => {
                   return (
-                    <div key={solution?.id} className="col-md-6">
+                    <div key={solution?.id} className="col-md-6 col-12">
                       <div className="blog-item mt-40">
                         <div className="blog-thumb">
-                          <Link
-                            href={`/solutions/${solution?.name.toLowerCase()}`}
-                          >
+                          <Link href={solution?.link}>
                             <Image
                               src={solution.image}
                               width={370}
@@ -39,11 +44,7 @@ const Solutions = async () => {
                         </div>
                         <div className="blog-content">
                           <h3 className="blog-title">
-                            <Link
-                              href={`/solutions/${solution?.name.toLowerCase()}`}
-                            >
-                              {solution?.name}
-                            </Link>
+                            <Link href={solution?.link}>{solution?.name}</Link>
                           </h3>
                           <p>
                             Ideas es to obtain pain of itself, because it is

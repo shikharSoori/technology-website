@@ -6,13 +6,9 @@ import { getData } from "../lib/getData";
 import Image from "next/image";
 import { formatName } from "@/utils/FormatName";
 import Category from "@/components/Category/Category";
-
-const Products = async () => {
-  const data = await getData("product-app/product?limit=0&offset=0");
-  const products = data?.results;
-  const brandData = await getData("product-app/brand");
-  const brands = brandData?.results;
-
+import productData from "@/utils/products.json";
+const Hardware = () => {
+  const products = productData?.products;
   return (
     <>
       <AboutHero title="Products" />
@@ -20,25 +16,19 @@ const Products = async () => {
         <div className="container">
           <div className="row mtn-40">
             <div className="col-lg-3 order-2 order-lg-1 blog-widget-wrapper">
-              <Brands />
               <Category />
             </div>
             <div className="col-lg-9 order-1 order-lg-2 pl-lg-45 ">
               <div className="row">
                 {products?.map((product: any) => {
-                  const brandId = product?.brand;
-                  const matchedBrand = brands?.find(
-                    (brand: any) => brand.id === brandId
-                  );
-
                   return (
                     <div key={product?.id} className="col-md-6">
                       <div className="blog-item mt-40">
                         <div className="blog-thumb">
                           <Link
-                            href={`/products/${matchedBrand?.brand?.toLowerCase()}/${formatName(
-                              product?.productName
-                            )}`}
+                            href={`/hardware/${formatName(
+                              product.category.toLowerCase()
+                            )}/${formatName(product?.productName)}`}
                           >
                             <Image
                               src={product.image}
@@ -51,7 +41,7 @@ const Products = async () => {
                         <div className="blog-content">
                           <h3 className="blog-title">
                             <Link
-                              href={`/products/${matchedBrand?.brand?.toLowerCase()}/${formatName(
+                              href={`/hardware/${product.category.toLowerCase()}/${formatName(
                                 product?.productName
                               )}`}
                             >
@@ -78,4 +68,4 @@ const Products = async () => {
   );
 };
 
-export default Products;
+export default Hardware;
