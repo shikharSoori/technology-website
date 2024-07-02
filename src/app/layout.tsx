@@ -1,4 +1,3 @@
-
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import type { Metadata } from "next";
@@ -34,14 +33,14 @@ export default function RootLayout({ children }: Props) {
           <main>{children}</main>
 
           <Footer />
-          <Script
+          {/* <Script
             src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/ps-0.9.js"
             strategy="lazyOnload"
             onLoad={() => {
-              // Mark the package as ready
+          
              
             }}
-          />
+          /> */}
         </body>
       </html>
     </>
