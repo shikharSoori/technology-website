@@ -9,47 +9,50 @@ import download2 from "@/assets/laptopwarehouse.jpg";
 import TitleText from "../Testimonials/TitleText";
 const Features = (solution: any) => {
   const features = solution.solution;
-
+  const features1 = solution.solution.slice(0, 3);
   return (
     <>
       <div className="section-padding">
         <h3 className="h1 title pb-5">
           <TitleText title={`Features`} />
-        </h3> 
+        </h3>
         <div className="row m-0 mt-4">
-          {features?.map((item: any, index: number) => (
-            <div
-              className="col-12 col-md-6 col-lg-6 col-xl-4 p-0 features-list"
-              key={index}
-            >
+          {features1?.map((item: any, index: number) => {
+            console.log(index % 3, index, "index");
+            return (
               <div
-                className={`d-flex ${
-                  index % 3 === 0 || index % 3 === 2
-                    ? "flex-column"
-                    : "flex-column-reverse"
-                } feature-column-mobile`}
+                className="col-12 col-md-6 col-lg-6 col-xl-4 p-0 features-list"
+                key={index}
               >
                 <div
-                  className="features-bg"
-                  style={{ backgroundImage: `url(${download2.src})` }}
-                ></div>
-                <div className="features-desc">
-                  <div className="features-logo-bg">
-                    <Image
-                      className="w-100"
-                      src={icon}
-                      width={370}
-                      height={250}
-                      alt="blog-img"
-                      style={{ objectFit: "cover" }}
-                    />
+                  className={`d-flex ${
+                    index % 3 === 0 || index % 3 === 2
+                      ? "flex-column"
+                      : "flex-column-reverse"
+                  } feature-column-mobile`}
+                >
+                  <div
+                    className="features-bg"
+                    style={{ backgroundImage: `url(${download2.src})` }}
+                  ></div>
+                  <div className="features-desc">
+                    <div className="features-logo-bg">
+                      <Image
+                        className="w-100"
+                        src={icon}
+                        width={370}
+                        height={250}
+                        alt="blog-img"
+                        style={{ objectFit: "cover" }}
+                      />
+                    </div>
+                    <h3 className="features-title text-center">{item.title}</h3>
+                    <p className="features-text">{item.description}</p>
                   </div>
-                  <h3 className="features-title text-center">{item.title}</h3>
-                  <p className="features-text">{item.description}</p>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </>
