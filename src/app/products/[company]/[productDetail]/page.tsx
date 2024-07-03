@@ -44,6 +44,7 @@ const Page = async ({ params }: props) => {
   const matchedProduct = products?.find(
     (product: any) => product.productName === productName
   );
+  const fallbackImage = "/path/to/default-image.png";
 
   return (
     <div>
@@ -52,14 +53,14 @@ const Page = async ({ params }: props) => {
         subTitle={reFormatName(params.productDetail)}
       />
 
-<section className="blog-area 31697 section-padding">
+      <section className="blog-area 31697 section-padding">
         <div className="container">
           <div className="row mtn-40">
             <div className="col-lg-12 order-1 order-lg-2 pl-lg-45">
               <div className="blog-item mt-40">
                 <div className="blog-thumb">
                   <Image
-                    src={matchedProduct.image}
+                    src={matchedProduct.image || fallbackImage}
                     width={370}
                     height={250}
                     alt="blog-img"
