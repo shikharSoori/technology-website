@@ -1,4 +1,3 @@
-console.log("hello");
 
 var init = function () {
   var isMobile =
@@ -47,7 +46,6 @@ var init = function () {
 };
 
 var initParticleSlider = function () {
-  console.log("init");
   var psScript = document.createElement("script");
   psScript.addEventListener("load", init, false);
   psScript.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/ps-0.9.js";

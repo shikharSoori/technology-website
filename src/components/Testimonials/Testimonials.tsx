@@ -2,17 +2,9 @@ import Slider from "@/components/Carousel/Carousel";
 import { getData } from "@/app/lib/getData";
 import TitleText from "./TitleText";
 import Link from "next/link";
+import clientsData from "@/utils/Home.json";
 const Testimonials = async () => {
   var testimonialSlider = {
-    // dots: false,
-    // slidesToShow: 1,
-    // slidesToScroll: 1,
-    // infinite: true,
-    // speed: 500,
-    // arrows: false,
-    // autoplay: true,
-    // autoplaySpeed: 2000,
-
     dots: false,
     infinite: false,
     speed: 1000,
@@ -43,7 +35,7 @@ const Testimonials = async () => {
 
   const data = await getData("about-us-app/ceo-message");
 
-  const testimonials = data?.results || [];
+  const testimonials = clientsData.clientsReview;
 
   return (
     <section className="testimonial-wrapper testimonial-wrapper--style_2 gray-bg section-padding fix">
@@ -59,7 +51,6 @@ const Testimonials = async () => {
                   title={`
               Client’s <span data-aos="fade-right" data-aos-duration="2000" data-aos-delay="5000">Success</span> Stories  `}
                 />
-                {/* What <span>Client’s</span> say <br /> happy reviews{" "} */}
               </h2>
             </div>
           </div>
@@ -72,10 +63,8 @@ const Testimonials = async () => {
               <Slider {...testimonialSlider}>
                 {testimonials?.map((testimonial: any, i: number) => {
                   const maxLength = 100;
-                  const { image, name, description } = testimonial;
+                  const { id, image, name, description } = testimonial;
                   return (
-                    // <TestimonialContent key={i} {...testimonial} />
-
                     <div
                       key={i + 1}
                       className="item "
@@ -89,7 +78,6 @@ const Testimonials = async () => {
                           background: `linear-gradient(0deg, rgba(0, 56, 102, 0.78) 0%, rgba(0, 0, 0, 0) 45.5%), url(${image}) center / cover no-repeat`,
                         }}
                       >
-                        {/* <Image alt="" className="svg social-link" src={warehouseTruck} /> */}
                         <Link href="#">
                           <h4>{name}</h4>
                         </Link>
@@ -98,42 +86,7 @@ const Testimonials = async () => {
                             ? `${description.substr(0, maxLength).trim()}...`
                             : description}
                         </p>
-                        <Link href="#" className=" know-more ">
-                          Know More
-                        </Link>
-                      </div>
-                    </div>
-                  );
-                })}
-                {testimonials?.map((testimonial: any, i: number) => {
-                  const maxLength = 100;
-                  const { image, name, description } = testimonial;
-                  return (
-                    // <TestimonialContent key={i} {...testimonial} />
-
-                    <div
-                      key={i + 1}
-                      className="item "
-                      data-aos="fade-right"
-                      data-aos-delay={`${900}`}
-                      data-aos-easing="ease-in-sine"
-                    >
-                      <div
-                        className="home-services-card"
-                        style={{
-                          background: `linear-gradient(0deg, rgba(0, 56, 102, 0.78) 0%, rgba(0, 0, 0, 0) 45.5%), url(${image}) center / cover no-repeat`,
-                        }}
-                      >
-                        {/* <Image alt="" className="svg social-link" src={warehouseTruck} /> */}
-                        <Link href="#">
-                          <h4>{name}</h4>
-                        </Link>
-                        <p>
-                          {description.length >= maxLength
-                            ? `${description.substr(0, maxLength).trim()}...`
-                            : description}
-                        </p>
-                        <Link href="#" className=" know-more ">
+                        <Link href={`/clients/${id}`} className=" know-more ">
                           Know More
                         </Link>
                       </div>

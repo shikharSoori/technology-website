@@ -1,0 +1,181 @@
+{
+  "hero": [
+    {
+      "id": 1,
+      "name": "Track line",
+      "mainText": "Manage your Assets",
+      "keyWords": "RFID | BARCODE | QR CODE",
+      "image": "https://i.imgur.com/4wPuhJy.jpg",
+      "logo": "https://i.imgur.com/TpMRYEO.jpeg"
+    },
+    {
+      "id": 1,
+      "name": "Track line",
+      "mainText": "Manage your Assets",
+      "keyWords": "RFID | BARCODE | QR CODE",
+      "image": "https://i.imgur.com/4wPuhJy.jpg",
+      "logo": "https://api-website.sooritechnology.com.np/media/hero/logo-1.png"
+    },
+    {
+      "id": 1,
+      "name": "Track line",
+      "mainText": "Manage your Assets",
+      "keyWords": "RFID | BARCODE | QR CODE",
+      "image": "https://i.imgur.com/4wPuhJy.jpg",
+      "logo": "https://api-website.sooritechnology.com.np/media/hero/logo-1.png"
+    }
+  ],
+  "solutions": [
+    {
+      "id": 1,
+      "logo": "https://i.imgur.com/TpMRYEO.jpeg",
+      "name": "Trackline",
+      "link": "/solutions/trackline",
+      "image": "https://i.imgur.com/C61WPEz.jpeg",
+      "description": "Hellow trackline is a software solution that helps businesses manage their assets efficiently. It provides a centralized platform for tracking and managing inventory, sales, and other business-related activities. With trackline, businesses can automate their inventory management, reduce costs, and improve their overall efficiency. It offers features such as real-time tracking, automated reordering, and customizable reporting. Trackline is designed to be user-friendly and accessible, making it easy for businesses of all sizes to manage their assets effectively."
+    },
+    {
+      "id": 2,
+      "name": "Cubix",
+      "logo": "https://i.imgur.com/TpMRYEO.jpeg",
+
+      "link": "/solutions/cubix",
+      "image": "https://i.imgur.com/0sgmtem.jpeg",
+      "description": "Hellow trackline is a software solution that helps businesses manage their assets efficiently. It provides a centralized platform for tracking and managing inventory, sales, and other business-related activities. With trackline, businesses can automate their inventory management, reduce costs, and improve their overall efficiency. It offers features such as real-time tracking, automated reordering, and customizable reporting. Trackline is designed to be user-friendly and accessible, making it easy for businesses of all sizes to manage their assets effectively."
+    },
+    {
+      "id": 3,
+      "name": "On Service",
+      "logo": "https://i.imgur.com/TpMRYEO.jpeg",
+
+      "link": "/solutions/onservice",
+      "image": "https://i.imgur.com/23ryrSg.jpeg",
+      "description": "Hellow trackline is a software solution that helps businesses manage their assets efficiently. It provides a centralized platform for tracking and managing inventory, sales, and other business-related activities. With trackline, businesses can automate their inventory management, reduce costs, and improve their overall efficiency. It offers features such as real-time tracking, automated reordering, and customizable reporting. Trackline is designed to be user-friendly and accessible, making it easy for businesses of all sizes to manage their assets effectively."
+    },
+    {
+      "id": 4,
+      "name": "Activ",
+      "logo": "https://i.imgur.com/TpMRYEO.jpeg",
+
+      "link": "/solutions/activ",
+      "image": "https://i.imgur.com/2MXoeZe.jpeg",
+      "description": "Hellow trackline is a software solution that helps businesses manage their assets efficiently. It provides a centralized platform for tracking and managing inventory, sales, and other business-related activities. With trackline, businesses can automate their inventory management, reduce costs, and improve their overall efficiency. It offers features such as real-time tracking, automated reordering, and customizable reporting. Trackline is designed to be user-friendly and accessible, making it easy for businesses of all sizes to manage their assets effectively."
+    }
+  ],
+  "clientsReview": [
+    {
+      "id": 1,
+      "name": "Case Study 1",
+      "description": "Growing product demand presented a significant challenge for an important player in the consumer products sector, which is a highly competitive and increasing industry. Their ability to grow was being restricted by concerns with finished product Stock and Transportation Accuracy. The corporation sought to address these challenges by putting in place a comprehensive plan that would ensure operational effectiveness, traceability, and on-time delivery assurance.",
+      "image": "https://i.imgur.com/Tlh9swY.png",
+      "conclusion": "",
+      "challenge": {
+        "description": "",
+        "challenges": [
+          {
+            "id": 1,
+            "description": "The market was fiercely competitive, teeming with a vast array of product options. Given the nature of the goods, timely delivery was imperative to ensure more consumption and customer satisfaction"
+          },
+          {
+            "id": 2,
+            "description": "Each product needed to be carefully managed and swiftly transported to maintain its quality and appeal in the crowded marketplace."
+          }
+        ]
+      },
+      "solution": {
+        "description": "We, Soori technology, helped the company by providing solution which focused on their products and industry standards.",
+        "solutions": [
+          {
+            "id": 1,
+            "title": "Barcode-Based Sorting and slotting",
+            "description": "The market was fiercely competitive, teeming with a vast array of product options. Given the nature of the goods, timely delivery was imperative to ensure more consumption and customer satisfaction"
+          },
+          {
+            "id": 2,
+            "title": "Picking Sales Orders",
+
+            "description": "Each product needed to be carefully managed and swiftly transported to maintain its quality and appeal in the crowded marketplace."
+          },
+          {
+            "id": 3,
+            "title": "Accuracy in Operations",
+
+            "description": "The implementation of these technologies significantly improved operational accuracy. As a result, costly errors were minimized, contributing to a more efficient and reliable workflow"
+          },
+          {
+            "id": 4,
+            "title": "Focused on Cost Savings",
+            "description": "By addressing hidden expenses related to stock aging and dispatch errors, the company achieved notable cost savings. This proactive approach helped in maintaining financial efficiency and reducing unnecessary expenditures"
+          },
+          {
+            "id": 5,
+            "title": "Managing Stock Sales with First In First Out (FIFO)",
+            "description": "The items can be picked on FIFO basis so that the aging of the Stock can be calculated. This ensure that the cost of goods sold (COGS) reflects the cost of the oldest items, while the ending inventory reflects the cost of the most recent purchases"
+          },
+          {
+            "id": 6,
+            "title": "Managing Stock Transportation with Last In First Out (LIFO) Order",
+            "description": "Utilizing a barcode and scanner-based system, previously prepared packages were easily identified and dispatched according to the Last In First Out (LIFO) order. This method ensured that the most recently stored items were the first to be delivered, optimizing stock management."
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Case Study 2",
+      "description": "`When it came to trading organizations related to heavy machines like bulldozers, drills, and rollers, high standards were set for the items that were brought in. Every part of the work was done with extra focus, from maintaining the machines to delivering them and their parts to the respective customers. The high cost of these products meant that even the slightest error could result in significant losses, as many industries depended directly on the use of this machinery. Most of the machines and their parts were imported from Korea, China, or India, which made the cost of working in this industry higher than in any other industry. Consequently, there were very few companies that dealt with heavy machinery. Additionally, maintenance costs skyrocketed due to the limited availability of the human and technical resources needed to maintain these items. Despite these challenges, industry giants managed to both rent and sell new heavy hardware to manufacturing companies all over Nepal. Their ability to uphold high standards and focus meticulously on every detail ensured their continued success in a highly demanding and interconnected market.`",
+      "image": "https://i.imgur.com/tPecb4r.jpeg",
+      "conclusion": "The implementation of these technologies significantly improved operational accuracy. As a result, costly errors were minimized, contributing to a more efficient and reliable workflow",
+      "challenge": {
+        "description": "",
+        "challenges": [
+          {
+            "id": 1,
+            "description": "The market was fiercely competitive, teeming with a vast array of product options. Given the nature of the goods, timely delivery was imperative to ensure more consumption and customer satisfaction"
+          },
+          {
+            "id": 2,
+            "description": "Each product needed to be carefully managed and swiftly transported to maintain its quality and appeal in the crowded marketplace."
+          }
+        ]
+      },
+      "solution": {
+        "description": "We, Soori technology, helped the company by providing solution which focused on their products and industry standards.",
+        "solutions": [
+          {
+            "id": 1,
+            "title": "Barcode-Based Sorting and slotting",
+            "description": "The market was fiercely competitive, teeming with a vast array of product options. Given the nature of the goods, timely delivery was imperative to ensure more consumption and customer satisfaction"
+          },
+          {
+            "id": 2,
+            "title": "Picking Sales Orders",
+
+            "description": "Each product needed to be carefully managed and swiftly transported to maintain its quality and appeal in the crowded marketplace."
+          },
+          {
+            "id": 3,
+            "title": "Accuracy in Operations",
+
+            "description": "The implementation of these technologies significantly improved operational accuracy. As a result, costly errors were minimized, contributing to a more efficient and reliable workflow"
+          },
+          {
+            "id": 4,
+            "title": "Focused on Cost Savings",
+            "description": "By addressing hidden expenses related to stock aging and dispatch errors, the company achieved notable cost savings. This proactive approach helped in maintaining financial efficiency and reducing unnecessary expenditures"
+          },
+          {
+            "id": 5,
+            "title": "Managing Stock Sales with First In First Out (FIFO)",
+            "description": "The items can be picked on FIFO basis so that the aging of the Stock can be calculated. This ensure that the cost of goods sold (COGS) reflects the cost of the oldest items, while the ending inventory reflects the cost of the most recent purchases"
+          },
+          {
+            "id": 6,
+            "title": "Managing Stock Transportation with Last In First Out (LIFO) Order",
+            "description": "Utilizing a barcode and scanner-based system, previously prepared packages were easily identified and dispatched according to the Last In First Out (LIFO) order. This method ensured that the most recently stored items were the first to be delivered, optimizing stock management."
+          }
+        ]
+      }
+    }
+  ]
+}

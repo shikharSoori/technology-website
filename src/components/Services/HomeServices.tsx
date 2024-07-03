@@ -6,9 +6,10 @@ import TitleText from "../Testimonials/TitleText";
 import Slider from "@/components/Carousel/Carousel";
 import "./services.css";
 import Link from "next/link";
+import Homeservices from "@/utils/Home.json";
 const HomeServices = async () => {
   const data = await getData(`solution-app/solution`);
-  const services = data?.results;
+  const services = Homeservices?.solutions;
   var testimonialSlider = {
     autoplaySpeed: 1000,
     infinite: true,
@@ -74,15 +75,15 @@ const HomeServices = async () => {
                         width={200}
                         height={200}
                       />
-                      <Link href="#">
+                      <Link href="/solutions/{">
                         <h4>{service.name}</h4>
                       </Link>
                       <p>
-                        {service.description.length >= maxLength
-                          ? `${service.description
+                        {service.description?.length >= maxLength
+                          ? `${service?.description
                               .substr(0, maxLength)
                               .trim()}...`
-                          : service.description}
+                          : service?.description}
                       </p>
                     </div>
                   </div>

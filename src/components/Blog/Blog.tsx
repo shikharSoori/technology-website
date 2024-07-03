@@ -4,9 +4,15 @@ import TitleText from "../Testimonials/TitleText";
 import { getData } from "@/app/lib/getData";
 import Image from "next/image";
 import "./blog.css";
+import BlogData from "@/utils/Blogs.json";
 const Blog = async () => {
   const data = await getData("blog-app/blog?limit=0&offset=0");
-  const blogs = data?.results;
+  // const blogs = data?.results;
+  const blogs = BlogData?.blogs;
+  const mainBlogs = blogs[0];
+  const subBlogs = blogs.slice(2, 4);
+  const maxLength = 50;
+
 
   return (
     <section
@@ -28,21 +34,29 @@ const Blog = async () => {
           </div>
         </div>
         <div className="row mtn-30 m-0">
-          <div className="col-md-7 col-12">
+          <div className="col-md-9 col-12">
             <div className="d-flex flex-column blog-item h-100 mt-30">
               <div className="blog-thumb h-100">
                 <Link href="blog-details.html">
-                  <img src="assets/img/blog/blog-1.jpg" alt="blog thumb" />
+                  <Image
+                    className="blog-thumb-img"
+                    height={200}
+                    width={200}
+                    src={"https://i.imgur.com/uQSiIyE.jpeg"}
+                    alt="blog thumb"
+                  />
                 </Link>
               </div>
               <div className="blog-content">
                 <h3 className="blog-title">
-                  <Link href="blog-details.html">Beneficial strategies</Link>
+                  <Link href={`blog/${mainBlogs.id}`}>{mainBlogs.name}</Link>
                 </h3>
                 <p>
-                  Ideas es to obtain pain of itself, because it is pain, but
-                  because occasionallyght ocean he Internet tend to a chunks as
-                  necessary with some of themoment
+                  {mainBlogs.description.length >= maxLength + 100
+                    ? `${mainBlogs.description
+                        .substr(0, maxLength + 100)
+                        .trim()}...`
+                    : mainBlogs.description}
                 </p>
                 <div className="blog-meta">
                   <Link href="#">25 October, 2019</Link>
@@ -50,15 +64,15 @@ const Blog = async () => {
               </div>
             </div>
           </div>
-          <div className="col-md-5 col-12 row m-0">
-            {blogs?.length > 0 ? (
-              blogs.map((blogitem: any) => {
-                const maxLength = 50;
+          <div className="col-md-3 col-12 row m-0">
+            {subBlogs?.length > 0 &&
+              subBlogs.map((blogitem: any) => {
+                const maxTitleLength = 20;
                 return (
                   <div key={blogitem.id} className="col-12 pt-3 pt-md-0">
                     <div className="home blog-item d-flex mt-30 row">
-                      <div className="blog-thumb col-md-5 col-12 p-0">
-                        <Link href="blog-details.html">
+                      <div className="blog-thumb col-md-12 col-12 p-0">
+                        <Link href={`blog/${blogitem.id}`}>
                           <Image
                             className="blog-thumb-img"
                             height={200}
@@ -68,10 +82,15 @@ const Blog = async () => {
                           />
                         </Link>
                       </div>
-                      <div className="blog-content col-12 col-md-7 pt-2 pt-md-0">
+                      <div className="blog-content col-12 col-md-12 mt-2 pt-md-0 p-0">
                         <h3 className="blog-title">
-                          <Link href="blog-details.html">
-                            Beneficial strategies
+                          <Link href={`blog/${blogitem.id}`}>
+                            {" "}
+                            {blogitem.name.length >= maxTitleLength
+                              ? `${blogitem.name
+                                  .substr(0, maxTitleLength)
+                                  .trim()}...`
+                              : blogitem.name}
                           </Link>
                         </h3>
                         <p>
@@ -88,51 +107,7 @@ const Blog = async () => {
                     </div>
                   </div>
                 );
-              })
-            ) : (
-              <p>No blogs found</p>
-            )}
-            {blogs?.length > 0 ? (
-              blogs.slice(0, 1).map((blogitem: any) => {
-                const maxLength = 50;
-                return (
-                  <div key={blogitem.id} className="col-12">
-                    <div className="home blog-item d-flex mt-30 row">
-                      <div className="blog-thumb col-12 col-md-5 p-0">
-                        <Link href="blog-details.html">
-                          <Image
-                            className="blog-thumb-img"
-                            height={200}
-                            width={200}
-                            src={blogitem.image}
-                            alt="blog thumb"
-                          />
-                        </Link>
-                      </div>
-                      <div className="blog-content col-md-7 col-12">
-                        <h3 className="blog-title">
-                          <Link href="blog-details.html">
-                            Beneficial strategies
-                          </Link>
-                        </h3>
-                        <p>
-                          {blogitem.description.length >= maxLength
-                            ? `${blogitem.description
-                                .substr(0, maxLength)
-                                .trim()}...`
-                            : blogitem.description}
-                        </p>
-                        <div className="blog-meta">
-                          <Link href="#">25 October, 2019</Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })
-            ) : (
-              <p>No blogs found</p>
-            )}
+              })}
           </div>
         </div>
       </div>

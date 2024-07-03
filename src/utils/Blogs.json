@@ -13,62 +13,106 @@
           "keyBenefits": [
             {
               "id": "1",
-              "title": "Enhanced Productivity",
-              "description": "Increased productivity and efficiency in the manufacturing process."
+              "title": "Enhanced Production Planning",
+              "description": "Real-time data helps in optimizing production schedules and reducing bottlenecks."
             },
             {
               "id": "2",
-              "title": "Reduced Costs",
-              "description": "Lower costs associated with inventory management and production scheduling."
+              "title": "Inventory Optimization",
+              "description": "Efficient inventory management reduces waste and ensures timely availability of raw materials."
             },
             {
               "id": "3",
-              "title": "Improved Quality Control",
-              "description": "Accurate inventory tracking and real-time monitoring of production processes ensures consistent quality."
+              "title": "Cost Control",
+              "description": "Streamlined financial processes help in controlling costs and improving profitability."
             }
           ]
         },
         {
           "id": "2",
           "title": "Retail Industry",
-          "description": "Manufacturers face unique challenges, from managing complex supply chains to ensuring efficient production processes. Soori Technology's ERP system provides manufacturers with real-time insights and automated workflows, enabling them to optimize production schedules, reduce downtime, and manage inventory more effectively.",
+          "description": "In the fast-paced retail sector, managing inventory, understanding customer behavior, and ensuring timely order fulfillment are critical. Soori Technology’s integrated solutions enable retailers to manage their operations seamlessly, from warehouse management to customer relationship management (CRM).",
           "keyBenefits": [
             {
               "id": "1",
-              "title": "Enhanced Productivity",
-              "description": "Increased productivity and efficiency in the manufacturing process."
+              "title": "Real-Time Inventory Tracking",
+              "description": "Keep track of stock levels in real-time to avoid stockouts and overstock situations."
             },
             {
               "id": "2",
-              "title": "Reduced Costs",
-              "description": "Lower costs associated with inventory management and production scheduling."
+              "title": "Enhanced Customer Experience",
+              "description": "CRM integration helps in understanding customer preferences and improving service."
             },
             {
               "id": "3",
-              "title": "Improved Quality Control",
-              "description": "Accurate inventory tracking and real-time monitoring of production processes ensures consistent quality."
+              "title": "Efficient Order Fulfillment",
+              "description": "Streamlined warehouse operations ensure quick and accurate order processing."
             }
           ]
         },
         {
-          "id": "2",
+          "id": "3",
           "title": "Healthcare Industry",
-          "description": "Manufacturers face unique challenges, from managing complex supply chains to ensuring efficient production processes. Soori Technology's ERP system provides manufacturers with real-time insights and automated workflows, enabling them to optimize production schedules, reduce downtime, and manage inventory more effectively.",
+          "description": "Healthcare providers must manage a vast array of assets, from medical equipment to patient records, while ensuring compliance with regulatory standards. Soori Technology’s asset management and HR solutions are designed to support healthcare organizations in maintaining operational efficiency and providing high-quality patient care.",
           "keyBenefits": [
             {
               "id": "1",
-              "title": "Enhanced Productivity",
-              "description": "Increased productivity and efficiency in the manufacturing process."
+              "title": "Asset Management",
+              "description": "Track and maintain medical equipment efficiently to ensure operational readiness."
             },
             {
               "id": "2",
-              "title": "Reduced Costs",
-              "description": "Lower costs associated with inventory management and production scheduling."
+              "title": "HR Management",
+              "description": "Streamlined HR processes help in managing staff schedules, payroll, and performance appraisals."
             },
             {
               "id": "3",
-              "title": "Improved Quality Control",
-              "description": "Accurate inventory tracking and real-time monitoring of production processes ensures consistent quality."
+              "title": "Regulatory Compliance",
+              "description": "Ensure compliance with healthcare regulations through robust data management and reporting."
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "title": "Logistics and Transportation",
+          "description": "Efficiency in logistics and transportation is crucial for ensuring timely delivery and minimizing costs. Soori Technology’s warehouse and asset management solutions provide logistics companies with the tools needed to manage fleet operations, track assets in real-time, and optimize warehouse workflows.",
+          "keyBenefits": [
+            {
+              "id": "1",
+              "title": "Fleet Management",
+              "description": "Real-time tracking of vehicles and assets ensures efficient utilization and timely maintenance."
+            },
+            {
+              "id": "2",
+              "title": "Warehouse Optimization",
+              "description": "Optimize space utilization and streamline workflow for faster and more accurate order processing."
+            },
+            {
+              "id": "3",
+              "title": "Cost Reduction",
+              "description": "Improved operational efficiency leads to reduced operational costs and increased profitability."
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "title": "Construction Industry",
+          "description": "Construction companies need to manage numerous projects, assets, and human resources effectively. Soori Technology’s comprehensive solutions enable construction firms to track project progress, manage assets, and handle HR functions efficiently, ensuring projects are completed on time and within budget.",
+          "keyBenefits": [
+            {
+              "id": "1",
+              "title": "Project Management",
+              "description": "Track project progress and manage resources effectively to ensure timely completion."
+            },
+            {
+              "id": "2",
+              "title": "Asset Tracking",
+              "description": "Efficiently manage construction equipment and materials to reduce downtime and costs."
+            },
+            {
+              "id": "3",
+              "title": "HR Practices",
+              "description": "Streamlined HR processes for managing workforce schedules, payroll, and performance."
             }
           ]
         }
@@ -77,204 +121,30 @@
       "whySooriTechnology": [
         {
           "id": "1",
-          "title": "Enhanced Productivity",
-          "description": "Increased productivity and efficiency in the manufacturing process."
+          "title": "Scalable Solutions ",
+          "description": "Our software is designed to grow with your business, ensuring that it meets your needs as they evolve"
         },
         {
           "id": "2",
-          "title": "Enhanced Productivity",
-          "description": "Increased productivity and efficiency in the manufacturing process."
+          "title": "User-Friendly Interface",
+          "description": "Intuitive interfaces make our solutions easy to use, reducing the learning curve for your team."
+        },
+        {
+          "id": "3",
+          "title": "Customizable Features",
+          "description": "Tailor our solutions to meet the specific needs of your industry with customizable modules and features."
+        },
+        {
+          "id": "4",
+          "title": "Reliable Support",
+          "description": "Our dedicated support team is available around the clock to assist with any technical issues and ensure seamless operations."
         }
       ],
       "conclusion": {
-        "description": "Soori Technology is dedicated to helping businesses across various industries achieve operational excellence. Our integrated software solutions for ERP, HR practices, asset management, and warehouse management provide the tools necessary to streamline operations, reduce costs, and enhance productivity. Contact us today to learn more about how our solutions can transform your business operations and help you stay ahead of the competition",
+        "description": "Soori Technology is dedicated to helping businesses across various industries achieve operational excellence. Our integrated software solutions for ERP, HR practices, asset management, and warehouse management provide the tools necessary to streamline operations, reduce costs, and enhance productivity. Contact us today to learn more about how our solutions can transform your business operations and help you stay ahead of the competition.",
         "title": "Conclusion"
       },
-      "createdDateBs": "2019-08-01"
-    },
-    {
-      "id": 2,
-      "name": "Enhancing Operational Efficiency: Soori Technology's Comprehensive Software Solutions",
-      "description": "In an increasingly competitive market, businesses across various industries are seeking ways to streamline their operations and improve overall efficiency. Soori Technology offers cutting-edge software solutions designed to meet these needs, covering essential areas such as Enterprise Resource Planning (ERP), Human Resources (HR) practices, Asset Management, and Warehouse Management. Let's delve into how these solutions can benefit different industries and enhance their operational effectiveness.",
-      "image": "https://api-website.sooritechnology.com.np/media/blog/blog-1.png",
-      "keyPoints": [
-        {
-          "id": "1",
-          "title": "Manufacturing Industry",
-          "description": "Manufacturers face unique challenges, from managing complex supply chains to ensuring efficient production processes. Soori Technology's ERP system provides manufacturers with real-time insights and automated workflows, enabling them to optimize production schedules, reduce downtime, and manage inventory more effectively.",
-          "keyBenefits": [
-            {
-              "id": "1",
-              "title": "Enhanced Productivity",
-              "description": "Increased productivity and efficiency in the manufacturing process."
-            },
-            {
-              "id": "2",
-              "title": "Reduced Costs",
-              "description": "Lower costs associated with inventory management and production scheduling."
-            },
-            {
-              "id": "3",
-              "title": "Improved Quality Control",
-              "description": "Accurate inventory tracking and real-time monitoring of production processes ensures consistent quality."
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "title": "Retail Industry",
-          "description": "Manufacturers face unique challenges, from managing complex supply chains to ensuring efficient production processes. Soori Technology's ERP system provides manufacturers with real-time insights and automated workflows, enabling them to optimize production schedules, reduce downtime, and manage inventory more effectively.",
-          "keyBenefits": [
-            {
-              "id": "1",
-              "title": "Enhanced Productivity",
-              "description": "Increased productivity and efficiency in the manufacturing process."
-            },
-            {
-              "id": "2",
-              "title": "Reduced Costs",
-              "description": "Lower costs associated with inventory management and production scheduling."
-            },
-            {
-              "id": "3",
-              "title": "Improved Quality Control",
-              "description": "Accurate inventory tracking and real-time monitoring of production processes ensures consistent quality."
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "title": "Healthcare Industry",
-          "description": "Manufacturers face unique challenges, from managing complex supply chains to ensuring efficient production processes. Soori Technology's ERP system provides manufacturers with real-time insights and automated workflows, enabling them to optimize production schedules, reduce downtime, and manage inventory more effectively.",
-          "keyBenefits": [
-            {
-              "id": "1",
-              "title": "Enhanced Productivity",
-              "description": "Increased productivity and efficiency in the manufacturing process."
-            },
-            {
-              "id": "2",
-              "title": "Reduced Costs",
-              "description": "Lower costs associated with inventory management and production scheduling."
-            },
-            {
-              "id": "3",
-              "title": "Improved Quality Control",
-              "description": "Accurate inventory tracking and real-time monitoring of production processes ensures consistent quality."
-            }
-          ]
-        }
-      ],
-
-      "whySooriTechnology": [
-        {
-          "id": "1",
-          "title": "Enhanced Productivity",
-          "description": "Increased productivity and efficiency in the manufacturing process."
-        },
-        {
-          "id": "2",
-          "title": "Enhanced Productivity",
-          "description": "Increased productivity and efficiency in the manufacturing process."
-        }
-      ],
-      "conclusion": {
-        "description": "Soori Technology is dedicated to helping businesses across various industries achieve operational excellence. Our integrated software solutions for ERP, HR practices, asset management, and warehouse management provide the tools necessary to streamline operations, reduce costs, and enhance productivity. Contact us today to learn more about how our solutions can transform your business operations and help you stay ahead of the competition",
-        "title": "Conclusion"
-      },
-      "createdDateBs": "2019-08-01"
-    },
-    {
-      "id": 3,
-      "name": "Enhancing Operational Efficiency: Soori Technology's Comprehensive Software Solutions",
-      "description": "In an increasingly competitive market, businesses across various industries are seeking ways to streamline their operations and improve overall efficiency. Soori Technology offers cutting-edge software solutions designed to meet these needs, covering essential areas such as Enterprise Resource Planning (ERP), Human Resources (HR) practices, Asset Management, and Warehouse Management. Let's delve into how these solutions can benefit different industries and enhance their operational effectiveness.",
-      "image": "https://api-website.sooritechnology.com.np/media/blog/blog-1.png",
-      "keyPoints": [
-        {
-          "id": "1",
-          "title": "Manufacturing Industry",
-          "description": "Manufacturers face unique challenges, from managing complex supply chains to ensuring efficient production processes. Soori Technology's ERP system provides manufacturers with real-time insights and automated workflows, enabling them to optimize production schedules, reduce downtime, and manage inventory more effectively.",
-          "keyBenefits": [
-            {
-              "id": "1",
-              "title": "Enhanced Productivity",
-              "description": "Increased productivity and efficiency in the manufacturing process."
-            },
-            {
-              "id": "2",
-              "title": "Reduced Costs",
-              "description": "Lower costs associated with inventory management and production scheduling."
-            },
-            {
-              "id": "3",
-              "title": "Improved Quality Control",
-              "description": "Accurate inventory tracking and real-time monitoring of production processes ensures consistent quality."
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "title": "Retail Industry",
-          "description": "Manufacturers face unique challenges, from managing complex supply chains to ensuring efficient production processes. Soori Technology's ERP system provides manufacturers with real-time insights and automated workflows, enabling them to optimize production schedules, reduce downtime, and manage inventory more effectively.",
-          "keyBenefits": [
-            {
-              "id": "1",
-              "title": "Enhanced Productivity",
-              "description": "Increased productivity and efficiency in the manufacturing process."
-            },
-            {
-              "id": "2",
-              "title": "Reduced Costs",
-              "description": "Lower costs associated with inventory management and production scheduling."
-            },
-            {
-              "id": "3",
-              "title": "Improved Quality Control",
-              "description": "Accurate inventory tracking and real-time monitoring of production processes ensures consistent quality."
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "title": "Healthcare Industry",
-          "description": "Manufacturers face unique challenges, from managing complex supply chains to ensuring efficient production processes. Soori Technology's ERP system provides manufacturers with real-time insights and automated workflows, enabling them to optimize production schedules, reduce downtime, and manage inventory more effectively.",
-          "keyBenefits": [
-            {
-              "id": "1",
-              "title": "Enhanced Productivity",
-              "description": "Increased productivity and efficiency in the manufacturing process."
-            },
-            {
-              "id": "2",
-              "title": "Reduced Costs",
-              "description": "Lower costs associated with inventory management and production scheduling."
-            },
-            {
-              "id": "3",
-              "title": "Improved Quality Control",
-              "description": "Accurate inventory tracking and real-time monitoring of production processes ensures consistent quality."
-            }
-          ]
-        }
-      ],
-
-      "whySooriTechnology": [
-        {
-          "id": "1",
-          "title": "Enhanced Productivity",
-          "description": "Increased productivity and efficiency in the manufacturing process."
-        },
-        {
-          "id": "2",
-          "title": "Enhanced Productivity",
-          "description": "Increased productivity and efficiency in the manufacturing process."
-        }
-      ],
-      "conclusion": {
-        "description": "Soori Technology is dedicated to helping businesses across various industries achieve operational excellence. Our integrated software solutions for ERP, HR practices, asset management, and warehouse management provide the tools necessary to streamline operations, reduce costs, and enhance productivity. Contact us today to learn more about how our solutions can transform your business operations and help you stay ahead of the competition",
-        "title": "Conclusion"
-      },
-      "createdDateBs": "2019-08-01"
+      "createdDateBs": "2024-01-15"
     }
   ]
 }

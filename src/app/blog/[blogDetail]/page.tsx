@@ -1,11 +1,8 @@
-import { getData } from "@/app/lib/getData";
 import AboutHero from "@/components/Hero/AboutHero";
-import { formatName, reFormatName } from "@/utils/FormatName";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import blogsData from "@/utils/Blogs.json";
-import TitleText from "@/components/Testimonials/TitleText";
 import "./blogDetail.css";
 interface props {
   params: {
@@ -19,6 +16,8 @@ export async function generateStaticParams() {
       blogDetail: String(blog.id),
     };
   });
+
+
 
   return params;
 }

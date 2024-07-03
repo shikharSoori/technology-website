@@ -18,7 +18,6 @@ const Features = (solution: any) => {
         </h3>
         <div className="row m-0 mt-4">
           {features1?.map((item: any, index: number) => {
-            console.log(index % 3, index, "index");
             return (
               <div
                 className="col-12 col-md-6 col-lg-6 col-xl-4 p-0 features-list"

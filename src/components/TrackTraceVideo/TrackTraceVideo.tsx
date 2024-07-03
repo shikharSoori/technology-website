@@ -50,7 +50,7 @@ const TrackTraceVideo = () => {
                   />
                   {/* What <span>Client’s</span> say <br /> happy reviews{" "} */}
                 </h2>
-                <p className="mt-3">
+                <p className="mt-3 text-justify">
                   We assist businesses in leveraging digital transformation to
                   gain a competitive advantage. Regardless of your level of
                   experience in the field, our RFID solution will help you in
