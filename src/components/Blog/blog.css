@@ -1,0 +1,13 @@
+.home.blog-item {
+    flex-direction: row;
+  .blog-thumb {
+    height: max-content;
+    a {
+      img {
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+  /* .blog-content {padding-top: 2px;} */
+}
