@@ -1,152 +1,92 @@
 {
   "products": [
     {
-      "id": 6,
-      "productName": "DS457 Fixed Mount",
-      "image": "https://api-website.sooritechnology.com.np/media/product/DS_Fixed_Mount_Barcode_Scanner.png",
+      "id": 1,
+      "productName": "FS70/VS70",
+      "image": "data:image/jpeg;base64,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",
       "specs": [
-        "High- Volume",
-        "Hands- Free Scanning",
-        "Fast scanning from the retail POS"
+        "Customizable for the most challenging track-and-trace and inspection applications",
+        "Configurable optics and lightning single or Dual M12 Gigabit Ethernet"
       ],
-      "category": "Barcode",
-      "brand": 1
-    },
-    {
-      "id": 5,
-      "productName": "DS457 Fixed Mount",
-      "image": "https://api-website.sooritechnology.com.np/media/product/DS_Fixed_Mount_Barcode_Scanner.png",
-      "specs": [
-        "High- Volume",
-        "Hands- Free Scanning",
-        "Fast scanning from the retail POS"
-      ],
-      "category": "Barcode",
-      "brand": 1
-    },
-    {
-      "id": 5,
-      "productName": "DS457 Fixed Mount",
-      "image": "https://api-website.sooritechnology.com.np/media/product/DS_Fixed_Mount_Barcode_Scanner.png",
-      "specs": [
-        "High- Volume",
-        "Hands- Free Scanning",
-        "Fast scanning from the retail POS"
-      ],
-      "category": "Barcode",
-      "brand": 1
-    },
-    {
-      "id": 7,
-      "productName": "DS36000 Series Ultra",
-      "image": "https://api-website.sooritechnology.com.np/media/product/DS3600_Barcode_scanner.png",
-      "specs": [
-        "Rugged Barcode Scanners",
-        "Be unstoppable with Relentless Performance"
-      ],
-      "category": "Barcode",
-      "brand": 1
-    },
-    {
-      "id": 3,
-      "productName": "CC6000 Barcode",
-      "image": "https://api-website.sooritechnology.com.np/media/product/CC66_Barcode_Scanner_8B85LAQ.png",
-      "specs": [
-        "A Powerful 10-Inch Kiosk for the Ultimate Customer Engagement Experiences"
-      ],
-      "category": "Barcode",
+      "category": 1,
       "brand": 1
     },
     {
       "id": 2,
-      "productName": "ZC-100 Card printer",
-      "image": "https://api-website.sooritechnology.com.np/media/product/Zebra_1000.jpg",
+      "productName": "ZD220/230",
+      "image": "https://www.zebra.com/content/dam/support-dam/global/photography/web-production/0001/zd220-photography-website-right-1x1-300x300.jpg.imgo.jpg",
+      "specs": ["Affordablity meets high quality"],
+      "category": 2,
+      "brand": 1
+    },
+    {
+      "id": 3,
+      "productName": "ZT400 Series",
+      "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/zt400-series-front-group-3x2-3600.jpg",
       "specs": [
-        "Rugged Barcode Scanners",
-        "Be unstoppable With Relentless Performance"
+        "Performance, versatility and reliablity",
+        "Simple to setup, manage and secure with pirnt DNA software FRID capable"
       ],
-      "category": "Barcode",
+      "category": 3,
       "brand": 1
     },
     {
       "id": 4,
-      "productName": "DS9900 Series 1D/2D",
-      "image": "https://api-website.sooritechnology.com.np/media/product/DS_1D_Barcode_Scanner.png",
-      "specs": ["Data Capture for Every Worker in Retail and Healthcare"],
-      "category": "Barcode",
-      "brand": 1
-    },
-    {
-      "id": 9,
-      "productName": "LS2208 1D Scanner",
-      "image": "https://api-website.sooritechnology.com.np/media/product/LS_Barcode_Scanner.png",
+      "productName": "L10 XPAD",
+      "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/zt400-series-front-group-3x2-3600.jpg",
       "specs": [
-        "Best Selling Scanner",
-        "Moderately priced high performance handheld 1D barcode"
+        "Android for Windows",
+        "Xslate Plus rigid hard handle for eaxy transport",
+        "Integrated barcode reader in handle for easy date capture"
       ],
-      "category": "Barcode",
+      "category": 4,
       "brand": 1
     },
     {
-      "id": 10,
-      "productName": "MS954 Fixed Mount",
-      "image": "https://api-website.sooritechnology.com.np/media/product/MS_Fixed_Mount_Scanner.png",
+      "id": 5,
+      "productName": "RFD8500 RFID Sled",
+      "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web002/rfd8500-tc5x-photography-product-front-left-facing-with-shadow-3x2-3600.jpg",
       "specs": [
-        "Powerhouse of OEM",
-        "A high performance compact fixed mount scanner for 1D applications with space constraints"
+        "OS and vendor agnosic",
+        "Fast RFID tag capture",
+        "High Performance battery for full shift"
       ],
-      "category": "Barcode",
+      "category": 5,
       "brand": 1
     },
     {
-      "id": 11,
-      "productName": "MC33xx Series Mobile",
-      "image": "https://api-website.sooritechnology.com.np/media/product/MC_Handheld_Scanner.png",
-      "specs": ["The Evolution of Innovation in Android Mobile Computing"],
-      "category": "Mobile",
-      "brand": 1
-    },
-    {
-      "id": 12,
-      "productName": "TC7X Series Mobile",
-      "image": "https://api-website.sooritechnology.com.np/media/product/MC33xx_handheld_scanner.png",
-      "specs": ["The Ultimate in Ultra Rugged Design and Performance"],
-      "category": "Mobile",
+      "id": 6,
+      "productName": "TC26",
+      "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-graphics/spec-sheet-assets/tc21-tc26-spec-sheet-asset-photography.jpg.imgw.3600.3600.jpg",
+      "specs": ["Android Mobile Computer", "Scanner inbuilt"],
+      "category": 6,
       "brand": 1
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "Industrial Printer"
+      "name": "Industrial Scanner"
     },
     {
       "id": 2,
-      "name": "Label"
+      "name": "Desktop Printer"
     },
     {
       "id": 3,
-      "name": "Mobile"
+      "name": "Industrial Printer"
     },
     {
       "id": 4,
-      "name": "Fixed Mount"
+      "name": "Rugged Tablets"
     },
     {
       "id": 5,
-      "name": "1D/2D"
+      "name": "RFID Reader"
     },
     {
       "id": 6,
-      "name": "Barcode"
-    },
-    {
-      "id": 7,
-      "name": "Fixed Mount"
-    },
-    {
-      "id": 8,
-      "name": "Mobile"
+      "name": "Mobile Computers"
     }
   ]
 }

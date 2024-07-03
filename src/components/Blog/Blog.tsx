@@ -10,9 +10,8 @@ const Blog = async () => {
   // const blogs = data?.results;
   const blogs = BlogData?.blogs;
   const mainBlogs = blogs[0];
-  const subBlogs = blogs.slice(2, 4);
+  const subBlogs = blogs.slice(1, 2);
   const maxLength = 50;
-
 
   return (
     <section
@@ -42,7 +41,7 @@ const Blog = async () => {
                     className="blog-thumb-img"
                     height={200}
                     width={200}
-                    src={"https://i.imgur.com/uQSiIyE.jpeg"}
+                    src={mainBlogs.image}
                     alt="blog thumb"
                   />
                 </Link>
@@ -52,9 +51,9 @@ const Blog = async () => {
                   <Link href={`blog/${mainBlogs.id}`}>{mainBlogs.name}</Link>
                 </h3>
                 <p>
-                  {mainBlogs.description.length >= maxLength + 100
+                  {mainBlogs.description.length >= maxLength + 200
                     ? `${mainBlogs.description
-                        .substr(0, maxLength + 100)
+                        .substr(0, maxLength + 200)
                         .trim()}...`
                     : mainBlogs.description}
                 </p>

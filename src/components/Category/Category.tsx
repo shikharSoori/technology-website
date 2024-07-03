@@ -23,11 +23,11 @@ const Category = () => {
       <ul className="blog-categories">
         {categories?.map((brand: any) => {
           const path = formatName(brand.name.toLowerCase());
-  
+
           return (
             <li key={brand?.id}>
               <Link
-                href={`/hardware/${formatName(brand.name.toLowerCase())}`}
+                href={`/hardware/${brand.id}`}
                 className={` ${
                   pathName === `hardware/${path}` ? "active" : ""
                 }`}

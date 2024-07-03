@@ -64,6 +64,7 @@ const Testimonials = async () => {
                 {testimonials?.map((testimonial: any, i: number) => {
                   const maxLength = 100;
                   const { id, image, name, description } = testimonial;
+                  console.log(image);
                   return (
                     <div
                       key={i + 1}

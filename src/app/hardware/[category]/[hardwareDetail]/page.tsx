@@ -12,34 +12,28 @@ interface props {
 }
 
 export async function generateStaticParams() {
-  const category = productData?.categories;
   const products = productData?.products;
   const params = products?.map((product: any) => {
-    const categoryName = category?.find(
-      (category: any) => category.name === product?.category
-    );
     return {
-      category: categoryName?.name?.toLowerCase(),
-      hardwareDetail: formatName(product?.productName),
+      category: String(product?.category),
+      hardwareDetail: String(product?.id),
     };
   });
 
   return params;
 }
 const Page = async ({ params }: props) => {
-  const harwareName = reFormatName(params.hardwareDetail);
+  const harwareName = params.hardwareDetail;
+
   const products = productData?.products;
   const matchedHardware = products?.find(
-    (product: any) => product.productName === harwareName
+    (product: any) => product.id === Number(harwareName)
   );
   const fallbackImage = "/path/to/default-image.png";
 
   return (
     <>
-      <AboutHero
-        title={"products"}
-        subTitle={reFormatName(params.hardwareDetail)}
-      />
+      <AboutHero title={"hardware"} />
       <section className="blog-area 31697 section-padding">
         <div className="container">
           <div className="row mtn-40">

@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Enhancing Operational Efficiency: Soori Technology's Comprehensive Software Solutions",
       "description": "In an increasingly competitive market, businesses across various industries are seeking ways to streamline their operations and improve overall efficiency. Soori Technology offers cutting-edge software solutions designed to meet these needs, covering essential areas such as Enterprise Resource Planning (ERP), Human Resources (HR) practices, Asset Management, and Warehouse Management. Let's delve into how these solutions can benefit different industries and enhance their operational effectiveness.",
-      "image": "https://api-website.sooritechnology.com.np/media/blog/blog-1.png",
+      "image": "https://www.softwebsolutions.com/wp-content/uploads/2021/02/manufacturing-industry.png",
       "keyPoints": [
         {
           "id": "1",
@@ -121,7 +121,7 @@
       "whySooriTechnology": [
         {
           "id": "1",
-          "title": "Scalable Solutions ",
+          "title": "Scalable Solutions",
           "description": "Our software is designed to grow with your business, ensuring that it meets your needs as they evolve"
         },
         {
@@ -145,6 +145,130 @@
         "title": "Conclusion"
       },
       "createdDateBs": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Streamlining Business Operations with Soori Technology",
+      "description": "In today's fast-paced business environment, efficiency and streamlined operations are key to maintaining a competitive edge. At Soori Technology, we understand the complexities of managing various business processes and the need for seamless integration of different functions. Our comprehensive software solutions are designed to address these challenges, offering robust ERP, HR practices, asset management, and warehouse management systems. Let's explore how Soori Technology can transform your business operations.",
+      "image": "https://igps.net/wp-content/uploads/2020/04/shutterstock_572649643.jpg",
+      "keyPoints": [
+        {
+          "id": "1",
+          "title": "Enterprise Resource Planning (ERP)",
+          "description": "Our ERP solution is the backbone of our software suite, designed to integrate and automate essential business processes. From financial management to supply chain operations, our ERP system provides real-time insights and data-driven decision-making capabilities. This integration not only enhances operational efficiency but also helps in reducing costs and improving productivity.",
+          "keyBenefits": [
+            {
+              "id": "1",
+              "title": "Financial Management ",
+              "description": "Automated accounting, budgeting, and financial reporting."
+            },
+            {
+              "id": "2",
+              "title": "Supply Chain Management ",
+              "description": "Streamlined procurement, inventory management, and order processing."
+            },
+            {
+              "id": "3",
+              "title": "Customer Relationship Management (CRM) ",
+              "description": "Enhanced customer service and relationship management."
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Human Resources (HR) Practices",
+          "description": "Effective HR management is crucial for any organization's success. Soori Technology’s HR module simplifies and automates HR tasks, from recruitment and onboarding to performance management and payroll processing. Our HR practices are designed to foster a productive and motivated workforce.",
+          "keyBenefits": [
+            {
+              "id": "1",
+              "title": "Recruitment and Onboarding",
+              "description": "Streamlined hiring processes with automated onboarding."
+            },
+            {
+              "id": "2",
+              "title": "Performance Management",
+              "description": "Goal setting, performance tracking, and appraisal management."
+            },
+            {
+              "id": "3",
+              "title": "Payroll and Benefits Administration",
+              "description": "Automated payroll processing and benefits management."
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Asset Management",
+          "description": "Managing assets efficiently is vital for reducing operational costs and maximizing returns on investment. Soori Technology's asset management module provides a comprehensive solution for tracking and managing physical and digital assets throughout their lifecycle.",
+          "keyBenefits": [
+            {
+              "id": "1",
+              "title": "Asset Tracking",
+              "description": "Real-time tracking of assets using RFID, barcode, and GPS technology."
+            },
+            {
+              "id": "2",
+              "title": "Maintenance Management",
+              "description": "Scheduled maintenance and repair tracking to extend asset lifespan."
+            },
+            {
+              "id": "3",
+              "title": "Lifecycle Management",
+              "description": "EEnd-to-end management of assets from acquisition to disposal."
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "title": "Warehouse Management",
+          "description": "Efficient warehouse management is essential for maintaining inventory accuracy and ensuring timely order fulfillment. Our warehouse management system (WMS) optimizes warehouse operations, improves inventory visibility, and enhances overall supply chain efficiency.",
+          "keyBenefits": [
+            {
+              "id": "1",
+              "title": "Inventory Control",
+              "description": "Real-time inventory tracking and management."
+            },
+            {
+              "id": "2",
+              "title": "Order Fulfillment",
+              "description": "Streamlined picking, packing, and shipping processes."
+            },
+            {
+              "id": "3",
+              "title": "Warehouse Optimization",
+              "description": "Space utilization and workflow optimization for increased efficiency."
+            }
+          ]
+        }
+      ],
+
+      "whySooriTechnology": [
+        {
+          "id": "1",
+          "title": "Scalable Solutions",
+          "description": "Our software is designed to grow with your business, ensuring that it meets your needs as they evolve"
+        },
+        {
+          "id": "2",
+          "title": "User-Friendly Interface",
+          "description": "Intuitive interfaces make our solutions easy to use, reducing the learning curve for your team."
+        },
+        {
+          "id": "3",
+          "title": "Customizable Features",
+          "description": "Tailor our solutions to meet the specific needs of your industry with customizable modules and features."
+        },
+        {
+          "id": "4",
+          "title": "Reliable Support",
+          "description": "Our dedicated support team is available around the clock to assist with any technical issues and ensure seamless operations."
+        }
+      ],
+      "conclusion": {
+        "description": "Soori Technology is dedicated to helping businesses across various industries achieve operational excellence. Our integrated software solutions for ERP, HR practices, asset management, and warehouse management provide the tools necessary to streamline operations, reduce costs, and enhance productivity. Contact us today to learn more about how our solutions can transform your business operations and help you stay ahead of the competition.",
+        "title": "Conclusion"
+      },
+      "createdDateBs": "2024-01-30"
     }
   ]
 }

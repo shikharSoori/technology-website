@@ -75,7 +75,7 @@ const HomeServices = async () => {
                         width={200}
                         height={200}
                       />
-                      <Link href="/solutions/{">
+                      <Link href={`${service.link}`}>
                         <h4>{service.name}</h4>
                       </Link>
                       <p>

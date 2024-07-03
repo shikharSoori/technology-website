@@ -11,7 +11,7 @@ const Hardware = () => {
   const products = productData?.products;
   return (
     <>
-      <AboutHero title="Products" />
+      <AboutHero title="Hardware" />
       <section className="blog-area section-padding">
         <div className="container">
           <div className="row mtn-40">
@@ -26,9 +26,9 @@ const Hardware = () => {
                       <div className="blog-item mt-40">
                         <div className="blog-thumb">
                           <Link
-                            href={`/hardware/${formatName(
-                              product.category.toLowerCase()
-                            )}/${formatName(product?.productName)}`}
+                            href={`/hardware/${product.category}/${
+                              product?.id
+                            }`}
                           >
                             <Image
                               src={product.image}
@@ -41,9 +41,7 @@ const Hardware = () => {
                         <div className="blog-content">
                           <h3 className="blog-title">
                             <Link
-                              href={`/hardware/${product.category.toLowerCase()}/${formatName(
-                                product?.productName
-                              )}`}
+                              href={`/hardware/${product.category}/${product?.id}`}
                             >
                               {product?.productName}
                             </Link>

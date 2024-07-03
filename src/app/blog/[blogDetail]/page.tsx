@@ -17,8 +17,6 @@ export async function generateStaticParams() {
     };
   });
 
-
-
   return params;
 }
 const BlogDetail = async ({ params }: props) => {
@@ -29,6 +27,7 @@ const BlogDetail = async ({ params }: props) => {
   const matchedBlogs = blogs?.find((blog: any) => {
     return blog.id === Number(blogName);
   });
+  console.log(matchedBlogs);
   const fallbackImage = "/path/to/default-image.png";
 
   return (

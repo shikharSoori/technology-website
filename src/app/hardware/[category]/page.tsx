@@ -15,24 +15,24 @@ interface props {
 export async function generateStaticParams() {
   const data = productData?.categories;
   const params = data?.map((type: any) => ({
-    category: formatName(type.name.toLowerCase()), // Assuming 'name' is the property you want to use as 'company'
+    category: String(type.id), // Assuming 'name' is the property you want to use as 'company'
   }));
 
   return params;
 }
 
 const Page = ({ params }: props) => {
-  const data = productData?.categories;
+ 
   const products = productData?.products;
 
+
   const categoryProducts = products?.filter(
-    (product: any) =>
-      product.category.toLowerCase() === params?.category.toLowerCase()
+    (product: any) => product.category === Number(params?.category)
   );
 
   return (
     <>
-      <AboutHero title="products" subTitle={params?.category} />
+      <AboutHero title="hardware"  />
       <section className="blog-area section-padding">
         <div className="container">
           <div className="row mtn-40">
@@ -49,9 +49,7 @@ const Page = ({ params }: props) => {
                           <div className="blog-thumb">
                             {product.productName && params?.category && (
                               <Link
-                                href={`/hardware/${
-                                  params?.category
-                                }/${formatName(product.productName)}`}
+                                href={`/hardware/${params?.category}/${product.id}`}
                               >
                                 <Image
                                   src={product.image}
@@ -66,9 +64,7 @@ const Page = ({ params }: props) => {
                             <h3 className="blog-title">
                               {product.productName && params?.category && (
                                 <Link
-                                  href={`/hardware/${
-                                    params?.category
-                                  }/${formatName(product.productName)}`}
+                                  href={`/hardware/${params?.category}/${product.id}`}
                                 >
                                   {product.productName}
                                 </Link>
