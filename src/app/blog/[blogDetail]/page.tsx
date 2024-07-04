@@ -133,8 +133,7 @@ const BlogDetail = async ({ params }: props) => {
               <div className="request-demo-wrapper">
                 <p className="text-center">
                   For more information or to schedule a demo, visit our website
-                  or contact our sales team. Let work together to take your
-                  business to new heights with Soori Technology.
+                  or contact our sales team.
                 </p>
                 <Link
                   href="/contact"
