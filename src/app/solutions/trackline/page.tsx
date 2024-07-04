@@ -61,35 +61,35 @@ const Trackline = () => {
       {
         id: 1,
         title: "Streamlined asset management process",
-        icon: icon1,
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSJub25lIiBzdHJva2U9IiNiZjIwMjQiIHN0cm9rZS13aWR0aD0iMS41Ij48cGF0aCBkPSJNMiAxNGMwLTMuNzcxIDAtNS42NTcgMS4xNzItNi44MjhDNC4zNDMgNiA2LjIyOSA2IDEwIDZoNGMzLjc3MSAwIDUuNjU3IDAgNi44MjggMS4xNzJDMjIgOC4zNDMgMjIgMTAuMjI5IDIyIDE0YzAgMy43NzEgMCA1LjY1Ny0xLjE3MiA2LjgyOEMxOS42NTcgMjIgMTcuNzcxIDIyIDE0IDIyaC00Yy0zLjc3MSAwLTUuNjU3IDAtNi44MjgtMS4xNzJDMiAxOS42NTcgMiAxNy43NzEgMiAxNFoiLz48cGF0aCBkPSJNMTYgNmMwLTEuODg2IDAtMi44MjgtLjU4Ni0zLjQxNEMxNC44MjggMiAxMy44ODYgMiAxMiAyYy0xLjg4NiAwLTIuODI4IDAtMy40MTQuNTg2QzggMy4xNzIgOCA0LjExNCA4IDYiIG9wYWNpdHk9IjAuNSIvPjxwYXRoIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik0xMCAxNUg2Yy0uNDcxIDAtLjcwNyAwLS44NTQuMTQ2QzUgMTUuMjkzIDUgMTUuNTMgNSAxNnYxYzAgLjQ3MSAwIC43MDcuMTQ2Ljg1NEM1LjI5MyAxOCA1LjUzIDE4IDYgMThoNGMuNDcxIDAgLjcwNyAwIC44NTQtLjE0NkMxMSAxNy43MDcgMTEgMTcuNDcgMTEgMTd2LTFjMC0uNDcxIDAtLjcwNy0uMTQ2LS44NTRDMTAuNzA3IDE1IDEwLjQ3IDE1IDEwIDE1WiIvPjxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZD0iTTYgNi41VjE1bTAgNi41di0zbTEyLTEydjE1IiBvcGFjaXR5PSIwLjUiLz48L2c+PC9zdmc+",
         description:
           "Enables real-time visibility into inventory levels, locations and movements within the warehouse.",
       },
       {
         id: 2,
-        icon: icon2,
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDEyIDEyIj48cGF0aCBmaWxsPSIjYmYyMDI0IiBkPSJNMy41IDJhLjUuNSAwIDEgMCAwIDFhLjUuNSAwIDAgMCAwLTFNMiAyLjVhMS41IDEuNSAwIDEgMSAzIDBhMS41IDEuNSAwIDAgMS0zIDBNMy41IDlhMSAxIDAgMCAxIDEtMWgzYTEgMSAwIDAgMSAxIDF2LjE2N2MwIC41ODctLjM1NyAxLjA1OC0uODA4IDEuMzU4QzcuMjM3IDEwLjgzIDYuNjM3IDExIDYgMTFzLTEuMjM3LS4xNzEtMS42OTItLjQ3NWMtLjQ1LS4zLS44MDgtLjc3MS0uODA4LTEuMzU4em0xIDB2LjE2N2MwIC4xNDkuMDkuMzQ1LjM2My41MjZjLjI3LjE4LjY3LjMwNyAxLjEzNy4zMDdzLjg2OC0uMTI3IDEuMTM3LS4zMDdjLjI3Mi0uMTgxLjM2My0uMzc3LjM2My0uNTI2Vjl6TTggMi41YS41LjUgMCAxIDEgMSAwYS41LjUgMCAwIDEtMSAwTTguNSAxYTEuNSAxLjUgMCAxIDAgMCAzYTEuNSAxLjUgMCAwIDAgMC0zTTYgNWEuNS41IDAgMSAwIDAgMWEuNS41IDAgMCAwIDAtMW0tMS41LjVhMS41IDEuNSAwIDEgMSAzIDBhMS41IDEuNSAwIDAgMS0zIDBNMy41NSA1SDJhMSAxIDAgMCAwLTEgMXYuMjA3YzAgLjU5Ni4zNDMgMS4wODYuNzk3IDEuNDA3Yy4yNzIuMTkzLjU5Ny4zMzYuOTUyLjQyYTIgMiAwIDAgMSAxLjIwOC0uOTZxLS4yMTUuMDQ1LS40NTcuMDQ2Yy0uNDYxIDAtLjg1OC0uMTMzLTEuMTI2LS4zMjJDMi4xMDUgNi42MDggMiA2LjM5IDIgNi4yMDdWNmgxLjU1YTIuNSAyLjUgMCAwIDEgMC0xbTQuOSAxSDEwdi4yMDdjMCAuMTg0LS4xMDUuNC0uMzc0LjU5Yy0uMjY4LjE5LS42NjUuMzIzLTEuMTI2LjMyM3EtLjI0MiAwLS40NTctLjA0NWMuNTIuMTQ2Ljk1My40OTYgMS4yMDguOTU5Yy4zNTUtLjA4NC42OC0uMjI3Ljk1Mi0uNDJjLjQ1NC0uMzIuNzk3LS44MTEuNzk3LTEuNDA3VjZhMSAxIDAgMCAwLTEtMUg4LjQ1YTIuNSAyLjUgMCAwIDEgMCAxIi8+PC9zdmc+",
         title: "Improved Efficency",
         description:
           "<span> Do you have lots of stores, warehouses? CUBIX</span> Provides mobility leverage both individuals and businesses can achieve greater efficiency, cost savings, imporved communication, and a better overall experience.",
       },
       {
         id: 3,
-        icon: icon3,
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI1NiAyNTYiPjxwYXRoIGZpbGw9IiNiZjIwMjQiIGQ9Ik0yMzIuNzYgMTM3Ljg4YTI4LjM5IDI4LjM5IDAgMCAwLTI0LjYzLTQuODhMMTcyIDE0MS4yNlYxNDBhMzIgMzIgMCAwIDAtMzItMzJIODkuOTRhMzUuNzYgMzUuNzYgMCAwIDAtMjUuNDUgMTAuNTRMNDMgMTQwSDIwYTIwIDIwIDAgMCAwLTIwIDIwdjQwYTIwIDIwIDAgMCAwIDIwIDIwaDEwMGExMiAxMiAwIDAgMCAyLjkxLS4zNmw2NC0xNmExMS40IDExLjQgMCAwIDAgMS43OS0uNmwzOC44Mi0xNi41NGMuMjMtLjA5LjQ1LS4xOS42Ny0uM2EyOC42MSAyOC42MSAwIDAgMCA0LjU3LTQ4LjMyTTM2IDE5NkgyNHYtMzJoMTJabTE4MS42OC0zMS4zOWwtMzcuNTEgMTZMMTE4LjUyIDE5Nkg2MHYtMzlsMjEuNDYtMjEuNDZhMTEuOTMgMTEuOTMgMCAwIDEgOC40OC0zLjU0SDE0MGE4IDggMCAwIDEgMCAxNmgtMjhhMTIgMTIgMCAwIDAgMCAyNGgzMmExMi4yIDEyLjIgMCAwIDAgMi42OS0uM2w2Ny0xNS40MWwuNDctLjEyYTQuNjEgNC42MSAwIDAgMSA1LjgyIDQuNDRhNC41OCA0LjU4IDAgMCAxLTIuMyA0TTE2NCAxMDBhNDAgNDAgMCAwIDAgNS4xOC0uMzRhNDAgNDAgMCAxIDAgMjkuNjctNTkuMzJBNDAgNDAgMCAxIDAgMTY0IDEwMG00MC0zNmExNiAxNiAwIDEgMS0xNiAxNmExNiAxNiAwIDAgMSAxNi0xNm0tNDAtMjBhMTYgMTYgMCAwIDEgMTIuOTQgNi41OEEzOS45IDM5LjkgMCAwIDAgMTY0LjIgNzZoLS4yYTE2IDE2IDAgMCAxIDAtMzIiLz48L3N2Zz4=",
         title: "Cost Optimization",
         description:
           " By implementing <span>CUBIX</span>, warehouses and distribution centers can achieve substantial improvements in operational efficiency, leading to cost savings, better resource utilization, and enhanced customer satisfaction.",
       },
       {
         id: 4,
-        icon: icon4,
-        title: "Minimized downtime through timely action",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNiZjIwMjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Im0xNC4xMDYgMTAuMzMzbC44MDItNC42NjVjLjEzMy0uNzczLS4zNy0xLjUxLTEuMTI1LTEuNjQ2Yy0uNzU0LS4xMzYtMS40NzMuMzgtMS42MDYgMS4xNTNsLTEuNjA2IDkuMzNsLS4xMzMuNzIybC0xLjc5Ny0xLjkwOGExLjUxMiAxLjUxMiAwIDAgMC0yLjMwMi4xMzJhMS42NSAxLjY1IDAgMCAwLS4wMyAxLjk2NGwyLjc1NiAzLjgwNmMuNjI1Ljg2NC45MzggMS4yOTYgMS4zMTQgMS42MzJhNC41IDQuNSAwIDAgMCAyLjAwMSAxLjAzN2MuNDg1LjExIDEuMDA2LjExIDIuMDQ4LjExaDEuODE4YTUgNSAwIDAgMCA0LjkwNy00LjA0bC43NDUtMy44MTRsLjA4LS40NjdjLjEzNC0uNzczLS4zNy0xLjUxLTEuMTI0LTEuNjQ2cy0xLjQ3NC4zOC0xLjYwNyAxLjE1M2wtLjA4LjQ2Nm0tNS4wNjItMy4zMmwtLjI0IDEuNG0uMjQtMS40Yy4xMzMtLjc3Mi44NTMtMS4yODggMS42MDctMS4xNTJzMS4yNTguODc0IDEuMTI1IDEuNjQ2bC0uMTYuOTMzbTAgMGwtLjA4LjQ2N20uMDgtLjQ2N2MuMTMyLS43NzMuODUyLTEuMjg5IDEuNjA2LTEuMTUyYy43NTQuMTM2IDEuMjU4Ljg3MyAxLjEyNSAxLjY0NmwtLjA4LjQ2Nk02Ljk1NiAyLjQ5cy0uMjUyIDIuMjc0IDAgMi41MjJtMCAwYy4zMjYuMzIxIDIuNjAyLjA1IDIuNjAyLjA1bS0yLjYwMi0uMDVMMTAgMk01LjA0NCA5LjUxcy4yNTItMi4yNzQgMC0yLjUyMm0wIDBjLS4zMjYtLjMyMS0yLjYwMi0uMDUtMi42MDItLjA1bTIuNjAyLjA1TDIgMTAiIGNvbG9yPSIjYmYyMDI0Ii8+PC9zdmc+",
+        title: "Minimized Downtime",
         description:
           "Generates insightful reports and analytics on key performance indicators (KPIs).",
       },
       {
         id: 5,
-        icon: icon1,
-        title: "Data-driven decision making",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij48ZGVmcz48bWFzayBpZD0iaXBUTGFwdG9wQ29tcHV0ZXIwIj48ZyBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNCI+PHJlY3Qgd2lkdGg9IjM4IiBoZWlnaHQ9IjI0IiB4PSI1IiB5PSI4IiBmaWxsPSIjNTU1IiByeD0iMiIvPjxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTQgNDBoNDBNMjIgMTRoNCIvPjwvZz48L21hc2s+PC9kZWZzPjxwYXRoIGZpbGw9IiNiZjIwMjQiIGQ9Ik0wIDBoNDh2NDhIMHoiIG1hc2s9InVybCgjaXBUTGFwdG9wQ29tcHV0ZXIwKSIvPjwvc3ZnPg==",
+        title: "Data-driven Decision Making",
         description:
           "<span>  CUBIX</span> is a cloud-based warehouse management system that offers the flexibility for real-time access to warehouse operations from anywhere.",
       },
@@ -143,9 +143,10 @@ const Trackline = () => {
                   <div className="blog-content blog-details">
                     <div className="row mt-4">
                       <div className="col-12 col-lg-6 order-2 order-lg-1">
-                        <iframe
-                          src="https://www.youtube.com/embed/O210zu4RUd4?si=33S0M5XN3G4k36Px&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
-                          title="YouTube video player"
+                      <iframe
+                          
+                          src="https://www.youtube.com/embed/0H_kFIkoNEY?si=uIE_PmWdqvylpHK8&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
+                          title="Cubix"
                           frameBorder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           referrerPolicy="strict-origin-when-cross-origin"

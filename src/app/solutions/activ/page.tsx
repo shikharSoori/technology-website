@@ -72,36 +72,36 @@ const Activ = () => {
     advantages: [
       {
         id: 1,
-        title: "Increased Efficiency",
-        icon: icon1,
+        title: "Compliance & Accuracy",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBmaWxsPSIjYmYyMDI0IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yOTMgMGMuMzkgMCAuNzA3LjMxNy43MDcuNzA3VjJoMS4yOTNhLjcwNy43MDcgMCAwIDEgLjUgMS4yMDdsLTEuNDYgMS40NkExLjE0IDEuMTQgMCAwIDEgMTMuNTMgNWgtMS40N0w4LjUzIDguNTNhLjc1Ljc1IDAgMCAxLTEuMDYtMS4wNkwxMSAzLjk0VjIuNDdjMC0uMzAxLjEyLS41OS4zMzMtLjgwNGwxLjQ2LTEuNDZhLjcuNyAwIDAgMSAuNS0uMjA3TTIuNSA4YTUuNSA1LjUgMCAwIDEgNi41OTgtNS4zOWEuNzUuNzUgMCAwIDAgLjI5OC0xLjQ3QTcgNyAwIDEgMCAxNC44NiA2LjZhLjc1Ljc1IDAgMCAwLTEuNDcuMjk5cS4xMDkuNTMzLjExIDEuMTAxYTUuNSA1LjUgMCAxIDEtMTEgMG01LjM2NC0yLjQ5NmEuNzUuNzUgMCAwIDAtLjA4LTEuNDk4QTQgNCAwIDEgMCAxMS45ODggOC4zYS43NS43NSAwIDAgMC0xLjQ5Ni0uMTExYTIuNSAyLjUgMCAxIDEtMi42My0yLjY4NiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+",
         description:
           "Enables real-time visibility into inventory levels, locations and movements within the warehouse.",
       },
       {
         id: 2,
-        icon: icon2,
-        title: "Cost Savings",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI1NiAyNTYiPjxnIGZpbGw9IiNiZjIwMjQiPjxwYXRoIGQ9Im0yMjEuNjYgODUuNjZsLTEyMCAxMjBhOCA4IDAgMCAxLTExLjMyIDBMNTIuNjkgMTY4TDE4NCAzNi42OWwzNy42NiAzNy42NWE4IDggMCAwIDEgMCAxMS4zMiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTI0OCAxMzZhOCA4IDAgMCAwLTggOHYxNmgtNDQuNjlMMTc3IDE0MS42Nmw1MC4zNC01MC4zNWExNiAxNiAwIDAgMCAwLTIyLjYybC01Ni01NmExNiAxNiAwIDAgMC0yMi42MyAwTDIuOTIgMTU4Ljk0QTEwIDEwIDAgMCAwIDEwIDE3NmgzOS4zN2wzNS4zMiAzNS4zMWExNiAxNiAwIDAgMCAyMi42MiAwTDE2NS42NiAxNTNMMTg0IDE3MS4zMWExNS44NiAxNS44NiAwIDAgMCAxMS4zMSA0LjY5SDI0MHYxNmE4IDggMCAwIDAgMTYgMHYtNDhhOCA4IDAgMCAwLTgtOE0xNjAgMjRsMTIuNjkgMTIuNjlMNDkuMzcgMTYwSDI0LjQ2Wk05NiAyMDBsLTMyLTMyTDE4NCA0OGwzMiAzMloiLz48L2c+PC9zdmc+",
+        title: "Data Security",
         description:
           "<span> Do you have lots of stores, warehouses? CUBIX</span> Provides mobility leverage both individuals and businesses can achieve greater efficiency, cost savings, imporved communication, and a better overall experience.",
       },
       {
         id: 3,
-        icon: icon3,
-        title: "Compliance & Accuracy",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSJub25lIj48cGF0aCBmaWxsPSIjYmYyMDI0IiBkPSJtMTUuMzkzIDQuMDU0bC0uNTAyLjU1N3ptMy45NTkgMy41NjNsLS41MDIuNTU3em0yLjMwMiAyLjUzN2wtLjY4NS4zMDV6TTMuMTcyIDIwLjgyOGwuNTMtLjUzem0xNy42NTYgMGwtLjUzLS41M3pNMTQgMjEuMjVoLTR2MS41aDR6TTIuNzUgMTR2LTRoLTEuNXY0em0xOC41LS40MzdWMTRoMS41di0uNDM3ek0xNC44OTEgNC42MWwzLjk1OSAzLjU2M2wxLjAwMy0xLjExNWwtMy45NTgtMy41NjN6bTcuODU5IDguOTUyYzAtMS42ODkuMDE1LTIuNzU4LS40MS0zLjcxNGwtMS4zNzEuNjFjLjI2Ni41OTguMjgxIDEuMjgzLjI4MSAzLjEwNHptLTMuOS01LjM4OWMxLjM1MyAxLjIxOCAxLjg1MyAxLjY4OCAyLjExOSAyLjI4NWwxLjM3LS42MWMtLjQyNi0uOTU3LTEuMjMtMS42Ni0yLjQ4Ni0yLjc5ek0xMC4wMyAyLjc1YzEuNTgyIDAgMi4xNzkuMDEyIDIuNzEuMjE2bC41MzgtMS40Yy0uODUyLS4zMjgtMS43OC0uMzE2LTMuMjQ4LS4zMTZ6bTUuODY1Ljc0NmMtMS4wODYtLjk3Ny0xLjc2NS0xLjYwNC0yLjYxNy0xLjkzbC0uNTM3IDEuNGMuNTMyLjIwNC45OC41OTIgMi4xNSAxLjY0NXpNMTAgMjEuMjVjLTEuOTA3IDAtMy4yNjEtLjAwMi00LjI5LS4xNGMtMS4wMDUtLjEzNS0xLjU4NS0uMzg5LTIuMDA4LS44MTJsLTEuMDYgMS4wNmMuNzQ4Ljc1IDEuNjk3IDEuMDgxIDIuODY5IDEuMjM5YzEuMTUuMTU1IDIuNjI1LjE1MyA0LjQ4OS4xNTN6TTEuMjUgMTRjMCAxLjg2NC0uMDAyIDMuMzM4LjE1MyA0LjQ4OWMuMTU4IDEuMTcyLjQ5IDIuMTIxIDEuMjM4IDIuODdsMS4wNi0xLjA2Yy0uNDIyLS40MjQtLjY3Ni0xLjAwNC0uODExLTIuMDFjLS4xMzgtMS4wMjctLjE0LTIuMzgyLS4xNC00LjI4OXpNMTQgMjIuNzVjMS44NjQgMCAzLjMzOC4wMDIgNC40ODktLjE1M2MxLjE3Mi0uMTU4IDIuMTIxLS40OSAyLjg3LTEuMjM4bC0xLjA2LTEuMDZjLS40MjQuNDIyLTEuMDA0LjY3Ni0yLjAxLjgxMWMtMS4wMjcuMTM4LTIuMzgyLjE0LTQuMjg5LjE0ek0yMS4yNSAxNGMwIDEuOTA3LS4wMDIgMy4yNjItLjE0IDQuMjljLS4xMzUgMS4wMDUtLjM4OSAxLjU4NS0uODEyIDIuMDA4bDEuMDYgMS4wNmMuNzUtLjc0OCAxLjA4MS0xLjY5NyAxLjIzOS0yLjg2OWMuMTU1LTEuMTUuMTUzLTIuNjI1LjE1My00LjQ4OXptLTE4LjUtNGMwLTEuOTA3LjAwMi0zLjI2MS4xNC00LjI5Yy4xMzUtMS4wMDUuMzg5LTEuNTg1LjgxMi0yLjAwOGwtMS4wNi0xLjA2Yy0uNzUuNzQ4LTEuMDgxIDEuNjk3LTEuMjM5IDIuODY5QzEuMjQ4IDYuNjYxIDEuMjUgOC4xMzYgMS4yNSAxMHptNy4yOC04Ljc1Yy0xLjg3NSAwLTMuMzU2LS4wMDItNC41MTEuMTUzYy0xLjE3Ny4xNTgtMi4xMjkuNDktMi44NzggMS4yMzhsMS4wNiAxLjA2Yy40MjQtLjQyMiAxLjAwNS0uNjc2IDIuMDE3LS44MTFjMS4wMzMtLjEzOCAyLjM5NS0uMTQgNC4zMTItLjE0eiIvPjxwYXRoIHN0cm9rZT0iI2JmMjAyNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTYgMTQuNWg4TTYgMThoNS41IiBvcGFjaXR5PSIwLjUiLz48cGF0aCBzdHJva2U9IiNiZjIwMjQiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJNMTMgMi41VjVjMCAyLjM1NyAwIDMuNTM2LjczMiA0LjI2OEMxNC40NjQgMTAgMTUuNjQzIDEwIDE4IDEwaDQiIG9wYWNpdHk9IjAuNSIvPjwvZz48L3N2Zz4=",
+        title: "Enhanced Record Keeping",
         description:
           " By implementing <span>CUBIX</span>, warehouses and distribution centers can achieve substantial improvements in operational efficiency, leading to cost savings, better resource utilization, and enhanced customer satisfaction.",
       },
       {
         id: 4,
-        icon: icon4,
-        title: "Employee Satisfaction",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNiZjIwMjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Ik02IDUuNWMwLS45MzUgMC0xLjQwMi4yMDEtMS43NWExLjUgMS41IDAgMCAxIC41NDktLjU0OUM3LjA5OCAzIDcuNTY1IDMgOC41IDNoM2MuOTM1IDAgMS40MDIgMCAxLjc1LjIwMWExLjUgMS41IDAgMCAxIC41NDkuNTQ5QzE0IDQuMDk4IDE0IDQuNTY1IDE0IDUuNXMwIDEuNDAyLS4yMDEgMS43NWExLjUgMS41IDAgMCAxLS41NDkuNTQ5QzEyLjkwMiA4IDEyLjQzNSA4IDExLjUgOGgtM2MtLjkzNSAwLTEuNDAyIDAtMS43NS0uMjAxYTEuNSAxLjUgMCAwIDEtLjU0OS0uNTQ5QzYgNi45MDIgNiA2LjQzNSA2IDUuNW0wIDEwYzAtLjkzNSAwLTEuNDAyLjIwMS0xLjc1YTEuNSAxLjUgMCAwIDEgLjU0OS0uNTQ5QzcuMDk4IDEzIDcuNTY1IDEzIDguNSAxM2gzYy45MzUgMCAxLjQwMiAwIDEuNzUuMjAxYTEuNSAxLjUgMCAwIDEgLjU0OS41NDljLjIwMS4zNDguMjAxLjgxNS4yMDEgMS43NXMwIDEuNDAyLS4yMDEgMS43NWExLjUgMS41IDAgMCAxLS41NDkuNTQ5Yy0uMzQ4LjIwMS0uODE1LjIwMS0xLjc1LjIwMWgtM2MtLjkzNSAwLTEuNDAyIDAtMS43NS0uMjAxYTEuNSAxLjUgMCAwIDEtLjU0OS0uNTQ5QzYgMTYuOTAyIDYgMTYuNDM1IDYgMTUuNW0xNC44NCAxLjY0Yy43NzMtLjc3MyAxLjE2LTEuMTYgMS4xNi0xLjY0cy0uMzg3LS44NjctMS4xNi0xLjY0bC0uMi0uMmMtLjc3My0uNzczLTEuMTYtMS4xNi0xLjY0LTEuMTZzLS44NjcuMzg3LTEuNjQgMS4xNmwtLjIuMmMtLjc3My43NzMtMS4xNiAxLjE2LTEuMTYgMS42NHMuMzg3Ljg2NyAxLjE2IDEuNjRsLjIuMmMuNzczLjc3MyAxLjE2IDEuMTYgMS42NCAxLjE2cy44NjctLjM4NyAxLjY0LTEuMTZ6TTYuMDA2IDUuNUgyLjAwOG0wIDBWMm0wIDMuNVYxMmMwIDEuMTA0LS4xNTIgMi40NjguODg4IDMuMTYzYy41MDQuMzM3IDEuMjA2LjMzNyAyLjYxLjMzN204LjQ5NiAwaDJtMi45OTgtM3YtM2MwLTEuODg2IDAtMi44MjgtLjU4NS0zLjQxNGMtLjU4Ni0uNTg2LTEuNTI4LS41ODYtMy40MTMtLjU4NmgtMU0yMiAyMmMtLjkzMiAwLTEuMzk4IDAtMS43NjUtLjEzYy0uNDktLjE3NS0uODgtLjUwOC0xLjA4My0uOTI4QzE5IDIwLjYyNyAxOSAyMC4yMjcgMTkgMTkuNDI5VjE5IiBjb2xvcj0iI2JmMjAyNCIvPjwvc3ZnPg==",
+        title: "Streamlined Processes",
         description:
           "Generates insightful reports and analytics on key performance indicators (KPIs).",
       },
       {
         id: 5,
-        icon: icon1,
-        title: "Data Security",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSIjYmYyMDI0IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTE3IDE3YTUgNSAwIDEgMCAwLTEwYTUgNSAwIDAgMCAwIDEwbS43NS03YS43NS43NSAwIDAgMC0xLjUgMHYxLjg0NmMwIC4xOC4wNjUuMzU1LjE4My40OTFsMSAxLjE1NGEuNzUuNzUgMCAwIDAgMS4xMzQtLjk4MmwtLjgxNy0uOTQzeiIvPjxwYXRoIGQ9Ik0xLjI1IDdBLjc1Ljc1IDAgMCAxIDIgNi4yNWg4YS43NS43NSAwIDAgMSAwIDEuNUgyQS43NS43NSAwIDAgMSAxLjI1IDdtMCA1YS43NS43NSAwIDAgMSAuNzUtLjc1aDZhLjc1Ljc1IDAgMCAxIDAgMS41SDJhLjc1Ljc1IDAgMCAxLS43NS0uNzVtMCA1YS43NS43NSAwIDAgMSAuNzUtLjc1aDhhLjc1Ljc1IDAgMCAxIDAgMS41SDJhLjc1Ljc1IDAgMCAxLS43NS0uNzUiIG9wYWNpdHk9IjAuNSIvPjwvZz48L3N2Zz4=",
+        title: "Enhanced Efficiency",
         description:
           "<span>  CUBIX</span> is a cloud-based warehouse management system that offers the flexibility for real-time access to warehouse operations from anywhere.",
       },
@@ -183,8 +183,8 @@ const Activ = () => {
                     <div className="row mt-4">
                       <div className="col-12 col-lg-6 order-2 order-lg-1">
                         <iframe
-                          src="https://www.youtube.com/embed/O210zu4RUd4?si=33S0M5XN3G4k36Px&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
-                          title="YouTube video player"
+                          src="https://www.youtube.com/embed/0H_kFIkoNEY?si=uIE_PmWdqvylpHK8&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
+                          title="Cubix"
                           frameBorder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           referrerPolicy="strict-origin-when-cross-origin"

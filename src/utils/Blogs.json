@@ -269,6 +269,14 @@
         "title": "Conclusion"
       },
       "createdDateBs": "2024-01-30"
+    },
+    {
+      "id": 3,
+      "name": "Biometrics Poised to Maximize Security and Battle Banking Fraud Across Nepal",
+      "description": "Biometric technologies are being incorporated into banking and finance solutions at breakneck speed around the world. Businesses are relying heavily on the benefits of biometric authentication to not only combat evolving security challenges (identity fraud, money laundering, account takeovers, etc.), but to also differentiate themselves through delivering an extraordinary customer experience. ",
+      "image": "https://blog.hidglobal.com/sites/default/files/2023-10/blog-bank-fraud.jpg",
+      "createdDateBs": "2023-10-30",
+      "link": "https://blog.hidglobal.com/2023/10/biometrics-poised-maximize-security-and-battle-banking-fraud-across-nepal"
     }
   ]
 }

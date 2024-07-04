@@ -8,6 +8,7 @@ import icon1 from "@/assets/icon-1.png";
 import icon2 from "@/assets/icon-2.png";
 import icon3 from "@/assets/icon-3.png";
 import icon4 from "@/assets/icon-4.png";
+import icon5 from "@/assets/5.png";
 import "../[solutionDetail]/solutionDetail.css";
 import download1 from "@/assets/wrriterwarehouse.jpg";
 import download2 from "@/assets/laptopwarehouse.jpg";
@@ -74,34 +75,34 @@ const Cubix = () => {
       {
         id: 1,
         title: "Inventory Optimization & Accuracy",
-        icon: "https://i.imgur.com/EDry6XO.png",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBmaWxsPSIjYmYyMDI0IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yOTMgMGMuMzkgMCAuNzA3LjMxNy43MDcuNzA3VjJoMS4yOTNhLjcwNy43MDcgMCAwIDEgLjUgMS4yMDdsLTEuNDYgMS40NkExLjE0IDEuMTQgMCAwIDEgMTMuNTMgNWgtMS40N0w4LjUzIDguNTNhLjc1Ljc1IDAgMCAxLTEuMDYtMS4wNkwxMSAzLjk0VjIuNDdjMC0uMzAxLjEyLS41OS4zMzMtLjgwNGwxLjQ2LTEuNDZhLjcuNyAwIDAgMSAuNS0uMjA3TTIuNSA4YTUuNSA1LjUgMCAwIDEgNi41OTgtNS4zOWEuNzUuNzUgMCAwIDAgLjI5OC0xLjQ3QTcgNyAwIDEgMCAxNC44NiA2LjZhLjc1Ljc1IDAgMCAwLTEuNDcuMjk5cS4xMDkuNTMzLjExIDEuMTAxYTUuNSA1LjUgMCAxIDEtMTEgMG01LjM2NC0yLjQ5NmEuNzUuNzUgMCAwIDAtLjA4LTEuNDk4QTQgNCAwIDEgMCAxMS45ODggOC4zYS43NS43NSAwIDAgMC0xLjQ5Ni0uMTExYTIuNSAyLjUgMCAxIDEtMi42My0yLjY4NiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+",
         description:
           "Enables real-time visibility into inventory levels, locations and movements within the warehouse.",
       },
       {
         id: 2,
-        icon: "https://i.imgur.com/T7Ptijy.png",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjYmYyMDI0IiBkPSJNMTcgMTRoLTYuN2wtNy40NS0yLjIzbC4zMS0uNjJsOC40NC44NWwzLjkzLTIuOTRzMy43NyAzLjQ0IDQuMjcgNC4xNGMwIDAtMS4xLjgtMi44LjgiIG9wYWNpdHk9IjAuMyIvPjxwYXRoIGZpbGw9IiNiZjIwMjQiIGQ9Ik0yMiAxN2MwIC41NS0uNDUgMS0xIDFoLS4xN2wtMi4yLTIuMkMyMC41OCAxNS4zNyAyMiAxNC40IDIyIDEzYzAtMS04LTgtOC04aC0zdjJoMi4yNWwuOC43MkwxMSAxMEwyIDlsLTIgNGw0LjU0IDEuMzZsLTMuNDkgMS44OEMtLjc3IDE3LjIyLS4wNyAyMCAyIDIwaDZjMi4yMSAwIDQtMS43OSA0LTRoNGwyIDJoLTN2Mmg2YzEuNjYgMCAzLTEuMzQgMy0zek04IDE4SDJsNS4yNS0yLjgzTDEwIDE2YTIgMiAwIDAgMS0yIDJtOS00aC02LjdsLTcuNDUtMi4yM2wuMzEtLjYybDguNDQuODVsMy45My0yLjk0czMuNzcgMy40NCA0LjI3IDQuMTRjMCAwLTEuMS44LTIuOC44Ii8+PC9zdmc+",
         title: "Mobility Solution",
         description:
           "<span> Do you have lots of stores, warehouses? CUBIX</span> Provides mobility leverage both individuals and businesses can achieve greater efficiency, cost savings, imporved communication, and a better overall experience.",
       },
       {
         id: 3,
-        icon: "https://i.imgur.com/iISnwLE.png",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDEyIDEyIj48cGF0aCBmaWxsPSIjYmYyMDI0IiBkPSJNMy41IDJhLjUuNSAwIDEgMCAwIDFhLjUuNSAwIDAgMCAwLTFNMiAyLjVhMS41IDEuNSAwIDEgMSAzIDBhMS41IDEuNSAwIDAgMS0zIDBNMy41IDlhMSAxIDAgMCAxIDEtMWgzYTEgMSAwIDAgMSAxIDF2LjE2N2MwIC41ODctLjM1NyAxLjA1OC0uODA4IDEuMzU4QzcuMjM3IDEwLjgzIDYuNjM3IDExIDYgMTFzLTEuMjM3LS4xNzEtMS42OTItLjQ3NWMtLjQ1LS4zLS44MDgtLjc3MS0uODA4LTEuMzU4em0xIDB2LjE2N2MwIC4xNDkuMDkuMzQ1LjM2My41MjZjLjI3LjE4LjY3LjMwNyAxLjEzNy4zMDdzLjg2OC0uMTI3IDEuMTM3LS4zMDdjLjI3Mi0uMTgxLjM2My0uMzc3LjM2My0uNTI2Vjl6TTggMi41YS41LjUgMCAxIDEgMSAwYS41LjUgMCAwIDEtMSAwTTguNSAxYTEuNSAxLjUgMCAxIDAgMCAzYTEuNSAxLjUgMCAwIDAgMC0zTTYgNWEuNS41IDAgMSAwIDAgMWEuNS41IDAgMCAwIDAtMW0tMS41LjVhMS41IDEuNSAwIDEgMSAzIDBhMS41IDEuNSAwIDAgMS0zIDBNMy41NSA1SDJhMSAxIDAgMCAwLTEgMXYuMjA3YzAgLjU5Ni4zNDMgMS4wODYuNzk3IDEuNDA3Yy4yNzIuMTkzLjU5Ny4zMzYuOTUyLjQyYTIgMiAwIDAgMSAxLjIwOC0uOTZxLS4yMTUuMDQ1LS40NTcuMDQ2Yy0uNDYxIDAtLjg1OC0uMTMzLTEuMTI2LS4zMjJDMi4xMDUgNi42MDggMiA2LjM5IDIgNi4yMDdWNmgxLjU1YTIuNSAyLjUgMCAwIDEgMC0xbTQuOSAxSDEwdi4yMDdjMCAuMTg0LS4xMDUuNC0uMzc0LjU5Yy0uMjY4LjE5LS42NjUuMzIzLTEuMTI2LjMyM3EtLjI0MiAwLS40NTctLjA0NWMuNTIuMTQ2Ljk1My40OTYgMS4yMDguOTU5Yy4zNTUtLjA4NC42OC0uMjI3Ljk1Mi0uNDJjLjQ1NC0uMzIuNzk3LS44MTEuNzk3LTEuNDA3VjZhMSAxIDAgMCAwLTEtMUg4LjQ1YTIuNSAyLjUgMCAwIDEgMCAxIi8+PC9zdmc+",
         title: "Operational Efficiency",
         description:
           " By implementing <span>CUBIX</span>, warehouses and distribution centers can achieve substantial improvements in operational efficiency, leading to cost savings, better resource utilization, and enhanced customer satisfaction.",
       },
       {
         id: 4,
-        icon: "https://i.imgur.com/wIfTqm1.png",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjYmYyMDI0IiBkPSJNMjEuNTEgMThIMTVjLS41NSAwLTEtLjQ1LTEtMXMuNDUtMSAxLTFoMS4yNXYtLjI1YzAtLjk3Ljc4LTEuNzUgMS43NS0xLjc1czEuNzUuNzggMS43NSAxLjc1VjE3aDEuNzZjLjI4IDAgLjUuMjIuNS41Yy0uMDEuMjctLjIzLjUtLjUuNSIgb3BhY2l0eT0iMC4zIi8+PHBhdGggZmlsbD0iI2JmMjAyNCIgZD0iTTIxLjUgMTQuOThjLS4wMiAwLS4wMyAwLS4wNS4wMUEzLjQ5IDMuNDkgMCAwIDAgMTggMTJjLTEuNCAwLTIuNi44My0zLjE2IDIuMDJBMi45ODggMi45ODggMCAwIDAgMTIgMTdjMCAxLjY2IDEuMzQgMyAzIDNsNi41LS4wMmEyLjUgMi41IDAgMCAwIDAtNW0uMDEgMy4wMkgxNWMtLjU1IDAtMS0uNDUtMS0xcy40NS0xIDEtMWgxLjI1di0uMjVjMC0uOTcuNzgtMS43NSAxLjc1LTEuNzVzMS43NS43OCAxLjc1IDEuNzVWMTdoMS43NmMuMjggMCAuNS4yMi41LjVjLS4wMS4yNy0uMjMuNS0uNS41TTEwIDQuMjZ2Mi4wOUM3LjY3IDcuMTggNiA5LjM5IDYgMTJjMCAxLjc3Ljc4IDMuMzQgMiA0LjQ0VjE0aDJ2Nkg0di0yaDIuNzNBNy45NDIgNy45NDIgMCAwIDEgNCAxMmMwLTMuNzMgMi41NS02Ljg1IDYtNy43NE0yMCA2aC0yLjczYTcuOTggNy45OCAwIDAgMSAyLjY2IDVoLTIuMDJjLS4yMy0xLjM2LS45My0yLjU1LTEuOTEtMy40NFYxMGgtMlY0aDZ6Ii8+PC9zdmc+",
         title: "Real-Time Data and Reporting",
         description:
           "Generates insightful reports and analytics on key performance indicators (KPIs).",
       },
       {
         id: 5,
-        icon: "https://i.imgur.com/t5TCmrn.png",
+        icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSJub25lIiBzdHJva2U9IiNiZjIwMjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIj48cGF0aCBkPSJNMjIgOC4zNVYyMGEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlY4LjM1QTIgMiAwIDAgMSAzLjI2IDYuNWw4LTMuMmEyIDIgMCAwIDEgMS40OCAwbDggMy4yQTIgMiAwIDAgMSAyMiA4LjM1TTYgMThoMTJNNiAxNGgxMiIvPjxwYXRoIGQ9Ik02IDEwaDEydjEySDZ6Ii8+PC9nPjwvc3ZnPg==",
         title: "Control Warehouse",
         description:
           "<span>  CUBIX</span> is a cloud-based warehouse management system that offers the flexibility for real-time access to warehouse operations from anywhere.",
@@ -198,8 +199,9 @@ const Cubix = () => {
                     <div className="row mt-4">
                       <div className="col-12 col-lg-6 order-2 order-lg-1">
                         <iframe
-                          src="https://www.youtube.com/embed/O210zu4RUd4?si=33S0M5XN3G4k36Px&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
-                          title="YouTube video player"
+                          
+                          src="https://www.youtube.com/embed/0H_kFIkoNEY?si=uIE_PmWdqvylpHK8&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
+                          title="Cubix"
                           frameBorder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           referrerPolicy="strict-origin-when-cross-origin"
@@ -211,6 +213,7 @@ const Cubix = () => {
                           }}
                           className="mt-4 mt-lg-0"
                         ></iframe>
+                      
                         {/* <iframe
                           src="https://www.youtube.com/embed/Sxa7MWMZR9A?autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1&playlist=Sxa7MWMZR9A"
                           title="YouTube video player"

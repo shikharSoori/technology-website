@@ -4,7 +4,7 @@ import React, { FormEvent, useRef, useState } from "react";
 const Contact = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const formRef = useRef<HTMLFormElement>(null);
-  
+
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setIsLoading(true);
@@ -110,23 +110,18 @@ const Contact = () => {
             <div className="col-lg-6 order-1 order-lg-2">
               <div className="contact-information">
                 <h2 className="h1 title contact-title">Contact Us</h2>
-                <p>
-                  Claritas est etiam processus dynamicus, qui sequitur
-                  mutationem consuetudium lectorum. Mirum est notare quam
-                  littera gothica, quam nunc putamus parum claram anteposuerit
-                  litterarum formas human.
-                </p>
+
                 <ul>
                   <li>
                     <i className="fa fa-fax"></i> Address : No 40 Baria Sreet
-                    133/2 NewYork City
+                    Dillibazar, Kathmandu-29, Kathmandu
                   </li>
                   <li>
                     <i className="fa fa-envelope-o"></i> E-mail:
-                    info@yourdomain.com
+                    info@sooritechnology.com
                   </li>
                   <li>
-                    <i className="fa fa-phone"></i> +88013245657
+                    <i className="fa fa-phone"></i> +977 980-8445666
                   </li>
                 </ul>
               </div>

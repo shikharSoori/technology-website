@@ -10,7 +10,7 @@ const Blog = async () => {
   // const blogs = data?.results;
   const blogs = BlogData?.blogs;
   const mainBlogs = blogs[0];
-  const subBlogs = blogs.slice(1, 2);
+  const subBlogs = blogs.slice(1, 3);
   const maxLength = 50;
 
   return (
@@ -58,7 +58,7 @@ const Blog = async () => {
                     : mainBlogs.description}
                 </p>
                 <div className="blog-meta">
-                  <Link href="#">25 October, 2019</Link>
+                  <Link href="#">{mainBlogs.createdDateBs}</Link>
                 </div>
               </div>
             </div>
@@ -71,7 +71,13 @@ const Blog = async () => {
                   <div key={blogitem.id} className="col-12 pt-3 pt-md-0">
                     <div className="home blog-item d-flex mt-30 row">
                       <div className="blog-thumb col-md-12 col-12 p-0">
-                        <Link href={`blog/${blogitem.id}`}>
+                        <Link
+                          href={
+                            blogitem?.link
+                              ? blogitem?.link
+                              : `blog/${blogitem.id}`
+                          }
+                        >
                           <Image
                             className="blog-thumb-img"
                             height={200}
@@ -83,7 +89,13 @@ const Blog = async () => {
                       </div>
                       <div className="blog-content col-12 col-md-12 mt-2 pt-md-0 p-0">
                         <h3 className="blog-title">
-                          <Link href={`blog/${blogitem.id}`}>
+                          <Link
+                            href={
+                              blogitem?.link
+                                ? blogitem?.link
+                                : `blog/${blogitem.id}`
+                            }
+                          >
                             {" "}
                             {blogitem.name.length >= maxTitleLength
                               ? `${blogitem.name
@@ -100,7 +112,7 @@ const Blog = async () => {
                             : blogitem.description}
                         </p>
                         <div className="blog-meta">
-                          <Link href="#">25 October, 2019</Link>
+                          <Link href="#">{blogitem.createdDateBs}</Link>
                         </div>
                       </div>
                     </div>

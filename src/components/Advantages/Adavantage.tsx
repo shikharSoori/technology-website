@@ -11,7 +11,7 @@ const Adavantage = ({ advantage }: any) => {
       <div className="">
         <div className="container">
           <div className="row mt-30 d-flex justify-content-center">
-            {advantage?.map((item: any, index: number) => {
+            {advantage?.slice(0, 5).map((item: any, index: number) => {
               return (
                 <div key={index} className="col-lg-4 col-md-4 col-6">
                   <div className="service-policy-item mt-30">
