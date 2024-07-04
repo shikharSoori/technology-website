@@ -2,41 +2,49 @@
   "hero": [
     {
       "id": 1,
-      "name": "Access Control",
-      "mainText": "Control the access of your system smoothly",
-      "keyWords": "Finger Scanner",
-      "image": "https://i.imgur.com/DT79F3k.jpeg",
-      "logo": "https://i.imgur.com/7GtQDAI.png"
+      "name": "Trackline",
+      "mainText": "Manage your Assets",
+      "keyWords": "",
+      "image": "https://i.imgur.com/C2pO4R2.jpeg",
+      "logo": "https://i.imgur.com/o7N0t0k.png"
     },
     {
       "id": 2,
-      "name": "Activ",
-      "mainText": "Automates tasks, provides real time insights and ensures compliance",
-      "keyWords": "HR | Payroll",
-      "image": "https://i.imgur.com/h1MMQPa.jpeg",
-      "logo": "https://api-website.sooritechnology.com.np/media/hero/logo-1.png"
+      "name": "On Service",
+      "mainText": "Monitor, Maintain, Maximize your services",
+      "keyWords": "",
+      "image": "https://i.imgur.com/nzxlrAK.jpeg",
+      "logo": "https://i.imgur.com/klzqaz5.png"
     },
     {
       "id": 3,
-      "name": "Card Printing Solution",
-      "mainText": "Print High Quality Card",
-      "keyWords": "RFID Card Printer",
+      "name": "Active",
+      "mainText": "Effortless payrolll everytime",
+      "keyWords": "",
+      "image": "https://i.imgur.com/ZCicKwb.png",
+      "logo": "https://i.imgur.com/aUqZC3N.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Cubix",
+      "mainText": "Simply your ERP, Amplify your Growth",
+      "keyWords": "",
+      "image": "https://i.imgur.com/h1MMQPa.jpeg",
+      "logo": "https://i.imgur.com/jIrDw2V.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "ID Card",
+      "mainText": "Print High Quality & Durable Colors",
+      "keyWords": "",
       "image": "https://i.imgur.com/ZCicKwb.png",
       "logo": ""
     },
     {
-      "id": 4,
-      "name": "On Service",
-      "mainText": "Optimizes employee project time and costs, enhancing operational efficiency and satisfaction.",
-      "keyWords": "Enhance Your Services",
-      "image": "https://new-technology-frontend.vercel.app/_next/static/media/tracklinelogo.42794a0f.png",
-      "logo": "https://api-website.sooritechnology.com.np/media/hero/logo-1.png"
-    },
-    {
-      "id": 5,
-      "name": "Signature Solutions",
-      "mainText": "A new way for Digital Signature",
-      "keyWords": "Signature Pad",
+      "id": 6,
+      "name": "Access Control",
+      "mainText": "Control your Assets, Control your Security",
+      "keyWords": "",
       "image": "https://i.imgur.com/MZbBiQN.png",
       "logo": ""
     }
@@ -61,7 +69,7 @@
     {
       "id": 3,
       "name": "On Service",
-      "logo": "https://i.imgur.com/TpMRYEO.jpeg",
+      "logo": "https://new-technology-frontend.vercel.app/_next/static/media/onservicelogo.b29ab062.png",
       "link": "/solutions/onservice",
       "image": "https://api-website.sooritechnology.com.np/media/hero/logo-1.png",
       "description": "OnService allows an organization to quickly manage each employee with their project time and cost, which enables the organization optimize their operations and improve customer satisfaction"
@@ -69,7 +77,7 @@
     {
       "id": 4,
       "name": "Activ",
-      "logo": "https://api-website.sooritechnology.com.np/media/hero/logo-1.png",
+      "logo": "https://i.imgur.com/TpMRYEO.jpeg",
       "link": "/solutions/activ",
       "image": "https://i.imgur.com/2MXoeZe.jpeg",
       "description": "HR payroll streamlines and automates payroll, tax compliance, direct deposit, and employee self-service, enhancing efficiency, accuracy, compliance, and employee satisfaction."
@@ -78,7 +86,7 @@
   "clientsReview": [
     {
       "id": 1,
-      "name": "Case Study 1",
+      "name": "Consumer Product Sector",
       "description": "Growing product demand presented a significant challenge for an important player in the consumer products sector, which is a highly competitive and increasing industry. Their ability to grow was being restricted by concerns with finished product Stock and Transportation Accuracy. The corporation sought to address these challenges by putting in place a comprehensive plan that would ensure operational effectiveness, traceability, and on-time delivery assurance.",
       "image": "https://images.stockcake.com/public/2/0/1/201f9a2b-e995-4add-abe7-3e8acdcfb85e_large/honey-jar-production-stockcake.jpg",
       "conclusion": "",
@@ -133,7 +141,7 @@
     },
     {
       "id": 2,
-      "name": "Case Study 2",
+      "name": "Inventory tracking made easy",
       "description": "When it came to trading organizations related to heavy machines like bulldozers, drills, and rollers, high standards were set for the items that were brought in. Every part of the work was done with extra focus, from maintaining the machines to delivering them and their parts to the respective customers. The high cost of these products meant that even the slightest error could result in significant losses, as many industries depended directly on the use of this machinery. Most of the machines and their parts were imported from Korea, China, or India, which made the cost of working in this industry higher than in any other industry. Consequently, there were very few companies that dealt with heavy machinery. Additionally, maintenance costs skyrocketed due to the limited availability of the human and technical resources needed to maintain these items. Despite these challenges, industry giants managed to both rent and sell new heavy hardware to manufacturing companies all over Nepal. Their ability to uphold high standards and focus meticulously on every detail ensured their continued success in a highly demanding and interconnected market.",
       "image": "https://images.stockcake.com/public/1/8/1/181de165-41a2-42c6-a1e1-501f3d1e8289_large/scanning-qr-code-stockcake.jpg",
       "conclusion": "The implementation of these technologies significantly improved the overall efficiency of the operations. Barcode and tracking solutions enabled precise management of parts and fasteners, reduced errors, and ensured timely maintenance of machinery. As a result, companies could prevent unexpected breakdowns, reduce downtime, and maintain the high performance of their heavy machinery. This technological advancement highlighted the industry's shift towards more sophisticated and reliable maintenance practices.",

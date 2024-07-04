@@ -18,7 +18,7 @@ const HomeHero = async () => {
   var settings = {
     dots: false,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     speed: 3000,
     slidesToShow: 1,
@@ -95,7 +95,6 @@ const HomeHero = async () => {
   // ];
   return (
     <section className="hero-slider">
-      {/* <section className="hero-slider hero-transparent-bg bg-img fix"> */}
       <div className="hero-slider-active slick-arrow-style slick-arrow-style_hero slick-dot-style">
         <Slider {...settings}>
           {heroData?.map((hero: any) => {
@@ -114,21 +113,23 @@ const HomeHero = async () => {
                     <div className="row align-items-center">
                       <div className="col-xl-5 col-sm-6">
                         <div className="hero-slider-content">
-                          <div
-                            className={`${
-                              hero.bg ? "bg-white p-4" : ""
-                            } moving-vertical`}
-                            style={{ width: "max-content" }}
-                          >
-                            <Image
-                              priority={true}
-                              src={hero.logo}
-                              alt="policy banner"
-                              className="moving-vertical "
-                              width={200} // Adjust as needed
-                              height={200} // Adjust as needed
-                            />
-                          </div>
+                          {hero?.logo !== "" && (
+                            <div
+                              className={`${
+                                hero.bg ? "bg-white p-4" : ""
+                              } moving-vertical`}
+                              style={{ width: "max-content" }}
+                            >
+                              <Image
+                                priority={true}
+                                src={hero.logo}
+                                alt="policy banner"
+                                className="moving-vertical "
+                                width={200}
+                                height={200}
+                              />
+                            </div>
+                          )}
                           <h1
                             className=" slide-title"
                             style={{ marginTop: "60px" }}
@@ -138,16 +139,18 @@ const HomeHero = async () => {
                           {/* <Link href="/about" className="btn btn-hero">
                             Read More
                           </Link> */}
-                          <div
-                            className="keywords"
-                            style={{
-                              wordSpacing: "10px",
-                              fontSize: "24px",
-                              marginTop: "60px",
-                            }}
-                          >
-                            {hero.keyWords}
-                          </div>
+                          {hero.keyWords !== "" && (
+                            <div
+                              className="keywords"
+                              style={{
+                                wordSpacing: "10px",
+                                fontSize: "24px",
+                                marginTop: "60px",
+                              }}
+                            >
+                              {hero.keyWords}
+                            </div>
+                          )}
                         </div>
                       </div>
                       <div className="col-xl-7 col-sm-6">
