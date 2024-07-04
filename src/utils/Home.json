@@ -6,13 +6,13 @@
       "mainText": "Control the access of your system smoothly",
       "keyWords": "Finger Scanner",
       "image": "https://i.imgur.com/DT79F3k.jpeg",
-      "logo": ""
+      "logo": "https://i.imgur.com/7GtQDAI.png"
     },
     {
       "id": 2,
       "name": "Activ",
       "mainText": "Automates tasks, provides real time insights and ensures compliance",
-      "keyWords": "HR Payroll",
+      "keyWords": "HR | Payroll",
       "image": "https://i.imgur.com/h1MMQPa.jpeg",
       "logo": "https://api-website.sooritechnology.com.np/media/hero/logo-1.png"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Card Printing Solution",
       "mainText": "Print High Quality Card",
-      "keyWords": "RFID | Card Printer",
+      "keyWords": "RFID Card Printer",
       "image": "https://i.imgur.com/ZCicKwb.png",
       "logo": ""
     },
@@ -111,7 +111,8 @@
           {
             "id": 3,
             "title": "Accuracy in Operations",
-            "description": "The implementation of these technologies significantly improved operational accuracy. As a result, costly errors were minimized, contributing to a more efficient and reliable workflow."          },
+            "description": "The implementation of these technologies significantly improved operational accuracy. As a result, costly errors were minimized, contributing to a more efficient and reliable workflow."
+          },
           {
             "id": 4,
             "title": "Focused on Cost Savings",
