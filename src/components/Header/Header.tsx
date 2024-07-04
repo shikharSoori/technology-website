@@ -256,17 +256,17 @@ const Header = () => {
                       <Link href="/hardware">Hardware</Link>
                       {/* Add more menu items as needed */}
                       <ul className="dropdown">
+                        {hardware?.slice(0, 2)?.map((product: any) => {
+                          return (
+                            <li key={product?.id}>
+                              <Link href={`/hardware/${product?.id}`}>
+                                {product.name}
+                              </Link>
+                            </li>
+                          );
+                        })}
                         <li>
-                          <Link href="/products/wacom">Wacom</Link>
-                        </li>
-                        <li>
-                          <Link href="/products/hid">HID</Link>
-                        </li>
-                        <li>
-                          <Link href="/products/logitech">Logitech</Link>
-                        </li>
-                        <li>
-                          <Link href="/products/zebra">Zebra</Link>
+                          <Link href={`/hardware`}>Other Products</Link>
                         </li>
                       </ul>
                     </li>
@@ -275,16 +275,16 @@ const Header = () => {
                       {/* Add more menu items as needed */}
                       <ul className="dropdown">
                         <li>
-                          <Link href="/solutions/wacom">Warehouse</Link>
+                          <Link href="/solutions/cubix">Cubix</Link>
                         </li>
                         <li>
-                          <Link href="/solutions/hid">HID</Link>
+                          <Link href="/solutions/activ">Activ</Link>
                         </li>
                         <li>
-                          <Link href="/solutions/logitech">Logitech</Link>
+                          <Link href="/solutions/trackline">Trackline</Link>
                         </li>
                         <li>
-                          <Link href="/solutions/zebra">Zebra</Link>
+                          <Link href="/solutions/onservice">On Service</Link>
                         </li>
                       </ul>
                     </li>

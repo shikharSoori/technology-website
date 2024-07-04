@@ -818,7 +818,7 @@ header {
 
 .mobile-navigation {
   overflow: hidden;
-  max-height: 360px;
+  max-height: 100%;
   padding: 20px;
 }
 
@@ -2949,7 +2949,6 @@ header {
 
 .blog-content {
   padding-top: 18px;
-
 }
 
 .blog-title {
