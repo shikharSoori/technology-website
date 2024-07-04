@@ -6,10 +6,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { formatName } from "@/utils/FormatName";
 import { link } from "fs";
+import solutions from "@/utils/Home.json";
 
 const Solutions = async () => {
   const data = await getData("solution-app/solution?limit=0&offset=0");
-  const solutions = data?.results;
+  // const solutions = data?.results;
   const data1 = await getData("product-app/product?limit=0&offset=0");
   const products = data1?.results;
   const brandData = await getData("product-app/brand");
@@ -41,6 +42,7 @@ const Solutions = async () => {
       image: "https://i.imgur.com/2MXoeZe.jpeg",
     },
   ];
+  const solutionsData = solutions.solutions;
   return (
     <>
       <AboutHero title="solutions" />{" "}
@@ -49,7 +51,8 @@ const Solutions = async () => {
           <div className="row mtn-40">
             <div className="col-lg-12 order-1 order-lg-2 pl-lg-45 ">
               <div className="row">
-                {newSolutions?.map((solution: any) => {
+                {solutionsData?.map((solution: any) => {
+                  const maxLength = 180;
                   return (
                     <div key={solution?.id} className="col-md-6 col-12">
                       <div className="blog-item mt-40">
@@ -65,13 +68,22 @@ const Solutions = async () => {
                         </div>
                         <div className="blog-content">
                           <h3 className="blog-title">
-                            <Link href={solution?.link}>{solution?.name}</Link>
+                            <Link href={solution?.link}>
+                              {" "}
+                              <Image
+                                src={solution.logo}
+                                width={70}
+                                height={70}
+                                alt="solution-img"
+                              />
+                            </Link>
                           </h3>
                           <p>
-                            Ideas es to obtain pain of itself, because it is
-                            pain, but because occasionally ocean the Internet
-                            tend to be chunks as necessary with some of
-                            themoment.
+                            {solution.description.length >= maxLength
+                              ? `${solution.description
+                                  .substr(0, maxLength)
+                                  .trim()}...`
+                              : solution.description}
                           </p>
                         </div>
                       </div>

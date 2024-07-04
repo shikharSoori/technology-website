@@ -9,7 +9,7 @@ const FeatureModule = ({ modules }: any) => {
         <TitleText title={`Modules`} />
       </h3>
       <div className="row m-0 mt-4 justify-content-between">
-        <div className="col-9">
+        <div className="col-12 col-lg-9">
           <div className="row gap-4">
             {modules?.map((modules: any, index: number) => {
               return (
@@ -26,7 +26,7 @@ const FeatureModule = ({ modules }: any) => {
             })}
           </div>
         </div>
-        <div className="col-3 align-items-start d-flex ">
+        <div className="col-6 col-lg-3 mt-3 mt-lg-0 align-items-start d-flex ">
           <div className="request-demo-wrapper">
             <p className="text-center">
               Gain a thorough exposition of the solution, featuring a use case

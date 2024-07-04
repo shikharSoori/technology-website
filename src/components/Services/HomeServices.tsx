@@ -11,9 +11,9 @@ const HomeServices = async () => {
   const data = await getData(`solution-app/solution`);
   const services = Homeservices?.solutions;
   var testimonialSlider = {
-    autoplaySpeed: 1000,
+    autoplaySpeed: 3000,
     infinite: true,
-    speed: 1000,
+    speed: 3000,
     autoplay: true,
     slidesToShow: 4,
     responsive: [
@@ -54,13 +54,14 @@ const HomeServices = async () => {
                 const initialDelay = services.length * 200;
                 const delay = initialDelay - i * 200; // Decrease by 100ms per item
                 return (
-                  <div
+                  <Link
                     key={i + 1}
                     className="item "
                     data-aos="fade-right"
                     data-aos-delay={delay}
                     data-aos-easing="ease-in-sine"
                     style={{ position: "relative" }}
+                    href={service.link}
                   >
                     <div
                       className=" home-services-card "
@@ -86,7 +87,7 @@ const HomeServices = async () => {
                           : service?.description}
                       </p>
                     </div>
-                  </div>
+                  </Link>
                 );
               })}
             </Slider>

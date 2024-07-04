@@ -38,7 +38,7 @@ const BlogDetail = async ({ params }: props) => {
           <div className="row mtn-40">
             <div className="col-lg-12 order-1 order-lg-2 ">
               <div className="blog-item mt-40">
-                <div className="blog-thumb">
+                {/* <div className="blog-thumb">
                   <Link href="#">
                     <Image
                       src={matchedBlogs?.image || fallbackImage}
@@ -51,7 +51,7 @@ const BlogDetail = async ({ params }: props) => {
                       // object-fit: "cover"
                     />
                   </Link>
-                </div>
+                </div> */}
                 <div className="blog-content blog-details">
                   <h3 className="blog-title">{matchedBlogs?.name}</h3>
                   <div className="blog-meta">
@@ -63,7 +63,7 @@ const BlogDetail = async ({ params }: props) => {
             </div>
           </div>
           <div className="row mt-5">
-            <div className="col-9">
+            <div className="col-12 col-md-12 col-lg-9">
               {matchedBlogs?.keyPoints?.map((keyPoint: any, index: number) => {
                 return (
                   <div key={index} className="row  gap-4">
@@ -71,7 +71,7 @@ const BlogDetail = async ({ params }: props) => {
                       <div className="flex-grow-1 key-point-item">
                         <h4 className="title">{keyPoint.title}</h4>
                         <p className="description ">{keyPoint.description}</p>
-                        <div className="benefits-wrapper">
+                        <div className="benefits-wrapper pl-0 pl-md-4">
                           <h5 className="title mt-5">Key Benefits:</h5>
                           <ul className=" mt-4 m-0 ">
                             {keyPoint.keyBenefits?.map(
@@ -127,8 +127,8 @@ const BlogDetail = async ({ params }: props) => {
               </div>
             </div>
             <div
-              className="col-3 align-items-start d-flex "
-              style={{ position: "relative", paddingTop: "100px" }}
+              className="col-12 col-md-4 col-lg-3 align-items-start justify-content-center d-flex "
+              style={{ position: "relative" }}
             >
               <div className="request-demo-wrapper">
                 <p className="text-center">

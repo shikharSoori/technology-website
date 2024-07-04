@@ -15,14 +15,16 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa6";
-
+import productData from "@/utils/products.json";
 const Footer = async () => {
+  const hardware = productData?.categories;
+
   return (
     <footer>
       <div className="footer-widget-area gray-bg section-padding ">
         <div className="container">
           <div className="row mtn-40">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-5 col-md-6">
               <div className="footer-single-widget mt-40">
                 <div className="widget-logo">
                   <Link href="/">
@@ -154,12 +156,12 @@ const Footer = async () => {
 
                     <li>
                       <Link
-                        href="solutions/inService"
+                        href="solutions/onservice"
                         className="d-flex align-items-center"
                         style={{ gap: "10px" }}
                       >
                         <MdKeyboardDoubleArrowRight />
-                        InService
+                        On Service
                       </Link>
                     </li>
 
@@ -187,52 +189,33 @@ const Footer = async () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="footer-single-widget mt-40">
-                <h3 className="widget-title">Products</h3>
+                <h3 className="widget-title">Hardwares</h3>
                 <div className="widget-body">
                   <ul className="useful-link">
+                    {hardware?.slice(0, 5)?.map((product: any) => {
+                      return (
+                        <li key={product?.id}>
+                          <Link
+                            href={`/hardware/${product?.id}`}
+                            className="d-flex align-items-center"
+                            style={{ gap: "10px" }}
+                          >
+                            <MdKeyboardDoubleArrowRight />
+                            {product.name}
+                          </Link>
+                        </li>
+                      );
+                    })}
                     <li>
                       <Link
-                        href="products/wacom"
+                        href="/hardware"
                         className="d-flex align-items-center"
                         style={{ gap: "10px" }}
                       >
                         <MdKeyboardDoubleArrowRight />
-                        Wacom
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link
-                        href="/products/logitech"
-                        className="d-flex align-items-center"
-                        style={{ gap: "10px" }}
-                      >
-                        <MdKeyboardDoubleArrowRight />
-                        Logitech
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link
-                        href="products/zebra"
-                        className="d-flex align-items-center"
-                        style={{ gap: "10px" }}
-                      >
-                        <MdKeyboardDoubleArrowRight />
-                        Zebra
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link
-                        href="/products/hid"
-                        className="d-flex align-items-center"
-                        style={{ gap: "10px" }}
-                      >
-                        <MdKeyboardDoubleArrowRight />
-                        HID
+                        Other Hardwares
                       </Link>
                     </li>
                   </ul>

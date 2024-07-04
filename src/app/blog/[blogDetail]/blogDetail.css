@@ -11,7 +11,7 @@
   width: 300px;
   position: sticky;
   top: 50%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
 }
 
 .key-point {
@@ -21,7 +21,6 @@
     display: flex;
     flex-direction: column;
     .benefits-wrapper {
-      padding-left: 20px;
     }
     .title {
       font-size: 20px;
@@ -59,5 +58,11 @@
       color: #333;
       text-align: justify;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .bullet {
+    display: none;
   }
 }

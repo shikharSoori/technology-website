@@ -135,17 +135,17 @@ const Header = () => {
                             </li>
                           </ul>
                         </li>
-                        <li>
+                        <li
+                          className={`link ${
+                            pathName === "/hardware" ? "active" : ""
+                          }`}
+                        >
                           <Link href="/hardware">Hardware</Link>
                           <ul className="dropdown">
                             {hardware?.map((product: any) => {
                               return (
                                 <li key={product?.id}>
-                                  <Link
-                                    href={`/hardware/${formatName(
-                                      product.name.toLowerCase()
-                                    )}`}
-                                  >
+                                  <Link href={`/hardware/${product?.id}`}>
                                     {product.name}
                                   </Link>
                                 </li>
@@ -161,13 +161,13 @@ const Header = () => {
                         >
                           <Link href="/blog">Blog</Link>
                         </li>
-                        <li
+                        {/* <li
                           className={`link ${
                             pathName === "/team" ? "active" : ""
                           }`}
                         >
                           <Link href="/team">Team</Link>
-                        </li>
+                        </li> */}
                         <li
                           className={`link ${
                             pathName === "/contact" ? "active" : ""
@@ -291,9 +291,9 @@ const Header = () => {
                     <li className="">
                       <Link href="/blog">Blog</Link>
                     </li>
-                    <li className="">
+                    {/* <li className="">
                       <Link href="/team">Team</Link>
-                    </li>
+                    </li> */}
                     <li className="">
                       <Link href="/contact">Contact</Link>
                     </li>

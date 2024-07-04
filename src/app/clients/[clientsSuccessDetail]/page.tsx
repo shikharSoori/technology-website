@@ -30,7 +30,7 @@ const Page = async ({ params }: props) => {
   const fallbackImage = "/path/to/default-image.png";
   return (
     <>
-      <AboutHero title="blogs" />{" "}
+      <AboutHero title="Clients" />{" "}
       <section className="blog-area section-padding">
         <div className="container">
           <div className="row mtn-40">
@@ -44,10 +44,10 @@ const Page = async ({ params }: props) => {
             </div>
           </div>
           <div className="row mt-5">
-            <div className="col-12 key-point ">
+            <div className="col-12 col-md-12 col-lg-9 key-point ">
               <div className="flex-grow-1 key-point-item">
                 <h4 className="title">Challenges</h4>
-                <div className="benefits-wrapper">
+                <div className="benefits-wrapper pl-0 pl-md-4">
                   <ul className=" mt-4 m-0 ">
                     {matchedClients?.challenge?.challenges?.map(
                       (why: any, index: number) => {
@@ -64,9 +64,7 @@ const Page = async ({ params }: props) => {
                   </ul>
                 </div>
               </div>
-            </div>
-            <div className="col-12 key-point ">
-              <div className="flex-grow-1 key-point-item">
+              <div className="flex-grow-1 key-point-item mt-5">
                 <h4 className="title">Solutions</h4>
                 <p className="description ">
                   {matchedClients?.solution?.description}
@@ -89,6 +87,25 @@ const Page = async ({ params }: props) => {
                     )}
                   </ul>
                 </div>
+              </div>
+            </div>
+            <div
+              className="col-12 col-md-4 col-lg-3 align-items-start justify-content-center d-flex "
+              style={{ position: "relative" }}
+            >
+              <div className="request-demo-wrapper">
+                <p className="text-center">
+                  For more information or to schedule a demo, visit our website
+                  or contact our sales team. Let work together to take your
+                  business to new heights with Soori Technology.
+                </p>
+                <Link
+                  href="/contact"
+                  style={{ width: "max-content" }}
+                  className=" btn py-2 px-4 mt-2"
+                >
+                  Request Demo
+                </Link>
               </div>
             </div>
           </div>

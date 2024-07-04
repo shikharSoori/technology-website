@@ -32,13 +32,13 @@ const Features = (solution: any) => {
                 >
                   <div
                     className="features-bg"
-                    style={{ backgroundImage: `url(${download2.src})` }}
+                    style={{ backgroundImage: `url(${item.image})` }}
                   ></div>
                   <div className="features-desc">
                     <div className="features-logo-bg">
                       <Image
                         className="w-100"
-                        src={icon}
+                        src={"https://i.imgur.com/7GtQDAI.png"}
                         width={370}
                         height={250}
                         alt="blog-img"

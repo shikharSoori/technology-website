@@ -27,24 +27,27 @@ const Trackline = () => {
       {
         id: 1,
         title: "Detailed Asset Tracking",
-        image: download1,
+        image:
+          "https://images.stockcake.com/public/0/1/a/01a23847-0547-4cfc-9855-1a72d4470282_large/diverse-workforce-lineup-stockcake.jpg",
         description:
-          "Manage your workforce from anywhere, at any time, ensuring maximum flexibility and productivity. ",
+          "Manage workforce anywhere, anytime for maximum flexibility and productivity.",
       },
       {
         id: 2,
-        image: download2,
+        image:
+          "https://images.stockcake.com/public/d/7/b/d7be9cab-c14f-47ab-a86d-da7e38919ff8_large/warehouse-workforce-activity-stockcake.jpg",
         title: "Procurement Integration",
         description:
-          "Enjoy seamless integration across all corporate functions, which streamlines your workflow and increases efficiency. Our technology ensures that all of your tools and procedures operate together seamlessly.",
+          "Seamlessly integrates corporate functions, streamlining workflow and increasing efficiency.",
       },
 
       {
         id: 3,
-        image: download2,
-        title: "Warranty and Service Agreement Management",
+        image:
+          "https://images.stockcake.com/public/0/6/e/06e9204a-ebd2-42dd-9327-9ae3705302cd_large/precision-engineering-work-stockcake.jpg",
+        title: "Service Agreement Management",
         description:
-          "Track and evaluate individual performance effortlessly with our intuitive tools. Gain insights into each team member's contributions and progress to foster continuous improvement",
+          " Effortlessly track performance and gain insights with intuitive tools.",
       },
       {
         id: 4,
@@ -141,11 +144,11 @@ const Trackline = () => {
                     <div className="row mt-4">
                       <div className="col-12 col-lg-6 order-2 order-lg-1">
                         <iframe
-                          src="https://www.youtube.com/embed/Sxa7MWMZR9A?autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1&playlist=Sxa7MWMZR9A"
+                          src="https://www.youtube.com/embed/O210zu4RUd4?si=33S0M5XN3G4k36Px&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
                           title="YouTube video player"
+                          frameBorder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           referrerPolicy="strict-origin-when-cross-origin"
-                          frameBorder="0"
                           allowFullScreen
                           style={{
                             borderRadius: "30px 0px 30px 0px ",
@@ -186,13 +189,8 @@ const Trackline = () => {
                 </h3>
                 <div className="row justify-content-center">
                   {data?.products?.map((product: any, number: number) => {
-                    // const brandId = product?.brand;
-                    // const matchedBrand = brands?.find(
-                    //   (brand: any) => brand.id === brandId
-                    // );
-
                     return (
-                      <div key={number} className="col-6 col-md-4 col-lg-3">
+                      <div key={number} className="col-12  col-md-6 col-lg-3">
                         <div className="blog-item mt-40">
                           <div
                             className="blog-thumb"

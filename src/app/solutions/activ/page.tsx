@@ -27,19 +27,22 @@ const Activ = () => {
       {
         id: 1,
         title: "Automated Payroll Processing",
-        image: download1,
+        image:
+          "https://images.stockcake.com/public/b/8/2/b82c73fa-8bf9-4b13-8d40-16f71515fa2d_large/innovative-technology-workspace-stockcake.jpg",
         description: "Automatically calculates wages, taxes, and deductions",
       },
       {
         id: 2,
-        image: download2,
+        image:
+          "https://images.stockcake.com/public/6/3/f/63fe081e-a797-43ff-84fe-d865bb89fa44_large/data-analysis-display-stockcake.jpg",
         title: "Tax Compliance",
         description:
           "Ensures compliance with local, state, and federal tax regulations",
       },
       {
         id: 3,
-        image: download1,
+        image:
+          "https://images.stockcake.com/public/2/b/7/2b7f90ce-a969-47f8-a04b-cbb9287eb03b_large/office-work-essentials-stockcake.jpg",
         title: "Time & Attendance",
         description:
           "Integrates with time-tracking systems to ensure accurate payroll",
@@ -180,11 +183,11 @@ const Activ = () => {
                     <div className="row mt-4">
                       <div className="col-12 col-lg-6 order-2 order-lg-1">
                         <iframe
-                          src="https://www.youtube.com/embed/Sxa7MWMZR9A?autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1&playlist=Sxa7MWMZR9A"
+                          src="https://www.youtube.com/embed/O210zu4RUd4?si=33S0M5XN3G4k36Px&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
                           title="YouTube video player"
+                          frameBorder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           referrerPolicy="strict-origin-when-cross-origin"
-                          frameBorder="0"
                           allowFullScreen
                           style={{
                             borderRadius: "30px 0px 30px 0px ",

@@ -9,7 +9,8 @@
         "Configurable optics and lightning single or Dual M12 Gigabit Ethernet"
       ],
       "category": 1,
-      "brand": 1
+      "brand": 1,
+      "description": ""
     },
     {
       "id": 2,
@@ -17,7 +18,8 @@
       "image": "https://www.zebra.com/content/dam/support-dam/global/photography/web-production/0001/zd220-photography-website-right-1x1-300x300.jpg.imgo.jpg",
       "specs": ["Affordablity meets high quality"],
       "category": 2,
-      "brand": 1
+      "brand": 1,
+      "description": ""
     },
     {
       "id": 3,
@@ -28,19 +30,21 @@
         "Simple to setup, manage and secure with pirnt DNA software FRID capable"
       ],
       "category": 3,
-      "brand": 1
+      "brand": 1,
+      "description": ""
     },
     {
       "id": 4,
       "productName": "L10 XPAD",
-      "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/zt400-series-front-group-3x2-3600.jpg",
+      "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/l10-front-right-android-3x2-3600.jpg",
       "specs": [
         "Android for Windows",
         "Xslate Plus rigid hard handle for eaxy transport",
         "Integrated barcode reader in handle for easy date capture"
       ],
       "category": 4,
-      "brand": 1
+      "brand": 1,
+      "description": ""
     },
     {
       "id": 5,
@@ -52,15 +56,83 @@
         "High Performance battery for full shift"
       ],
       "category": 5,
-      "brand": 1
+      "brand": 1,
+      "description": ""
     },
     {
       "id": 6,
-      "productName": "TC26",
+      "productName": "TC26 - Mobile Computer",
       "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-graphics/spec-sheet-assets/tc21-tc26-spec-sheet-asset-photography.jpg.imgw.3600.3600.jpg",
       "specs": ["Android Mobile Computer", "Scanner inbuilt"],
       "category": 6,
-      "brand": 1
+      "brand": 1,
+      "description": ""
+    },
+    {
+      "id": 7,
+      "productName": "Label",
+      "image": "https://m.media-amazon.com/images/I/71C6ooUXhwL._AC_SL1500_.jpg",
+      "specs": ["Label"],
+      "category": 7,
+      "brand": 1,
+      "description": ""
+    },
+    {
+      "id": 8,
+      "productName": "ZC100 - Card Printer",
+      "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/product-cards/model/zc100-3x2-3600.jpg.imgw.1200.1200.jpg",
+      "specs": ["Card Printer"],
+      "category": 8,
+      "brand": 1,
+      "description": ""
+    },
+    {
+      "id": 9,
+      "productName": "Attendance Machine",
+      "image": "https://m.media-amazon.com/images/I/615fBEcsp9L._AC_SL1500_.jpg?4vu9g0hn3oc5",
+      "specs": ["Attendance Machine"],
+      "category": 9,
+      "brand": 1,
+      "description": ""
+    },
+    {
+      "id": 10,
+      "productName": "Card",
+      "image": "https://image.made-in-china.com/2f0j00yPGkHwmWMMqI/Free-Sample-13-56MHz-Mf-Classic-EV1-1K-White-Blank-Smart-Card-Printable-NFC-RFID-Card.webp",
+      "specs": ["Card"],
+      "category": 10,
+      "brand": 1,
+      "description": ""
+    },
+    {
+      "id": 11,
+      "productName": "RFD40 - RFID Reader",
+      "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/product-cards/model/rfd40premium-3x2-3600.jpg.imgw.1200.1200.jpg",
+      "specs": [
+        "Fast RFID tag capture",
+        "High Performance battery for full shift"
+      ],
+      "category": 5,
+      "brand": 1,
+      "description": ""
+    },
+    {
+      "id": 12,
+      "productName": "RFID Tag",
+      "image": "https://www.expresscorp.com/wp-content/uploads/2023/03/standard-rfid.jpeg",
+      "specs": ["Fast RFID tag"],
+      "category": 11,
+      "brand": 1,
+      "description": ""
+    },
+    {
+      "id": 13,
+      "productName": "AN480 - RFID Antenna",
+      "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/an4x-front-facing-3x2-3600.jpg",
+      "specs": ["RFID Antenna"],
+      "category": 12,
+      "brand": 1,
+      "description": ""
     }
   ],
   "categories": [
@@ -87,6 +159,30 @@
     {
       "id": 6,
       "name": "Mobile Computers"
+    },
+    {
+      "id": 7,
+      "name": "Label"
+    },
+    {
+      "id": 8,
+      "name": "Card Printer"
+    },
+    {
+      "id": 9,
+      "name": "Attendance Machine"
+    },
+    {
+      "id": 10,
+      "name": "Card"
+    },
+    {
+      "id": 11,
+      "name": "RFID Tag"
+    },
+    {
+      "id": 12,
+      "name": "RFID Antenna"
     }
   ]
 }

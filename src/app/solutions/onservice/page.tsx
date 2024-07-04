@@ -22,29 +22,32 @@ const OnService = () => {
     results: [],
     logo: onservice,
     description:
-      "OnService is a solution helps various service providers to better serve hardware repair and maintenance solutions to their clients throughout world. OnService simplifies workforce management, from routine maintenance to emergency repairs, ensuring smooth operations, reduced downtime, and increased productivity. With real-time monitoring, automated reminders, and comprehensive employee reporting, it helps teams to stay ahead of potential challenges and maintain peak performance. This software is intended to assist a service provider develop closer ties with their clients. ",
+      "OnService empowers service providers worldwide with streamlined hardware repair and maintenance solutions. Simplifying workforce management from routine to emergency tasks, it ensures smooth operations, minimizes downtime, and boosts productivity. Real-time monitoring, automated reminders, and detailed employee reporting enable teams to proactively manage challenges and optimize performance, fostering stronger client relationships.",
     features: [
       {
         id: 1,
         title: "Ease in managing workforce",
-        image: download1,
+        image:
+          "https://images.stockcake.com/public/8/9/7/897391f5-54ef-4968-9531-c75b81cd99f8_large/office-workflow-management-stockcake.jpg",
         description:
-          "Manage your workforce from anywhere, at any time, ensuring maximum flexibility and productivity. ",
+          "Ensure flexibility and productivity with anytime, anywhere management capabilities.",
       },
       {
         id: 2,
-        image: download2,
+        image:
+          "https://images.stockcake.com/public/9/f/0/9f04403c-8155-40bf-90bb-de11cb0b7d95_large/factory-worker-assembles-stockcake.jpg",
         title: "Work Integration",
         description:
-          "Enjoy seamless integration across all corporate functions, which streamlines your workflow and increases efficiency. Our technology ensures that all of your tools and procedures operate together seamlessly.",
+          " Streamline operations across functions for enhanced workflow efficiency and cohesion.",
       },
 
       {
         id: 3,
-        image: download2,
+        image:
+          "https://images.stockcake.com/public/6/f/5/6f5aa198-c478-4ef3-86d7-493468479fb9_large/vintage-pressure-gauge-stockcake.jpg",
         title: "Project Cost Analysis",
         description:
-          "Track and evaluate individual performance effortlessly with our intuitive tools. Gain insights into each team member's contributions and progress to foster continuous improvement",
+          "Effortlessly track performance, gain insights, and foster continuous improvement.",
       },
       {
         id: 4,
@@ -125,11 +128,11 @@ const OnService = () => {
                     <div className="row mt-4">
                       <div className="col-12 col-lg-6 order-2 order-lg-1">
                         <iframe
-                          src="https://www.youtube.com/embed/Sxa7MWMZR9A?autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1&playlist=Sxa7MWMZR9A"
+                          src="https://www.youtube.com/embed/O210zu4RUd4?si=33S0M5XN3G4k36Px&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
                           title="YouTube video player"
+                          frameBorder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           referrerPolicy="strict-origin-when-cross-origin"
-                          frameBorder="0"
                           allowFullScreen
                           style={{
                             borderRadius: "30px 0px 30px 0px ",
