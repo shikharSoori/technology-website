@@ -72,7 +72,7 @@
       "id": 7,
       "productName": "Label",
       "image": "https://m.media-amazon.com/images/I/71C6ooUXhwL._AC_SL1500_.jpg",
-      "specs": ["Label"],
+      "specs": ["High Quality Labels"],
       "category": 7,
       "brand": 1,
       "description": ""
@@ -81,7 +81,10 @@
       "id": 8,
       "productName": "ZC100 - Card Printer",
       "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/product-cards/model/zc100-3x2-3600.jpg.imgw.1200.1200.jpg",
-      "specs": ["Card Printer"],
+      "specs": [
+        "The ZC100 is designed to work right out of the box.",
+        " There’s no time-consuming complicated set-up — just plug it in and start reaping the benefits the day your printer arrives."
+      ],
       "category": 8,
       "brand": 1,
       "description": ""
@@ -90,7 +93,7 @@
       "id": 9,
       "productName": "Attendance Machine",
       "image": "https://m.media-amazon.com/images/I/615fBEcsp9L._AC_SL1500_.jpg?4vu9g0hn3oc5",
-      "specs": ["Attendance Machine"],
+      "specs": ["Streamline attendence with precision and eaze"],
       "category": 9,
       "brand": 1,
       "description": ""
@@ -99,7 +102,7 @@
       "id": 10,
       "productName": "Card",
       "image": "https://image.made-in-china.com/2f0j00yPGkHwmWMMqI/Free-Sample-13-56MHz-Mf-Classic-EV1-1K-White-Blank-Smart-Card-Printable-NFC-RFID-Card.webp",
-      "specs": ["Card"],
+      "specs": ["Cards"],
       "category": 10,
       "brand": 1,
       "description": ""
@@ -109,6 +112,7 @@
       "productName": "RFD40 - RFID Reader",
       "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/product-cards/model/rfd40premium-3x2-3600.jpg.imgw.1200.1200.jpg",
       "specs": [
+        "Faster, Smart and Future-Proof",
         "Fast RFID tag capture",
         "High Performance battery for full shift"
       ],
@@ -120,7 +124,7 @@
       "id": 12,
       "productName": "RFID Tag",
       "image": "https://www.expresscorp.com/wp-content/uploads/2023/03/standard-rfid.jpeg",
-      "specs": ["Fast RFID tag"],
+      "specs": ["RFID tag"],
       "category": 11,
       "brand": 1,
       "description": ""
@@ -129,7 +133,7 @@
       "id": 13,
       "productName": "AN480 - RFID Antenna",
       "image": "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/an4x-front-facing-3x2-3600.jpg",
-      "specs": ["RFID Antenna"],
+      "specs": ["AN480 - RFID Antenna"],
       "category": 12,
       "brand": 1,
       "description": ""

@@ -74,34 +74,34 @@ const Cubix = () => {
       {
         id: 1,
         title: "Inventory Optimization & Accuracy",
-        icon: icon1,
+        icon: "https://i.imgur.com/EDry6XO.png",
         description:
           "Enables real-time visibility into inventory levels, locations and movements within the warehouse.",
       },
       {
         id: 2,
-        icon: icon2,
+        icon: "https://i.imgur.com/T7Ptijy.png",
         title: "Mobility Solution",
         description:
           "<span> Do you have lots of stores, warehouses? CUBIX</span> Provides mobility leverage both individuals and businesses can achieve greater efficiency, cost savings, imporved communication, and a better overall experience.",
       },
       {
         id: 3,
-        icon: icon3,
+        icon: "https://i.imgur.com/iISnwLE.png",
         title: "Operational Efficiency",
         description:
           " By implementing <span>CUBIX</span>, warehouses and distribution centers can achieve substantial improvements in operational efficiency, leading to cost savings, better resource utilization, and enhanced customer satisfaction.",
       },
       {
         id: 4,
-        icon: icon4,
+        icon: "https://i.imgur.com/wIfTqm1.png",
         title: "Real-Time Data and Reporting",
         description:
           "Generates insightful reports and analytics on key performance indicators (KPIs).",
       },
       {
         id: 5,
-        icon: icon1,
+        icon: "https://i.imgur.com/t5TCmrn.png",
         title: "Control Warehouse",
         description:
           "<span>  CUBIX</span> is a cloud-based warehouse management system that offers the flexibility for real-time access to warehouse operations from anywhere.",

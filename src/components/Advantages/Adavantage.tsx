@@ -17,7 +17,7 @@ const Adavantage = ({ advantage }: any) => {
                   <div className="service-policy-item mt-30">
                     <div className="service-policy-icon d-flex justify-content-center">
                       <Image
-                        src={item?.icon?.src}
+                        src={item?.icon}
                         alt="icon"
                         width={50}
                         height={50}
