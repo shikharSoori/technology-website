@@ -36,7 +36,7 @@ const Blog = async () => {
           <div className="col-md-9 col-12">
             <div className="d-flex flex-column blog-item h-100 mt-30">
               <div className="blog-thumb h-100">
-                <Link href="blog-details.html">
+                <Link href={`blog/${mainBlogs.id}`}>
                   <Image
                     className="blog-thumb-img"
                     height={200}

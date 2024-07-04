@@ -54,14 +54,13 @@ const HomeServices = async () => {
                 const initialDelay = services.length * 200;
                 const delay = initialDelay - i * 200; // Decrease by 100ms per item
                 return (
-                  <Link
+                  <div
                     key={i + 1}
                     className="item "
                     data-aos="fade-right"
                     data-aos-delay={delay}
                     data-aos-easing="ease-in-sine"
                     style={{ position: "relative" }}
-                    href={service.link}
                   >
                     <div
                       className=" home-services-card "
@@ -87,7 +86,7 @@ const HomeServices = async () => {
                           : service?.description}
                       </p>
                     </div>
-                  </Link>
+                  </div>
                 );
               })}
             </Slider>

@@ -80,7 +80,7 @@ const Testimonials = async () => {
                           background: `linear-gradient(0deg, rgba(0, 56, 102, 0.78) 0%, rgba(0, 0, 0, 0) 45.5%), url(${image}) center / cover no-repeat`,
                         }}
                       >
-                        <Link href="#">
+                        <Link href={`/clients/${id}`}>
                           <h4>{name}</h4>
                         </Link>
                         <p>
