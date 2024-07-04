@@ -11,13 +11,15 @@ const BlogCard = ({ blog }: any) => {
     <>
       <div className="blog-item mt-40">
         <div className="blog-thumb">
-          <Link href={`/blog/${blog.id}`}>
+          <Link href={blog.link ? blog.link : `/blog/${blog.id}`}>
             <Image height={250} src={blog.image} alt={"hello"} width={370} />
           </Link>
         </div>
         <div className="blog-content">
           <h3 className="blog-title">
-            <Link href={`/blog/${blog.id}`}>{blog.name}</Link>
+            <Link href={blog.link ? blog.link : `/blog/${blog.id}`}>
+              {blog.name}
+            </Link>
           </h3>
 
           {blog.description.length >= maxLength
