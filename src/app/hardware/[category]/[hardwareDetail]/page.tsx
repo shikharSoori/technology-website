@@ -49,15 +49,17 @@ const Page = async ({ params }: props) => {
                 </div>
                 <div className="blog-content blog-details">
                   <h3 className="blog-title">{matchedHardware?.productName}</h3>
-
-                  <p>
+                  {matchedHardware?.specs?.map((spec: any, index: number) => {
+                    return <p key={index}>{spec}</p>;
+                  })}
+                  {/* <p>
                     Bigger ipsum dolor sit amet consectetur adipisicing elit.
                     Voluptate perferendis consequuntur illo aliquid nihil ad
                     neque, debitis praesentium libero ullam asperiores
                     exercitationem deserunt inventore facilis, officiis,
-                  </p>
+                  </p> */}
 
-                  <p>
+                  {/* <p>
                     aliquam maiores asperiores recusandae commodi blanditiis
                     ipsum tempora culpa possimus assumenda ab quidem a
                     voluptatum quia natus? Ex neque, saepe reiciendis quasi
@@ -71,7 +73,7 @@ const Page = async ({ params }: props) => {
                     distinctio esse voluptates optio pariatur aspernatur omnis?
                     Ipsam qui commodi velit natus reiciendis quod quibusdam nemo
                     eveniet similique animi!
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

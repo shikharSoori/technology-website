@@ -26,9 +26,7 @@ const Hardware = () => {
                       <div className="blog-item mt-40">
                         <div className="blog-thumb">
                           <Link
-                            href={`/hardware/${product.category}/${
-                              product?.id
-                            }`}
+                            href={`/hardware/${product.category}/${product?.id}`}
                           >
                             <Image
                               src={product.image}
@@ -46,12 +44,11 @@ const Hardware = () => {
                               {product?.productName}
                             </Link>
                           </h3>
-                          <p>
-                            Ideas es to obtain pain of itself, because it is
-                            pain, but because occasionally ocean the Internet
-                            tend to be chunks as necessary with some of
-                            themoment.
-                          </p>
+                          {product?.specs
+                            ?.slice(0, 1)
+                            .map((spec: any, index: number) => {
+                              return <p key={index}>{spec}</p>;
+                            })}
                         </div>
                       </div>
                     </div>

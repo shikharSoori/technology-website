@@ -71,12 +71,13 @@ const About = () => {
                 style={{ gap: "20px", height: "max-content" }}
               >
                 <h3 className="h1 title">
-                  <TitleText title={`Our<span> Mission</span>`} />
+                  <TitleText title={`Our<span> Vision</span>`} />
                 </h3>
-                <Image src={mission} alt="mission" width={80} height={80} />
+                <Image src={vision} alt="mission" width={80} height={80} />
               </div>
               <h3 className="subtitle text-left">
-                Create some exclusive way to solve our customer problems
+                To to be a leading provider of Software Solutions to enhance
+                operational efficiency and streamline processes for our clients.{" "}
               </h3>
             </div>
             <div className="col-md-6 col-12 mission-wrapper flex-column d-flex align-items-end">
@@ -84,13 +85,14 @@ const About = () => {
                 className="d-flex align-items-end"
                 style={{ gap: "20px", height: "max-content" }}
               >
-                <Image src={vision} alt="mission" width={80} height={80} />
+                <Image src={mission} alt="mission" width={80} height={80} />
                 <h3 className="h1 title">
-                  <TitleText title={`Our<span> Vision</span>`} />
+                  <TitleText title={`Our<span> Mission</span>`} />
                 </h3>
               </div>
               <h3 className="subtitle text-right">
-                Create some exclusive way to solve our customer problems
+                Empowering businesses with immediate access to cutting-edge
+                technology and exceptional support.{" "}
               </h3>
             </div>
           </div>
@@ -114,7 +116,6 @@ const About = () => {
                   width={583} // Adjust as needed
                   height={634} // Adjust as needed
                 />
-                
               </div>
             </div>
             <div

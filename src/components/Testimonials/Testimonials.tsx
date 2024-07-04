@@ -3,6 +3,7 @@ import { getData } from "@/app/lib/getData";
 import TitleText from "./TitleText";
 import Link from "next/link";
 import clientsData from "@/utils/Home.json";
+import "@/components/Services/services.css";
 const Testimonials = async () => {
   var testimonialSlider = {
     dots: false,
