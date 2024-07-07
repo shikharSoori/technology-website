@@ -21,16 +21,16 @@
       "name": "Active",
       "mainText": "Effortless payrolll everytime",
       "keyWords": "",
-      "image": "https://i.imgur.com/ZCicKwb.png",
-      "logo": "https://i.imgur.com/aUqZC3N.jpeg"
+      "image": "https://i.imgur.com/h1MMQPa.jpeg",
+      "logo": "https://imgur.com/zwd85qV.png"
     },
     {
       "id": 4,
-      "name": "Cubix",
-      "mainText": "Simply your ERP, Amplify your Growth",
+      "name": "ID Card",
+      "mainText": "Print highquality Durable Cards",
       "keyWords": "",
-      "image": "https://i.imgur.com/h1MMQPa.jpeg",
-      "logo": "https://i.imgur.com/jIrDw2V.jpeg"
+      "image": "https://imgur.com/ZCicKwb.png",
+      "logo": ""
     },
 
     {
@@ -38,7 +38,7 @@
       "name": "Access Control",
       "mainText": "Control your Assets, Control your Security",
       "keyWords": "",
-      "image": "https://i.imgur.com/MZbBiQN.png",
+      "image": "https://i.imgur.com/LeIDKKh.jpeg",
       "logo": ""
     }
   ],
@@ -54,7 +54,7 @@
     {
       "id": 2,
       "name": "Cubix",
-      "logo": "https://new-technology-frontend.vercel.app/_next/static/media/cubix.0303231f.jpg",
+      "logo": "https://imgur.com/DQc74rw.png",
       "link": "/solutions/cubix",
       "image": "https://i.imgur.com/0sgmtem.jpeg",
       "description": "A Warehouse Management System that offers real-time inventory visibility, ensuring accurate stock tracking and immediate updates across all warehouse locations."
@@ -64,13 +64,13 @@
       "name": "On Service",
       "logo": "https://new-technology-frontend.vercel.app/_next/static/media/onservicelogo.b29ab062.png",
       "link": "/solutions/onservice",
-      "image": "https://api-website.sooritechnology.com.np/media/hero/logo-1.png",
+      "image": "https://images.stockcake.com/public/9/4/9/9499e16a-6475-4f24-ac25-142c96ba4c3d_large/technician-repairing-unit-stockcake.jpg",
       "description": "OnService allows an organization to quickly manage each employee with their project time and cost, which enables the organization optimize their operations and improve customer satisfaction"
     },
     {
       "id": 4,
       "name": "Activ",
-      "logo": "https://i.imgur.com/TpMRYEO.jpeg",
+      "logo": "https://i.imgur.com/zwd85qV.png",
       "link": "/solutions/activ",
       "image": "https://i.imgur.com/2MXoeZe.jpeg",
       "description": "HR payroll streamlines and automates payroll, tax compliance, direct deposit, and employee self-service, enhancing efficiency, accuracy, compliance, and employee satisfaction."

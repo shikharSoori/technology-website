@@ -28,7 +28,7 @@ const Trackline = () => {
         id: 1,
         title: "Detailed Asset Tracking",
         image:
-          "https://images.stockcake.com/public/0/1/a/01a23847-0547-4cfc-9855-1a72d4470282_large/diverse-workforce-lineup-stockcake.jpg",
+          "https://images.stockcake.com/public/3/4/7/34712036-ccd3-4c10-b11d-e45b794e3f3a_large/teamwork-high-five-stockcake.jpg",
         description:
           "Manage workforce anywhere, anytime for maximum flexibility and productivity.",
       },
@@ -143,8 +143,7 @@ const Trackline = () => {
                   <div className="blog-content blog-details">
                     <div className="row mt-4">
                       <div className="col-12 col-lg-6 order-2 order-lg-1">
-                      <iframe
-                          
+                        <iframe
                           src="https://www.youtube.com/embed/0H_kFIkoNEY?si=uIE_PmWdqvylpHK8&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
                           title="Cubix"
                           frameBorder="0"

@@ -85,22 +85,22 @@ const Footer = async () => {
 
                     <li>
                       <Link
-                        href="/products"
+                        href="/hardware"
                         className="d-flex align-items-center"
                         style={{ gap: "10px" }}
                       >
                         <MdKeyboardDoubleArrowRight />
-                        Products
+                        Hardwares
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/team"
+                        href="/solutions"
                         className="d-flex align-items-center"
                         style={{ gap: "10px" }}
                       >
                         <MdKeyboardDoubleArrowRight />
-                        Team
+                        Solutions
                       </Link>
                     </li>
                     <li>
