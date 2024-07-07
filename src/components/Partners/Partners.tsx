@@ -13,9 +13,9 @@ const Partners = async () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     infinite: true,
-    speed: 1000,
-    autoplay: true,
-    autoplaySpeed: 1000,
+    speed: 3000,
+    autoplay: false,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,
@@ -41,7 +41,7 @@ const Partners = async () => {
   const partners = data?.results;
   return (
     <section
-      className="brand-logo-wrapper pb-0 section-padding fix wow fadeInUp"
+      className="brand-logo-wrapper py-3 fix wow fadeInUp"
       data-wow-duration="1s"
       data-wow-delay=".5s"
     >
@@ -53,13 +53,13 @@ const Partners = async () => {
             <Slider {...brandSlider}>
               {partners?.map((member: any) => {
                 return (
-                  <div key={member.id} className="brand-item">
-                    <Link href="#">
+                  <div key={member.id} className="brand-item h-100">
+                    <Link href="" style={{ height: "100%" }}>
                       <Image
                         src={member.image}
                         alt="policy banner"
-                        width={200} // Adjust as needed
-                        height={150} // Adjust as needed
+                        width={150} // Adjust as needed
+                        height={100} // Adjust as needed
                       />
                     </Link>
                   </div>
