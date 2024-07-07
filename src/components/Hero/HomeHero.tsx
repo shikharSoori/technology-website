@@ -17,15 +17,15 @@ const HomeHero = async () => {
 
   var settings = {
     dots: false,
-    arrows: false,
-    autoplay: true,
+    arrows: true,
+    autoplay: false,
     autoplaySpeed: 3000,
-    speed: 3000,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 600,
         settings: {
           arrows: false,
           dots: false,
@@ -33,66 +33,7 @@ const HomeHero = async () => {
       },
     ],
   };
-  // const data1 = [
-  //   {
-  //     id: 1,
-  //     name: "Track line",
-  //     image: hero1,
-  //     logo: logo1,
-  //     mainText: "Manage your Assets with ease",
-  //     keyWords: "RFID | Hello | QR CODE",
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "On Service",
 
-  //     bg: false,
-  //     logo: logo2,
-  //     image: hero2,
-  //     mainText: "Monitor, Maintain, Maximize your services",
-  //     keyWords: "RFID | BARCODE | QR CODE",
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "Activ",
-
-  //     bg: false,
-  //     logo: logo2,
-  //     image: hero3,
-  //     mainText: "Effortless payrolll everytime",
-  //     keyWords: "RFID | BARCODE | QR CODE",
-  //   },
-  //   {
-  //     id: 4,
-  //     name: "Cubix",
-
-  //     bg: false,
-  //     logo: logo2,
-  //     image: hero4,
-  //     mainText: "Simply your ERP, Amplify your Growth",
-  //     keyWords: "RFID | BARCODE | QR CODE",
-  //   },
-  //   {
-  //     id: 5,
-  //     name: "ID Card",
-
-  //     bg: false,
-  //     logo: logo2,
-  //     image: hero4,
-  //     mainText: "Print High Quality & Durable Colors",
-  //     keyWords: "RFID | BARCODE | QR CODE",
-  //   },
-  //   {
-  //     id: 6,
-  //     name: "Access Control",
-
-  //     bg: false,
-  //     logo: logo2,
-  //     image: hero4,
-  //     mainText: "Control your Assets, Control your Security",
-  //     keyWords: "RFID | BARCODE | QR CODE",
-  //   },
-  // ];
   return (
     <section className="hero-slider">
       <div className="hero-slider-active slick-arrow-style slick-arrow-style_hero slick-dot-style">
@@ -113,23 +54,43 @@ const HomeHero = async () => {
                     <div className="row align-items-center">
                       <div className="col-xl-5 col-sm-6">
                         <div className="hero-slider-content">
-                          {hero?.logo !== "" && (
-                            <div
-                              className={`${
-                                hero.bg ? "bg-white p-4" : ""
-                              } moving-vertical`}
-                              style={{ width: "max-content" }}
-                            >
-                              <Image
-                                priority={true}
-                                src={hero.logo}
-                                alt="policy banner"
-                                className="moving-vertical "
-                                width={200}
-                                height={200}
-                              />
-                            </div>
-                          )}
+                          {
+                            hero?.logo !== "" && (
+                              <div
+                                className={`${
+                                  hero.bg ? "bg-white p-4" : ""
+                                } moving-vertical`}
+                                style={{ width: "max-content" }}
+                              >
+                                <Image
+                                  priority={true}
+                                  src={hero.logo}
+                                  alt="policy banner"
+                                  className="moving-vertical "
+                                  width={200}
+                                  height={200}
+                                />
+                              </div>
+                            )
+                            // : (
+                            //   <>
+                            //     {
+                            //       <div className="logo-text">
+                            //         {hero?.logoText?.map(
+                            //           (text: any, index: any) => (
+                            //             <span
+                            //               key={index}
+                            //               style={{ color: text.color }}
+                            //             >
+                            //               {text.text}
+                            //             </span>
+                            //           )
+                            //         )}
+                            //       </div>
+                            //     }
+                            //   </>
+                            // )
+                          }
                           <h1
                             className=" slide-title"
                             style={{ marginTop: "60px" }}

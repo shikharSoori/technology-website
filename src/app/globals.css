@@ -1380,11 +1380,11 @@ header {
 /*---- brand logo section start ----*/
 .brand-item img {
   margin: auto;
-  opacity: 0.25;
+  opacity: 1;
 }
 
 .brand-item:hover img {
-  opacity: 1;
+  transform: scale(1.2);
 }
 
 /*---- brand logo section end ----*/
@@ -1439,24 +1439,6 @@ header {
   .slick-slide,
 .hero-slider-active.slick-arrow-style--testimonial_2 .slick-list .slick-slide {
   padding: 30px;
-}
-
-.slick-arrow-style_hero button.slick-arrow {
-  bottom: 40px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  margin: auto;
-}
-
-.slick-arrow-style_hero button.slick-arrow.slick-next {
-  right: 48%;
-  left: auto;
-}
-
-.slick-arrow-style_hero button.slick-arrow.slick-prev {
-  left: 49%;
 }
 
 /*----- slick arrow style end -----*/
@@ -1646,6 +1628,8 @@ header {
   margin-top: 89px;
 }
 .hero-slider {
+  width: 100%;
+  overflow-y: hidden;
   /* background-image: url(../assets/hero-bg.png); */
 }
 
@@ -3753,6 +3737,16 @@ header {
 }
 
 /*----- footer section end -----*/
+
+.slick-list {
+  z-index: -1;
+}
+.slick-arrow.slick-next {
+  right: 20px;
+}
+.slick-arrow.slick-prev {
+  left: 20px;
+}
 
 .brand-logo-wrapper {
   .slick-list {

@@ -30,7 +30,11 @@
       "mainText": "Print highquality Durable Cards",
       "keyWords": "",
       "image": "https://imgur.com/ZCicKwb.png",
-      "logo": ""
+      "logo": "",
+      "logoText": [
+        { "text": "Asset ", "color": "red" },
+        { "text": "Management", "color": "black" }
+      ]
     },
 
     {
