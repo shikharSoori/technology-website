@@ -2,14 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Slider from "@/components/Carousel/Carousel";
 import { getData } from "@/app/lib/getData";
-import hero1 from "../../assets/onservice.png";
-import hero2 from "../../assets/HR.jpg";
-import hero3 from "../../assets/ACCESSCONTROL.png";
-import hero4 from "../../assets/CARDPRINTER.png";
-import logo1 from "../../assets/tracklinelogo.png";
-import logo2 from "../../assets/onservicelogo.png";
 import "./homeHero.css";
 import hero from "@/utils/Home.json";
+import parse from "html-react-parser";
 const HomeHero = async () => {
   const data = await getData(`core-app/banner-images`);
   const heroContent = data?.results;
@@ -54,43 +49,35 @@ const HomeHero = async () => {
                     <div className="row align-items-center">
                       <div className="col-xl-5 col-sm-6">
                         <div className="hero-slider-content">
-                          {
-                            hero?.logo !== "" && (
-                              <div
-                                className={`${
-                                  hero.bg ? "bg-white p-4" : ""
-                                } moving-vertical`}
-                                style={{ width: "max-content" }}
-                              >
-                                <Image
-                                  priority={true}
-                                  src={hero.logo}
-                                  alt="policy banner"
-                                  className="moving-vertical "
-                                  width={200}
-                                  height={200}
-                                />
-                              </div>
-                            )
-                            // : (
-                            //   <>
-                            //     {
-                            //       <div className="logo-text">
-                            //         {hero?.logoText?.map(
-                            //           (text: any, index: any) => (
-                            //             <span
-                            //               key={index}
-                            //               style={{ color: text.color }}
-                            //             >
-                            //               {text.text}
-                            //             </span>
-                            //           )
-                            //         )}
-                            //       </div>
-                            //     }
-                            //   </>
-                            // )
-                          }
+                          {hero?.logo !== "" ? (
+                            <div
+                              className={`${
+                                hero.bg ? "bg-white p-4" : ""
+                              } moving-vertical`}
+                              style={{ width: "max-content" }}
+                            >
+                              <Image
+                                priority={true}
+                                src={hero.logo}
+                                alt="policy banner"
+                                className="moving-vertical "
+                                width={200}
+                                height={200}
+                              />
+                            </div>
+                          ) : (
+                            <>
+                              {
+                                <div
+                                  className="logo-text moving-vertical"
+                                  data-aos="fade-right"
+                                  data-aos-duration="1000"
+                                >
+                                  {hero?.logoText && parse(hero.logoText)}
+                                </div>
+                              }
+                            </>
+                          )}
                           <h1
                             className=" slide-title"
                             style={{ marginTop: "60px" }}

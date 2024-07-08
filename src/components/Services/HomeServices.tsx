@@ -11,6 +11,7 @@ const HomeServices = async () => {
   const data = await getData(`solution-app/solution`);
   const services = Homeservices?.solutions;
   var testimonialSlider = {
+    arrow: false,
     autoplaySpeed: 3000,
     infinite: true,
     speed: 3000,
@@ -52,7 +53,7 @@ const HomeServices = async () => {
               {services?.map((service: any, i: number) => {
                 const maxLength = 100;
                 const initialDelay = services.length * 200;
-                const delay = initialDelay - i * 200; // Decrease by 100ms per item
+                const delay = initialDelay - i * 200;
                 return (
                   <div
                     key={i + 1}

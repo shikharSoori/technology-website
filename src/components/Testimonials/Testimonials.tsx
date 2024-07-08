@@ -8,7 +8,7 @@ const Testimonials = async () => {
   var testimonialSlider = {
     dots: false,
     infinite: false,
-    speed: 1000,
+    speed: 3000,
     autoplay: true,
     slidesToShow: 3,
     autoplayspeed: 1000,
@@ -60,12 +60,11 @@ const Testimonials = async () => {
             data-wow-duration="1s"
             data-wow-delay=".5s"
           >
-            <div className="feature_slider_inner mt-0">
+            <div className="feature_slider_inner mt-0 ">
               <Slider {...testimonialSlider}>
                 {testimonials?.map((testimonial: any, i: number) => {
                   const maxLength = 100;
                   const { id, image, name, description } = testimonial;
-                  console.log(image);
                   return (
                     <div
                       key={i + 1}
