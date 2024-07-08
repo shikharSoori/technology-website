@@ -116,7 +116,11 @@ const Header = () => {
                         >
                           <Link href="/about">About us</Link>
                         </li>
-                        <li>
+                        <li
+                          className={`link ${
+                            pathName === "/solutions" ? "active" : ""
+                          }`}
+                        >
                           <Link href="/solutions">Solutions</Link>
                           <ul className="dropdown">
                             <li>
