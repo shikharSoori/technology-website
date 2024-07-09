@@ -113,8 +113,8 @@ const Contact = () => {
 
                 <ul>
                   <li>
-                    <i className="fa fa-fax"></i> Address : No 40 Baria Sreet
-                    Dillibazar, Kathmandu-29, Kathmandu
+                    <i className="fa fa-fax"></i> Address : Dillibazar,
+                    Kathmandu-29, Kathmandu
                   </li>
                   <li>
                     <i className="fa fa-envelope-o"></i> E-mail:
