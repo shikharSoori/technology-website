@@ -3794,3 +3794,8 @@ header {
     color: #bf202f;
   }
 }
+
+::selection {
+  background: #bf202f;
+  color: #ffffff;
+}

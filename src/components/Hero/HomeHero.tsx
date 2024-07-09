@@ -79,7 +79,7 @@ const HomeHero = async () => {
                             </>
                           )}
                           <h1
-                            className=" slide-title"
+                            className="home slide-title"
                             style={{ marginTop: "60px" }}
                           >
                             {hero.mainText}

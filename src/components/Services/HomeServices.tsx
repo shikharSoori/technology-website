@@ -14,7 +14,7 @@ const HomeServices = async () => {
     arrow: false,
     autoplaySpeed: 3000,
     infinite: true,
-    speed: 3000,
+    speed: 1000,
     autoplay: true,
     slidesToShow: 4,
     responsive: [

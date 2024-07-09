@@ -13,8 +13,8 @@ const Partners = async () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     infinite: true,
-    speed: 3000,
-    autoplay: false,
+    speed: 1000,
+    autoplay: true,
     autoplaySpeed: 3000,
     responsive: [
       {

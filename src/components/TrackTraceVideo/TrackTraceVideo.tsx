@@ -24,9 +24,19 @@ const TrackTraceVideo = () => {
                 // data-aos-duration="2000"
                 // data-aos-delay="5000"
               >
-                <iframe
+                {/* <iframe
                   // height="auto"
                   src="https://www.youtube.com/embed/Sxa7MWMZR9A?autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1&playlist=Sxa7MWMZR9A"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  frameBorder="0"
+                  allowFullScreen
+                  style={{ borderRadius: "60px 0px 60px 0px " }}
+                ></iframe> */}
+                <iframe
+              
+                  src="https://www.youtube.com/embed/CyZVnuj5zqI?si=asMn4TsWqmJ8QQ1j&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"

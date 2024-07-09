@@ -143,11 +143,24 @@ const Trackline = () => {
                   <div className="blog-content blog-details">
                     <div className="row mt-4">
                       <div className="col-12 col-lg-6 order-2 order-lg-1">
-                        <iframe
+                        {/* <iframe
                           src="https://www.youtube.com/embed/0H_kFIkoNEY?si=uIE_PmWdqvylpHK8&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
                           title="Cubix"
                           frameBorder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerPolicy="strict-origin-when-cross-origin"
+                          allowFullScreen
+                          style={{
+                            borderRadius: "30px 0px 30px 0px ",
+                            width: "100%",
+                            aspectRatio: "16/9",
+                          }}
+                          className="mt-4 mt-lg-0"
+                        ></iframe> */}
+                        <iframe
+                         
+                          src="https://www.youtube.com/embed/a3GzmYIVVjs?si=B1MKR831r0du4rrg&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
+                          title="YouTube video player"
                           referrerPolicy="strict-origin-when-cross-origin"
                           allowFullScreen
                           style={{

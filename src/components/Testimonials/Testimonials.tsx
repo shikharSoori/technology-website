@@ -8,7 +8,7 @@ const Testimonials = async () => {
   var testimonialSlider = {
     dots: false,
     infinite: false,
-    speed: 3000,
+    speed: 1000,
     autoplay: true,
     slidesToShow: 3,
     autoplayspeed: 1000,
