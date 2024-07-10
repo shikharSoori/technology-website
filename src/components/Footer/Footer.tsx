@@ -45,7 +45,7 @@ const Footer = async () => {
                       {/* 35621 895 456 */}
                     </li>
                     <li>
-                      <span>Web:</span> info@sooritechnology.com <br />
+                      <span>Mail:</span> info@sooritechnology.com <br />
                       {/* www.example.com */}
                     </li>
                   </ul>
@@ -229,7 +229,7 @@ const Footer = async () => {
         <div className="container">
           <div className="copyright-text text-center">
             <p>
-              &copy; 2021 <b>Soori Technology</b> Developed By{" "}
+              &copy; 2024 <b>Soori Technology</b> Developed By{" "}
               <i className="fa fa-heart text-danger"></i> by{" "}
               <Link href="/">
                 <b>Soori Solutions</b>

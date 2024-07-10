@@ -199,7 +199,6 @@ const Cubix = () => {
                     <div className="row mt-4">
                       <div className="col-12 col-lg-6 order-2 order-lg-1">
                         <iframe
-                          
                           src="https://www.youtube.com/embed/0H_kFIkoNEY?si=uIE_PmWdqvylpHK8&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
                           title="Cubix"
                           frameBorder="0"
@@ -213,7 +212,7 @@ const Cubix = () => {
                           }}
                           className="mt-4 mt-lg-0"
                         ></iframe>
-                      
+
                         {/* <iframe
                           src="https://www.youtube.com/embed/Sxa7MWMZR9A?autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1&playlist=Sxa7MWMZR9A"
                           title="YouTube video player"
@@ -237,11 +236,7 @@ const Cubix = () => {
                           alt="blog-img"
                           className="solution-logo"
                         />
-                        <p className="text-justify mt-2">
-                          {data.description} Bigger ipsum dolor sit amet
-                          consectetur adipisicing elit. Voluptate perferendis
-                          consequuntur illo aliquid nihil ad neque, debitis
-                        </p>
+                        <p className="text-justify mt-2">{data.description}</p>
                       </div>
                     </div>
 
