@@ -75,7 +75,7 @@ const Page = async ({ params }: any) => {
                         alt="blog-img"
                         className="solution-logo"
                       />
-                      <p className="text-justify mt-2">
+                      <p className="text-justify mt-4">
                         {matchedSolution.description} Bigger ipsum dolor sit
                         amet consectetur adipisicing elit. Voluptate perferendis
                         consequuntur illo aliquid nihil ad neque, debitis

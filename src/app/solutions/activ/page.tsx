@@ -205,7 +205,7 @@ const Activ = () => {
                           alt="blog-img"
                           className="solution-logo"
                         />
-                        <p className="text-justify mt-2">{data.description}</p>
+                        <p className="text-justify mt-4">{data.description}</p>
                       </div>
                     </div>
 

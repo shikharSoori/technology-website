@@ -158,7 +158,6 @@ const Trackline = () => {
                           className="mt-4 mt-lg-0"
                         ></iframe> */}
                         <iframe
-                         
                           src="https://www.youtube.com/embed/a3GzmYIVVjs?si=B1MKR831r0du4rrg&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
                           title="YouTube video player"
                           referrerPolicy="strict-origin-when-cross-origin"
@@ -179,7 +178,7 @@ const Trackline = () => {
                           alt="blog-img"
                           className="solution-logo"
                         />
-                        <p className="text-justify mt-2">{data.description}</p>
+                        <p className="text-justify mt-4">{data.description}</p>
                       </div>
                     </div>
 

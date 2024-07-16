@@ -29,8 +29,8 @@ const FeatureModule = ({ modules }: any) => {
         <div className="col-6 col-lg-3 mt-3 mt-lg-0 align-items-start d-flex ">
           <div className="request-demo-wrapper">
             <p className="text-center">
-              Gain a thorough exposition of the solution, featuring a use case
-              that is custom-fitted nuances of your business environment.
+            Get a personalized demo tailored to your Business need.
+
             </p>
             <Link
               href="/contact"

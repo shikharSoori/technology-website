@@ -21,28 +21,14 @@ const TrackTraceVideo = () => {
               <div
                 className="testimonial-thumb testimonial-thumb--style_2"
                 data-aos="zoom-out-left"
-                // data-aos-duration="2000"
-                // data-aos-delay="5000"
               >
-                {/* <iframe
-                  // height="auto"
-                  src="https://www.youtube.com/embed/Sxa7MWMZR9A?autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1&playlist=Sxa7MWMZR9A"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  frameBorder="0"
-                  allowFullScreen
-                  style={{ borderRadius: "60px 0px 60px 0px " }}
-                ></iframe> */}
                 <iframe
-              
                   src="https://www.youtube.com/embed/CyZVnuj5zqI?si=asMn4TsWqmJ8QQ1j&autoplay=1&mute=1&rel=0&controls=0&modestbranding=1&loop=1"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   frameBorder="0"
                   allowFullScreen
-                  style={{ borderRadius: "60px 0px 60px 0px " }}
                 ></iframe>
               </div>
             </div>
@@ -55,10 +41,9 @@ const TrackTraceVideo = () => {
                 <h2 className="h1 title">
                   <TitleText
                     title={`
-    Track <span data-aos="fade-right" data-aos-duration="2000" data-aos-delay="5000">Trace &</span> \
+    Track, <span data-aos="fade-right" data-aos-duration="2000" data-aos-delay="5000">Trace &</span> \
     <br /> Identity  `}
                   />
-                  {/* What <span>Client’s</span> say <br /> happy reviews{" "} */}
                 </h2>
                 <p className="mt-3 text-justify">
                   We assist businesses in leveraging digital transformation to
@@ -67,21 +52,6 @@ const TrackTraceVideo = () => {
                   raising the bar for overall productivity and standards. We
                   ensure, traceability with a single click.
                 </p>
-
-                {/* <Slider>
-                  <div className="testimonial-item testimonial-item--style_2 ">
-                    <div className="testimonial-content">
-                      <p>{"Hello"}</p>
-                      <h5 className="client-name">{"testimonial?.name"}</h5>
-                      <h6 className="client-desig">
-                        {"testimonial?.designation"},{" "}
-                        {"testimonial?.designation"}
-                      </h6>
-                    </div>
-                  </div>
-                </Slider> */}
-
-                {/*  */}
               </div>
             </div>
           </div>

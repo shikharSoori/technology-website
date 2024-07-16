@@ -95,8 +95,8 @@ const Page = async ({ params }: props) => {
             >
               <div className="request-demo-wrapper">
                 <p className="text-center">
-                  For more information or to schedule a demo, visit our website
-                  or contact our sales team.
+                Get a personalized demo tailored to your Business need.
+
                 </p>
                 <Link
                   href="/contact"
