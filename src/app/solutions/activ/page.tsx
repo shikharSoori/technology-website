@@ -143,28 +143,35 @@ const Activ = () => {
     ],
     products: [
       {
-        id: 1,
+        id: 8,
+        productName: "Card Printer",
         image:
           "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/product-cards/model/zc100-3x2-3600.jpg.imgw.1200.1200.jpg",
-        productName: "ZC100",
-        brand: "Brand 1",
-        category: "Card Printer",
+        specs: [
+          "The Card Printer is designed to work right out of the box.",
+          " There’s no time-consuming complicated set-up — just plug it in and start reaping the benefits the day your printer arrives.",
+        ],
+        category: 8,
+        brand: 1,
       },
       {
-        id: 2,
+        id: 9,
+        productName: "Attendance Machine",
         image:
           "https://m.media-amazon.com/images/I/615fBEcsp9L._AC_SL1500_.jpg?4vu9g0hn3oc5",
-        productName: "",
-        brand: "Brand 1",
-        category: "Attendance Machine",
+        specs: ["Streamline attendence with precision and eaze"],
+        category: 9,
+        brand: 1,
       },
       {
-        id: 3,
+        id: 10,
+        productName: "Card",
         image:
           "https://image.made-in-china.com/2f0j00yPGkHwmWMMqI/Free-Sample-13-56MHz-Mf-Classic-EV1-1K-White-Blank-Smart-Card-Printable-NFC-RFID-Card.webp",
-        productName: "",
-        brand: "Brand 1",
-        category: "Card",
+        specs: ["Cards"],
+        category: 10,
+        brand: 1,
+        description: "",
       },
     ],
     modules: [],
@@ -241,9 +248,7 @@ const Activ = () => {
                             style={{ height: "170px" }}
                           >
                             <Link
-                              href={`/products/${product?.brand}/${formatName(
-                                product?.productName
-                              )}`}
+                              href={`/hardware/${product?.category}/${product?.id}`}
                             >
                               <Image
                                 src={product.image}
@@ -256,14 +261,12 @@ const Activ = () => {
                           <div className="blog-content">
                             <h3 className="blog-title">
                               <Link
-                                href={`/products/${product?.brand}/${formatName(
-                                  product?.productName
-                                )}`}
+                                href={`/hardware/${product?.category}/${product?.id}`}
                                 style={{ fontSize: "22px" }}
                               >
                                 {product?.productName}
-                                {product?.productName ? " - " : ""}
-                                {product?.category}
+                                {/* {product?.productName ? " - " : ""}
+                                {product?.category} */}
                               </Link>
                             </h3>
                           </div>

@@ -96,20 +96,25 @@ const OnService = () => {
     ],
     products: [
       {
-        id: 1,
+        id: 3,
+        productName: "Industrial Printer",
         image:
-          "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/zt400-series-left-front-3x2-3600.jpg",
-        productName: "ZT400",
-        brand: "Brand 1",
-        category: "Industrial Printer",
+          "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/zt400-series-front-group-3x2-3600.jpg",
+        specs: [
+          "Performance, versatility and reliablity",
+          "Simple to setup, manage and secure with pirnt DNA software FRID capable",
+        ],
+        category: 3,
+        brand: 1,
       },
       {
-        id: 2,
+        id: 7,
+        productName: "Label",
         image:
           "https://m.media-amazon.com/images/I/71C6ooUXhwL._AC_SL1500_.jpg",
-        productName: "",
-        brand: "Brand 1",
-        category: "Label",
+        specs: ["High Quality Labels"],
+        category: 7,
+        brand: 1,
       },
     ],
     modules: [],
@@ -186,9 +191,7 @@ const OnService = () => {
                             style={{ height: "170px" }}
                           >
                             <Link
-                              href={`/products/${product?.brand}/${formatName(
-                                product?.productName
-                              )}`}
+                              href={`/hardware/${product?.category}/${product?.id}`}
                             >
                               <Image
                                 src={product.image}
@@ -201,14 +204,12 @@ const OnService = () => {
                           <div className="blog-content">
                             <h3 className="blog-title">
                               <Link
-                                href={`/products/${product?.brand}/${formatName(
-                                  product?.productName
-                                )}`}
+                                href={`/hardware/${product?.category}/${product?.id}`}
                                 style={{ fontSize: "22px" }}
                               >
                                 {product?.productName}
-                                {product?.productName ? " - " : ""}
-                                {product?.category}
+                                {/* {product?.productName ? " - " : ""}
+                                {product?.category} */}
                               </Link>
                             </h3>
                           </div>

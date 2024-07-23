@@ -96,36 +96,50 @@ const Trackline = () => {
     ],
     products: [
       {
-        id: 1,
+        id: 3,
+        productName: "Industrial Printer",
         image:
           "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/zt400-series-left-front-3x2-3600.jpg",
-        productName: "ZT400",
-        brand: "Brand 1",
-        category: "Industrial Printer",
+        specs: [
+          "Performance, versatility and reliablity",
+          "Simple to setup, manage and secure with pirnt DNA software FRID capable",
+        ],
+        category: 3,
+        brand: 1,
       },
       {
-        id: 2,
+        id: 11,
+        productName: "RFID Reader",
         image:
-          "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/product-cards/model/rfd40premium-3x2-3600.jpg.imgw.1200.1200.jpg",
-        productName: "RFD40",
-        brand: "Brand 1",
-        category: "RFID Reader",
+          "https://cdn11.bigcommerce.com/s-ka7ofex/images/stencil/1280x1280/products/2371/8017/Zebra_FX9600_Reader__00320.1704390636.jpg?c=2",
+        specs: [
+          "Faster, Smart and Future-Proof",
+          "Fast RFID tag capture",
+          "High Performance battery for full shift",
+        ],
+        category: 5,
+        brand: 1,
+        description: "",
       },
       {
-        id: 3,
+        id: 12,
+        productName: "RFID Tag",
         image:
           "https://www.expresscorp.com/wp-content/uploads/2023/03/standard-rfid.jpeg",
-        productName: "",
-        brand: "Brand 1",
-        category: "RFID Tag",
+        specs: ["RFID tag"],
+        category: 11,
+        brand: 1,
+        description: "",
       },
       {
-        id: 4,
+        id: 13,
+        productName: "AN480 - RFID Antenna",
         image:
           "https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/web001/an4x-front-facing-3x2-3600.jpg",
-        productName: " AN480",
-        brand: "Brand 1",
-        category: "RFID Antenna",
+        specs: ["AN480 - RFID Antenna"],
+        category: 12,
+        brand: 1,
+        description: "",
       },
     ],
     modules: [],
@@ -209,9 +223,7 @@ const Trackline = () => {
                             style={{ height: "170px" }}
                           >
                             <Link
-                              href={`/products/${product?.brand}/${formatName(
-                                product?.productName
-                              )}`}
+                              href={`/hardware/${product?.category}/${product?.id}`}
                             >
                               <Image
                                 src={product.image}
@@ -224,14 +236,12 @@ const Trackline = () => {
                           <div className="blog-content">
                             <h3 className="blog-title">
                               <Link
-                                href={`/products/${product?.brand}/${formatName(
-                                  product?.productName
-                                )}`}
+                                href={`/hardware/${product?.category}/${product?.id}`}
                                 style={{ fontSize: "22px" }}
                               >
                                 {product?.productName}
-                                {product?.productName ? " - " : ""}
-                                {product?.category}
+                                {/* {product?.productName ? " - " : ""}
+                                {product?.category} */}
                               </Link>
                             </h3>
                           </div>
