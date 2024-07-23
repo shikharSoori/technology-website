@@ -19,29 +19,26 @@ const Home = () => {
       <MotoBanner />
       <TrackTraceVideo />
       <HomeServices />
-      <Link href="/solutions/trackline">
+
         <div
           className=" rfid-trackline-banner w-100"
           style={{
             backgroundImage: `url(${RfidBanner.src})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            borderTop: " 1px solid #e7e7e7e",
           }}
         >
           <div className="h-100 container section-padding text-right">
-            <h3 className="h1 title" style={{ fontSize: "70px" }}>
+            <h3 className="h1 title">
               <TitleText
-                title={`Build <span> Faster</span> <br/>Automation <br/>  `}
+                title={`Build <span> Faster</span><br/>Automation <br/> with <span >RFID</span>`}
               />
-              with <span style={{ fontSize: "70px" }}> RFID</span>
+        
             </h3>
             <Link href="/solutions/trackline" className="btn btn-all mt-4">
               Read More
             </Link>
           </div>
         </div>
-      </Link>
+  
       <WhySoori />
       {/* <Image
           className="w-100 rfid-banner-home"

@@ -3799,3 +3799,35 @@ header {
   background: #bf202f;
   color: #ffffff;
 }
+
+.rfid-trackline-banner {
+  background-size: cover;
+  background-position: center;
+  border-top: 1px solid #e7e7e7;
+  .h1 {
+    font-size: 65px;
+  }
+}
+
+@media only screen and (max-width: 1024.1px) {
+  .rfid-trackline-banner {
+    .h1 {
+      font-size: 48px;
+    }
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .rfid-trackline-banner {
+    .h1 {
+      font-size: 30px;
+    }
+   
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .rfid-trackline-banner {
+    .h1 {
+      font-size: 24px;
+    }
+  }
+}
