@@ -28,6 +28,6 @@
     ".next/types/**/*.ts",
     "build/types/**/*.ts",
     "src/app/error.tsx"
-  ],
+, "src/app/about/ParticleComponent.tsx"  ],
   "exclude": ["node_modules"]
 }

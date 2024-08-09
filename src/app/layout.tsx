@@ -8,7 +8,6 @@ import "swiper/css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 import { Sarabun } from "next/font/google";
-import Script from "next/script";
 export const metadata: Metadata = {
   title: "Soori Technology",
   description:
@@ -27,20 +26,18 @@ export default function RootLayout({ children }: Props) {
   return (
     <>
       <html lang="en">
+        <head>
+          <script
+            src="https://nextparticle.nextco.de/nextparticle.min.js"
+            async
+          />
+        </head>
         <body className={sarabun_init.variable}>
           <Header />
 
           <main>{children}</main>
 
           <Footer />
-          {/* <Script
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/ps-0.9.js"
-            strategy="lazyOnload"
-            onLoad={() => {
-          
-             
-            }}
-          /> */}
         </body>
       </html>
     </>

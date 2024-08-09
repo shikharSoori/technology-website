@@ -1,0 +1,25 @@
+.hello .hello1,
+.hello2 {
+}
+
+.hello {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  height: 450px;
+}
+
+.hello1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent !important;
+}
+.hello2 {
+  position: absolute;
+  left: 150px;
+  transform: rotate(180deg);
+  background-color: transparent !important;
+
+  top: 0;
+}

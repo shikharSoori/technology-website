@@ -76,6 +76,14 @@
       "link": "/solutions/activ",
       "image": "https://i.imgur.com/2MXoeZe.jpeg",
       "description": "HR payroll streamlines and automates payroll, tax compliance, direct deposit, and employee self-service, enhancing efficiency, accuracy, compliance, and employee satisfaction."
+    },
+    {
+      "id": 5,
+      "name": "RM Connect",
+      "logo": "https://i.imgur.com/zwd85qV.png",
+      "link": "/solutions/rmconnect",
+      "image": "https://i.imgur.com/2MXoeZe.jpeg",
+      "description": "RM Connect is an innovative software solution designed to streamline and enhance the management of the credit department in banks. Specializing in lead management, loan processing, collateral registration, inspection, and collection & recovery, "
     }
   ],
   "clientsReview": [

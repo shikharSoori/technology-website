@@ -12,6 +12,7 @@
     }
     p {
       font-style: italic;
+      text-align: justify;
     }
   }
 }
@@ -28,4 +29,13 @@
   width: 300px;
   position: sticky;
   top: 50%;
+}
+
+@media (max-width: 768px) {
+  .module-item {
+    flex-direction: column;
+  }
+  .dfdf {
+    display: none;
+  }
 }

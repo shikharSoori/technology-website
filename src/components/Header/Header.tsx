@@ -137,6 +137,11 @@ const Header = () => {
                                 On Service
                               </Link>
                             </li>
+                            <li>
+                              <Link href="/solutions/rmconnect">
+                               RM Connect
+                              </Link>
+                            </li>
                           </ul>
                         </li>
                         <li

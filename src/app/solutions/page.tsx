@@ -41,6 +41,7 @@ const Solutions = async () => {
       link: "/solutions/activ",
       image: "https://i.imgur.com/2MXoeZe.jpeg",
     },
+    { id: 5, name: "RM Connect", link: "/solutions/rmconnect" },
   ];
   const solutionsData = solutions.solutions;
   return (

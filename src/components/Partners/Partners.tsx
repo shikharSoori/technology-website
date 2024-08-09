@@ -7,6 +7,7 @@ import wacomImg from "../../assets/wacom.png";
 import hidImg from "../../assets/hid.png";
 import { getData } from "@/app/lib/getData";
 import Link from "next/link";
+import TitleText from "../Testimonials/TitleText";
 const Partners = async () => {
   var brandSlider = {
     dots: false,
@@ -41,14 +42,16 @@ const Partners = async () => {
   const partners = data?.results;
   return (
     <section
-      className="brand-logo-wrapper py-3 fix wow fadeInUp"
+      className="brand-logo-wrapper  fix wow fadeInUp section-padding"
       data-wow-duration="1s"
       data-wow-delay=".5s"
     >
       <div className="container">
         <div className="row">
-          <div className="col-12">
-            <h2 className="sr-only">brand logo</h2>
+          <div className="col-12 justify-content-center">
+            <h2 className="h1 title pb-5" style={{ textAlign: "center" }}>
+              <TitleText title={`Our<span> Partners</span>`} />
+            </h2>
 
             <Slider {...brandSlider}>
               {partners?.map((member: any) => {

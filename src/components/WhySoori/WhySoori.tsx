@@ -10,6 +10,7 @@ import WhySooriItem from "./WhySooriItem";
 const WhySoori = async () => {
   const data = await getData(`product-app/why-soori`);
   const whyReason = data?.results;
+  console.log(whyReason);
   // const data = await getData(
   //   `product-app/product?ordering=-id&brand_id=${matchedBrand.id}&offset=0&limit=0`
   // );
@@ -29,7 +30,6 @@ const WhySoori = async () => {
                 />
                 {/* <span>Why</span> <br /> Soori Technology */}
               </h2>
-          
             </div>
           </div>
         </div>
