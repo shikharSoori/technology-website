@@ -40,15 +40,16 @@ const Clients = async () => {
 
   const clients = [
     "https://i.ibb.co/SJkqTFj/Whats-App-Image-2024-08-04-at-10-35-54.jpg",
-    "https://i.ibb.co/C7bZ5nk/Whats-App-Image-2024-08-04-at-10-36-05.jpg",
+    // "https://i.ibb.co/C7bZ5nk/Whats-App-Image-2024-08-04-at-10-36-05.jpg",
     "https://i.ibb.co/0YGmf8Z/Whats-App-Image-2024-08-04-at-10-36-16.jpg",
     "https://i.ibb.co/FYPVnWj/Whats-App-Image-2024-08-04-at-10-36-26.jpg",
     "https://i.ibb.co/gSwKNBC/Whats-App-Image-2024-08-04-at-10-36-36.jpg",
     "https://i.ibb.co/VtdH8QV/Whats-App-Image-2024-08-04-at-10-36-51.jpg",
-    "https://i.ibb.co/SNwHBVX/Whats-App-Image-2024-08-04-at-10-39-15.jpg",
+    "https://i.ibb.co/RTFmZ4g/asdfasdfasdfasdfasdfasdfasdfasdfafdsadsf.png",
     "https://i.ibb.co/c3h7Ty0/Whats-App-Image-2024-08-04-at-10-44-33.jpg",
-    "https://i.ibb.co/27wscjP/Whats-App-Image-2024-08-04-at-10-50-07.jpg",
-    "https://i.ibb.co/f01fJXJ/Whats-App-Image-2024-08-04-at-10-51-29.jpg",
+    "https://i.ibb.co/58tNYSZ/vcxdvbgcbvgh.png",
+    "https://i.ibb.co/C14f7sk/01102015081334-NMB-Bank-Logo-copy.jpg",
+    "https://i.ibb.co/NCGd2cw/asdasdfasdf.png",
   ];
   return (
     <section
